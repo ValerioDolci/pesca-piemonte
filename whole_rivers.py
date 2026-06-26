@@ -13,7 +13,7 @@ def deacc(s):
     return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
 
 ROOT = Path(__file__).parent
-TYPES_WHOLE = {"salmonicola", "ddep"}  # sempre interi-corso
+TYPES_WHOLE = {"salmonicola", "ddep", "concessione"}  # interi-corso / diritti esclusivi su intero tratto
 WHOLE_HINT = ("tutto il corso", "tutto il suo corso", "per tutto", "dalle origini", "intero corso")
 
 def river_keys(corso):
