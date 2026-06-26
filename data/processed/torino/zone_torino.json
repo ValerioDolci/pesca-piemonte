@@ -1370,7 +1370,7 @@
     {
       "id": "TO-SALM-01",
       "tipo": "salmonicola",
-      "comune": "",
+      "comune": "Cumiana",
       "corso_acqua": "Torrente Angiale",
       "tratto": "Torrente Angiale e suoi affluenti e defluenti dalle origini alle paratoie in località Cascina Gruatera ",
       "regola": "acque salmonicole",
@@ -1514,7 +1514,7 @@
     {
       "id": "TO-SALM-17",
       "tipo": "salmonicola",
-      "comune": "",
+      "comune": "Pinerolo",
       "corso_acqua": "Torrente Chiamogna,",
       "tratto": "Torrente Chiamogna, dal ponte sulla strada provinciale Pinerolo-Torre Pellice a valle ",
       "regola": "acque salmonicole",
@@ -1559,7 +1559,7 @@
     {
       "id": "TO-SALM-22",
       "tipo": "salmonicola",
-      "comune": "",
+      "comune": "Villafranca Piemonte",
       "corso_acqua": "Rogge e corsi d'acqua scorrenti in territorio del Comune di ",
       "tratto": "Rogge e corsi d'acqua scorrenti in territorio del Comune di Villafranca Piemonte con esclusione del fiume Po ",
       "regola": "acque salmonicole",
@@ -1667,7 +1667,7 @@
     {
       "id": "TO-DDEP-11",
       "tipo": "ddep",
-      "comune": "",
+      "comune": "Fenestrelle",
       "corso_acqua": "Bacino di Fenestrelle",
       "tratto": "intero bacino di Fenestrelle",
       "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
@@ -1937,7 +1937,7 @@
     {
       "id": "TO-DEP-14",
       "tipo": "concessione",
-      "comune": "",
+      "comune": "Chivasso",
       "corso_acqua": "Canale Cavour",
       "tratto": "primo tratto (D.E.P. Coutenza Canali Cavour)",
       "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
@@ -2000,7 +2000,7 @@
     {
       "id": "TO-DEP-21",
       "tipo": "concessione",
-      "comune": "",
+      "comune": "Chivasso",
       "corso_acqua": "Canale De Pretis",
       "tratto": "D.E.P. Coutenza Canali Cavour",
       "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",

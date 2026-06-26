@@ -5,23 +5,27 @@ e' geometria reale -> niente salti dritti). Aggiorna tracts_<prov>.geojson.
 
 Uso: python3 whole_rivers.py [Prov]   (default tutte)
 """
-import sys, re, json, glob
+import sys, re, json, glob, unicodedata
 from pathlib import Path
 import resolve_tracts as R
+
+def deacc(s):
+    return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
 
 ROOT = Path(__file__).parent
 TYPES_WHOLE = {"salmonicola", "ddep"}  # sempre interi-corso
 WHOLE_HINT = ("tutto il corso", "tutto il suo corso", "per tutto", "dalle origini", "intero corso")
 
-def river_key(corso):
+def river_keys(corso):
+    """Ritorna 1+ chiavi (gestisce nomi composti: 'Torrenti X - Y', 'X e Y')."""
     s = corso.lower()
-    s = re.sub(r"\b(torrente|rio|fiume|lago|canale|rogge|roggia|bealera|t\.)\b", " ", s)
-    s = re.split(r"\b(e suoi|e i |e affluent|e defluent|dalle |dal |per tutto|nei comuni|\()", s)[0]
-    s = re.sub(r"[-–].*", "", s)  # via " - gestione FIPSAS"
-    return re.sub(r"\s+", " ", s).strip()
+    s = re.sub(r"\b(torrenti|torrente|rio|rii|fiume|lago|laghi|canale|rogge|roggia|bealera|bacino di|t\.)\b", " ", s)
+    s = re.split(r"\b(e suoi|e affluent|e defluent|dalle |dal |per tutto|nei comuni|gestione|\()", s)[0]
+    parts = re.split(r"\s+[-–]\s+|\s+e\s+", s)  # split su " - " e " e "
+    return [re.sub(r"\s+", " ", p).strip() for p in parts if len(re.sub(r"\s+", " ", p).strip()) >= 2]
 
 def matches(name, key):
-    return bool(key) and len(key) >= 3 and re.search(r"\b" + re.escape(key) + r"\b", name.lower())
+    return bool(key) and len(key) >= 2 and re.search(r"\b" + re.escape(deacc(key)) + r"\b", deacc(name.lower()))
 
 def is_whole(z):
     if z["tipo"] in TYPES_WHOLE: return True
@@ -42,8 +46,8 @@ def run(prov):
     n = 0
     for z in zone["zone"]:
         if not is_whole(z) or z["id"] in done: continue
-        key = river_key(z["corso_acqua"])
-        segs = [w["geom"] for w in ways if matches(w["name"], key)]
+        keys = river_keys(z["corso_acqua"])
+        segs = [w["geom"] for w in ways if any(matches(w["name"], k) for k in keys)]
         if not segs: continue
         coords = [[[p[1], p[0]] for p in s] for s in segs]  # lon,lat per GeoJSON
         feat = {"type":"Feature","properties":{"id":z["id"],"tipo":z["tipo"],"comune":z["comune"],

@@ -240,8 +240,8 @@
     "lon": 7.1167645
   },
   "Borgaro|Torino": {
-    "lat": 45.1532968,
-    "lon": 7.648728
+    "lat": 45.1521446,
+    "lon": 7.6579731
   },
   "Bosconero|Torino": {
     "lat": 45.2686519,
@@ -567,5 +567,17 @@
   "Madonna del Sasso|VCO": {
     "lat": 45.7880136,
     "lon": 8.3468543
+  },
+  "Borgaro Torinese|Torino": {
+    "lat": 45.1521446,
+    "lon": 7.6579731
+  },
+  "Cumiana|Torino": {
+    "lat": 44.979742,
+    "lon": 7.376717
+  },
+  "Pinerolo|Torino": {
+    "lat": 44.8873086,
+    "lon": 7.3319454
   }
 }

@@ -4,7 +4,7 @@ data/processed/<prov>/tracts_<prov>.geojson (tratti precisi LineString + Point f
 altrimenti i marker da data/processed/<prov>/zone_<prov>.json (geocodifica comune).
 Riproducibile.   Uso: python3 build_map.py  ->  mappa/index.html
 """
-import json, glob, html
+import json, glob, html, re
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -53,8 +53,10 @@ for zf in sorted(glob.glob(str(ROOT / "data/processed/*/zone_*.json"))):
     z = json.load(open(zf)); prov = z["provincia"]; fonti.setdefault(prov, z["fonte"])
     for it in z["zone"]:
         if it["id"] in added_ids: continue
-        c = it["comune"].split(" - ")[0].split("/")[0].strip()
-        pc = coords.get(f"{c}|{prov}")
+        pc = None
+        for cand in [it["comune"]] + re.split(r"\s*-\s*|/", it["comune"]):
+            pc = coords.get(f"{cand.strip()}|{prov}")
+            if pc: break
         if not pc: continue
         add_point({"prov": prov, "tipo": it["tipo"], "comune": it["comune"],
                    "corso": it.get("corso_acqua", ""), "tratto": it.get("tratto", ""),
