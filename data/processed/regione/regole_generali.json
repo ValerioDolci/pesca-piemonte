@@ -1,0 +1,55 @@
+{
+  "ambito": "Regione Piemonte - baseline valida per tutte le province (TO, BI, NO, VCO). Le province possono solo restringere o derogare nei casi previsti dal regolamento.",
+  "fonte": "D.P.G.R. 10/01/2012 n. 1/R (attua L.R. 37/2006)",
+  "fonte_file": "data/sources/regione/reg_regionale_1R_2012.pdf",
+  "classificazione_acque": {
+    "principali": "corpi idrici che per portata/vastita permettono pesca professionale + dilettantistica",
+    "secondarie": "tutte le acque non principali, solo pesca dilettantistica",
+    "salmonicole": "acque dove vivono prevalentemente salmonidi (trote, temolo...)",
+    "ciprinicole": "acque dove vivono prevalentemente ciprinidi"
+  },
+  "licenze": {
+    "B": {"descr": "dilettantistica (italiani/residenti)", "validita": "365 giorni", "costo_eur": 35},
+    "D": {"descr": "dilettantistica stranieri non residenti", "validita": "3 mesi", "costo_eur": 14},
+    "A": {"descr": "professionale", "costo_eur": 65},
+    "permesso_giornaliero": {"validita": "1 giorno"},
+    "permesso_settimanale": {"validita": "7 giorni"},
+    "esenzioni": "minori di 14 anni e soggetti art.3 L.104/1992 (solo territorio Piemonte; esclusi in acque D.D.E.P.)"
+  },
+  "orari": "vietata la pesca da 1 ora dopo il tramonto a 1 ora prima dell'alba (Art.14). Deroga: carpa + specie Allegato C in acque ciprinicole individuate dalle province.",
+  "divieti_generali": [
+    "specie a divieto assoluto di trattenimento: lampreda padana, storione comune, storione cobice, cobite mascherato (Art.13)",
+    "anguilla: pesca attualmente vietata (in attesa piano gestione UE Reg.1100/2007)",
+    "nelle acque salmonicole vietata la pesca nel periodo di tutela riproduttiva dei salmonidi",
+    "vietato pesca elettrica/esplosivi/sostanze tossiche, a mani, subacquea, a strappo, da ponti, durante asciutta/prosciugamento",
+    "rilascio obbligatorio e illeso del pesce sotto misura o non trattenibile (slamatura a mano bagnata)"
+  ],
+  "limiti_quantitativo": {
+    "salmonidi_giornaliero": "max 8 capi complessivi (iridea esclusa dal conteggio)",
+    "peso_giornaliero": "max 5 kg complessivi (detratti: specie Allegato C, specie con limite numerico, e il pesce piu pesante)"
+  },
+  "distanze_postazioni": {"canna": "10 m", "bilancia": "20 m", "canna_vs_bilancia": "30 m"},
+  "specie": [
+    {"nome": "trota fario", "scientifico": "Salmo trutta trutta", "famiglia": "Salmonidae", "misura_minima_cm": 22, "divieto": "tramonto 1a domenica ottobre -> alba ultima domenica febbraio", "max_giorno": 8, "max_anno_prov": null},
+    {"nome": "trota iridea", "scientifico": "Oncorhynchus mykiss", "famiglia": "Salmonidae", "misura_minima_cm": null, "divieto": "come fario, salvo deroghe art.13 c.4-5", "max_giorno": 10, "max_anno_prov": null},
+    {"nome": "trota marmorata e ibridi", "scientifico": "Salmo trutta marmoratus", "famiglia": "Salmonidae", "misura_minima_cm": 35, "divieto": "tramonto 1a domenica ottobre -> alba ultima domenica febbraio", "max_giorno": 2, "max_anno_prov": 10},
+    {"nome": "salmerino alpino", "scientifico": "Salvelinus alpinus", "famiglia": "Salmonidae", "misura_minima_cm": 22, "divieto": "tramonto 1a domenica ottobre -> alba ultima domenica febbraio", "max_giorno": 8, "max_anno_prov": null},
+    {"nome": "temolo", "scientifico": "Thymallus thymallus", "famiglia": "Thymallidae", "misura_minima_cm": 35, "divieto": "tramonto 1a domenica ottobre -> alba 1a domenica giugno", "max_giorno": 1, "max_anno_prov": 10},
+    {"nome": "coregone o lavarello", "scientifico": "Coregonus lavaretus", "famiglia": "Salmonidae", "misura_minima_cm": 35, "divieto": "15 dicembre -> 15 gennaio", "max_giorno": 8, "max_anno_prov": null},
+    {"nome": "bondella", "scientifico": "Coregonus oxyrhynchus", "famiglia": "Salmonidae", "misura_minima_cm": 30, "divieto": "15 dicembre -> 15 gennaio", "max_giorno": 8, "max_anno_prov": null},
+    {"nome": "luccio", "scientifico": "Esox lucius", "famiglia": "Esocidae", "misura_minima_cm": 60, "divieto": "1 febbraio -> 31 marzo", "max_giorno": 1, "max_anno_prov": null},
+    {"nome": "persico reale", "scientifico": "Perca fluviatilis", "famiglia": "Percidae", "misura_minima_cm": 18, "divieto": "25 aprile -> 31 maggio", "max_giorno": 10, "max_anno_prov": null},
+    {"nome": "carpa", "scientifico": "Cyprinus carpio", "famiglia": "Cyprinidae", "misura_minima_cm": 35, "divieto": "1 giugno -> 30 giugno", "max_giorno": null, "max_anno_prov": null},
+    {"nome": "barbo", "scientifico": "Barbus plebejus", "famiglia": "Cyprinidae", "misura_minima_cm": 25, "divieto": "1 giugno -> 30 giugno", "max_giorno": null, "max_anno_prov": null},
+    {"nome": "tinca", "scientifico": "Tinca tinca", "famiglia": "Cyprinidae", "misura_minima_cm": 25, "divieto": "1 giugno -> 30 giugno", "max_giorno": 3, "max_anno_prov": null},
+    {"nome": "cavedano", "scientifico": "Leuciscus cephalus", "famiglia": "Cyprinidae", "misura_minima_cm": null, "divieto": "1 giugno -> 30 giugno", "max_giorno": null, "max_anno_prov": null},
+    {"nome": "pigo", "scientifico": "Rutilus pigus", "famiglia": "Cyprinidae", "misura_minima_cm": 20, "divieto": "1 aprile -> 30 aprile", "max_giorno": 3, "max_anno_prov": null},
+    {"nome": "savetta", "scientifico": "Chondrostoma soetta", "famiglia": "Cyprinidae", "misura_minima_cm": null, "divieto": "15 maggio -> 15 giugno", "max_giorno": 3, "max_anno_prov": null},
+    {"nome": "agone", "scientifico": "Alosa fallax lacustris", "famiglia": "Clupeidae", "misura_minima_cm": 20, "divieto": "15 maggio -> 15 giugno", "max_giorno": null, "max_anno_prov": null},
+    {"nome": "alborella", "scientifico": "Alburnus alburnus alborella", "famiglia": "Cyprinidae", "misura_minima_cm": null, "divieto": "15 maggio -> 15 giugno", "max_giorno": null, "max_anno_prov": null},
+    {"nome": "barbo canino", "scientifico": "Barbus meridionalis", "famiglia": "Cyprinidae", "misura_minima_cm": null, "divieto": "1 giugno -> 30 giugno", "max_giorno": null, "max_anno_prov": null}
+  ],
+  "specie_divieto_assoluto": ["lampreda padana", "storione comune", "storione cobice", "cobite mascherato", "anguilla (sospesa)"],
+  "specie_allegato_C_senza_limiti": ["abramide", "aspio", "barbo europeo", "pesce rosso", "carassio", "carpa erbivora", "misgurno", "gambusia", "persico sole", "persico trota", "pesce gatto", "pseudorasbora", "rodeo amaro", "rutilo/gardon", "salmerino di fonte", "lucioperca/sandra", "siluro"],
+  "note": "nn nel PDF = nessuna limitazione. I valori provinciali (es. misure minime salmonicole) possono differire: vedi i file per provincia."
+}

@@ -1,0 +1,62 @@
+{
+  "provincia": "Novara",
+  "fonte": "Regolamento di pesca Provincia di Novara (2023, mirror pescafiume.it) - FONTE SECONDARIA/INCOMPLETA",
+  "fonte_file": "data/sources/novara/regolamento_provincia_novara_2023.pdf",
+  "note": "INVENTARIO INCOMPLETO: questo documento (mirror) contiene solo no-kill Agogna, campi gara e salmonicole. Mancano le zone di divieto/protezione provinciali (assenti nel mirror) - servono fonte ufficiale Novara o regionale. Acque principali: Lago Maggiore, Lago d'Orta. Salmonidi max 6/giorno.",
+  "zone": [
+    {
+      "id": "NO-NK-01",
+      "tipo": "no_kill",
+      "comune": "Borgomanero",
+      "corso_acqua": "Torrente Agogna",
+      "tratto": "dal ponte nuovo per Pisogno a valle fino al ponte per Pezzasco",
+      "regola": "pesca a mosca artificiale, rilascio di tutto il pescato",
+      "fonte_pagina": 3
+    },
+    {
+      "id": "NO-CG-01",
+      "tipo": "campo_gara",
+      "comune": "Cerano",
+      "corso_acqua": "Torrente Terdoppio (scolmatore)",
+      "tratto": "tra l'opera di presa della Roggia Cerana e il ponte di Via Vigevano",
+      "regola": "campo gara permanente",
+      "fonte_pagina": 3
+    },
+    {
+      "id": "NO-CG-02",
+      "tipo": "campo_gara",
+      "comune": "Bolzano Novarese",
+      "corso_acqua": "Torrente Agogna",
+      "tratto": "campo gara Bolzano: dalla confluenza con il torrente Membra fino alla Chiesa di San Martino in Entravo",
+      "regola": "campo gara permanente",
+      "fonte_pagina": 3
+    },
+    {
+      "id": "NO-CG-03",
+      "tipo": "campo_gara",
+      "comune": "Briga Novarese",
+      "corso_acqua": "Torrente Agogna",
+      "tratto": "campo gara Briga: dal ponte del municipio di Briga Novarese a valle fino al ponte di San Marco",
+      "regola": "campo gara permanente",
+      "fonte_pagina": 3
+    },
+    {
+      "id": "NO-SALM-01",
+      "tipo": "salmonicola",
+      "comune": "Grignasco",
+      "corso_acqua": "Fiume Sesia",
+      "tratto": "tratto salmonicolo nei Comuni di Grignasco e Prato Sesia; nei Comuni di Prato Sesia e Romagnano Sesia per circa 1 km",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 1
+    },
+    {
+      "id": "NO-SALM-02",
+      "tipo": "salmonicola",
+      "comune": "Orta San Giulio",
+      "corso_acqua": "Lago d'Orta",
+      "tratto": "il lago d'Orta classificato fra le acque salmonicole",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 1
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "provincia": "VCO",
+  "fonte": "Libretto del pescatore VCO (giugno 2022) - Provincia del Verbano Cusio Ossola; divieti Decreto Presidente n.119/2019 e s.m.i.; Lago Maggiore Convenzione italo-svizzera",
+  "fonte_file": "data/sources/vco/libretto_pesca_2022.pdf",
+  "note": "Acque salmonicole = tutte le acque del VCO (salvo tratti FIPSAS Toce/Strona). Tipi: divieto, concessione (FIPSAS/assoc.), ddep (diritto esclusivo), riserva (no-kill). | +12 acque in concessione FIPSAS VCO (fipsasvco.it).",
+  "zone": [
+    {
+      "id": "VCO-DIV-01",
+      "tipo": "divieto",
+      "comune": "Baceno",
+      "corso_acqua": "Torrente Devero",
+      "tratto": "dal ponte della Segheria in fraz. Osso al Rio Agaro compreso fino alla cascata",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-02",
+      "tipo": "divieto",
+      "comune": "Baceno",
+      "corso_acqua": "Lanche e rii (Lanca Piana Devero, Lanca Alpe Crampiolo, Rio Graglia, Rio Osso)",
+      "tratto": "specchi e rii in Comune di Baceno",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-03",
+      "tipo": "divieto",
+      "comune": "Beura-Cardezza",
+      "corso_acqua": "Rio Crucito'",
+      "tratto": "dalla strada prov.le Beura-Cuzzego a monte fino alla chiesa fraz. Cardezza",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-04",
+      "tipo": "divieto",
+      "comune": "Bognanco",
+      "corso_acqua": "Torrente Bogna",
+      "tratto": "tratto di 1 km dalla prima briglia fino allo sbarramento ENEL in loc. Torno",
+      "regola": "divieto di pesca",
+      "estremi": {
+        "da": {
+          "offset_m": 1000,
+          "auto": true
+        },
+        "a": {
+          "luogo": "torno, Bognanco"
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "VCO-DIV-05",
+      "tipo": "divieto",
+      "comune": "Ceppo Morelli",
+      "corso_acqua": "Rio Crotto Tignaga",
+      "tratto": "~150 m tra la passerella di legno a monte dello sbocco nel torrente Anza a valle",
+      "regola": "divieto di pesca",
+      "estremi": {
+        "da": {
+          "offset_m": 150,
+          "auto": true
+        },
+        "a": {
+          "foce": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "VCO-DIV-06",
+      "tipo": "divieto",
+      "comune": "Craveggia",
+      "corso_acqua": "Torrente Melezzo Orientale",
+      "tratto": "tratto laterale tra il ponte in loc. Prestinone e la 4^ briglia a monte",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-07",
+      "tipo": "divieto",
+      "comune": "Craveggia",
+      "corso_acqua": "Acquette di Zornasco",
+      "tratto": "dalla sorgente risorgiva fino alla confluenza con il Melezzo Orientale (briglia sup. al ponte SP per Craveggia)",
+      "regola": "divieto di pesca",
+      "estremi": {
+        "da": {
+          "sorgente": true
+        },
+        "a": {
+          "confluenza": "Melezzo Orientale"
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "VCO-DIV-08",
+      "tipo": "divieto",
+      "comune": "Crevoladossola",
+      "corso_acqua": "Fiume Toce",
+      "tratto": "dallo sbarramento ENEL di Crevola (lago Tana) fino al ponte SP Via Valle Vigezzo per ~150 m",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-09",
+      "tipo": "divieto",
+      "comune": "Crodo",
+      "corso_acqua": "Canale di Crego / Lanca di Verampio",
+      "tratto": "canale e lanca in Comune di Crodo",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-10",
+      "tipo": "divieto",
+      "comune": "Crodo",
+      "corso_acqua": "Rio Vegno",
+      "tratto": "dalla localita Vegno alla confluenza con il Toce",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-11",
+      "tipo": "divieto",
+      "comune": "Domodossola",
+      "corso_acqua": "Rio Anzuno",
+      "tratto": "dal ponte della strada Calice-Gabi Valle fino alla foce",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-12",
+      "tipo": "divieto",
+      "comune": "Domodossola",
+      "corso_acqua": "Vecchia Lanca della Siberia",
+      "tratto": "rio che attraversa la piana loc. Siberia e sfocia nel Toce (svincolo superstrada)",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-13",
+      "tipo": "divieto",
+      "comune": "Formazza",
+      "corso_acqua": "Fiume Toce",
+      "tratto": "dal ponte della frazione Valdo al ponte della frazione S. Michele",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-14",
+      "tipo": "divieto",
+      "comune": "Formazza",
+      "corso_acqua": "Fiume Toce",
+      "tratto": "dalla dighetta di Brendo alla frazione Valdo",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-15",
+      "tipo": "divieto",
+      "comune": "Formazza",
+      "corso_acqua": "Lanche di Fondovalle",
+      "tratto": "specchi d'acqua di fondovalle in Comune di Formazza",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-16",
+      "tipo": "divieto",
+      "comune": "Macugnaga",
+      "corso_acqua": "Rio Fula",
+      "tratto": "frazione Pecetto per una lunghezza di 400 m",
+      "regola": "divieto di pesca",
+      "estremi": {
+        "da": {
+          "luogo": "pecetto per, Macugnaga"
+        },
+        "a": {
+          "offset_m": 400,
+          "auto": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "VCO-DIV-17",
+      "tipo": "divieto",
+      "comune": "Macugnaga",
+      "corso_acqua": "Rio Isella",
+      "tratto": "frazione Isella per una lunghezza di 100 m",
+      "regola": "divieto di pesca",
+      "estremi": {
+        "da": {
+          "luogo": "isella per, Macugnaga"
+        },
+        "a": {
+          "offset_m": 100,
+          "auto": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "VCO-DIV-18",
+      "tipo": "divieto",
+      "comune": "Malesco",
+      "corso_acqua": "Torrente Melezzo Orientale",
+      "tratto": "tra la confluenza dei torrenti Isornino, Loana e Melezzo Orientale fino alla briglia a valle del ponte del Gabbio",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-19",
+      "tipo": "divieto",
+      "comune": "Mergozzo",
+      "corso_acqua": "Rio Resega",
+      "tratto": "tratto terminale (80 m) dalla cascata alla foce nel lago",
+      "regola": "divieto di pesca",
+      "estremi": {
+        "da": {
+          "offset_m": 80,
+          "auto": true
+        },
+        "a": {
+          "foce": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "VCO-DIV-20",
+      "tipo": "divieto",
+      "comune": "Montecrestese",
+      "corso_acqua": "Rio Vigna Albera",
+      "tratto": "tratto di 2 km dalla frazione Nava alla frazione Roledo",
+      "regola": "divieto di pesca",
+      "estremi": {
+        "da": {
+          "luogo": "nava alla, Montecrestese"
+        },
+        "a": {
+          "offset_m": 2000,
+          "auto": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "VCO-DIV-21",
+      "tipo": "divieto",
+      "comune": "Piedimulera",
+      "corso_acqua": "Torrente Anza",
+      "tratto": "dalla traversa Edison (scala di risalita pesci) a valle fino al ponte della SP per Pieve Vergonte",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-22",
+      "tipo": "divieto",
+      "comune": "Pieve Vergonte",
+      "corso_acqua": "Rio Santa Maria",
+      "tratto": "dalla loc. Al Piano fino alla confluenza con il torrente Marmazza in fraz. Fomarco Basso",
+      "regola": "divieto di pesca",
+      "estremi": {
+        "da": {
+          "luogo": "al piano, Pieve Vergonte"
+        },
+        "a": {
+          "confluenza": "Marmazza In"
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "VCO-DIV-23",
+      "tipo": "divieto",
+      "comune": "Pieve Vergonte",
+      "corso_acqua": "Canale di Megolo",
+      "tratto": "50 m dal primo ponte dopo la centrale",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-24",
+      "tipo": "divieto",
+      "comune": "Premia",
+      "corso_acqua": "Lanche e Rio dei Gamberi (Lanca del Passo, della Passerella, del Pissero, San Rocco, Fornace, Fnera)",
+      "tratto": "specchi d'acqua e rio in Comune di Premia",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-25",
+      "tipo": "divieto",
+      "comune": "Premia",
+      "corso_acqua": "Fiume Toce",
+      "tratto": "da 100 m a monte del ponte per la centrale di Crego fino alla confluenza con il torrente Deverino (Comuni di Premia, Baceno, Crodo)",
+      "regola": "divieto di pesca",
+      "estremi": {
+        "da": {
+          "offset_m": 100,
+          "auto": true
+        },
+        "a": {
+          "confluenza": "Deverino"
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "VCO-DIV-26",
+      "tipo": "divieto",
+      "comune": "Premosello-Chiovenda",
+      "corso_acqua": "Fiume Toce",
+      "tratto": "sotto il ponte di Migiandone, lungo la rampa di risalita, fino a 20/30 m oltre il ponte (Comuni di Premosello e Ornavasso)",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-27",
+      "tipo": "divieto",
+      "comune": "Re",
+      "corso_acqua": "Rio Valle degli Orti",
+      "tratto": "tratto finale dalla cascata a monte del ponte sulla SS 337 fino alla confluenza con il Melezzo Orientale",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-28",
+      "tipo": "divieto",
+      "comune": "San Bernardino Verbano",
+      "corso_acqua": "Torrente San Bernardino",
+      "tratto": "dal ponte della Segheria di Santino alla prima diga a monte",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-29",
+      "tipo": "divieto",
+      "comune": "Trasquera",
+      "corso_acqua": "Torrente Diveria",
+      "tratto": "loc. Iselle dalla cava Tomola verso il confine svizzero fino al termine dell'abitato, per 500 m",
+      "regola": "divieto di pesca",
+      "estremi": {
+        "da": {
+          "luogo": "iselle dalla, Trasquera"
+        },
+        "a": {
+          "offset_m": 500,
+          "auto": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "VCO-DIV-30",
+      "tipo": "divieto",
+      "comune": "Varzo",
+      "corso_acqua": "Torrente Ri",
+      "tratto": "dalla frazione Bassogno alla foce",
+      "regola": "divieto di pesca",
+      "estremi": {
+        "da": {
+          "luogo": "bassogno, Varzo"
+        },
+        "a": {
+          "foce": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "VCO-DIV-31",
+      "tipo": "divieto",
+      "comune": "Varzo",
+      "corso_acqua": "Rio Cattagna",
+      "tratto": "dalla sorgente alla foce",
+      "regola": "divieto di pesca",
+      "estremi": {
+        "da": {
+          "sorgente": true
+        },
+        "a": {
+          "foce": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "VCO-DIV-32",
+      "tipo": "divieto",
+      "comune": "Varzo",
+      "corso_acqua": "Rio Sciollo",
+      "tratto": "frazione Fontana per 600 m dalla sorgente all'immissione nel torrente Diveria",
+      "regola": "divieto di pesca",
+      "estremi": {
+        "da": {
+          "sorgente": true
+        },
+        "a": {
+          "offset_m": 600,
+          "auto": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "VCO-DIV-33",
+      "tipo": "divieto",
+      "comune": "Verbania",
+      "corso_acqua": "Torrente San Bernardino",
+      "tratto": "vicino alla nuova scala di risalita, divieto di 50 m sia sotto che sopra",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-34",
+      "tipo": "divieto",
+      "comune": "Verbania",
+      "corso_acqua": "Rio Gabbiane",
+      "tratto": "dalla foce sul fiume San Bernardino fino alla cava di inerti a monte",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-35",
+      "tipo": "divieto",
+      "comune": "Malesco",
+      "corso_acqua": "Torrente Melezzo Orientale",
+      "tratto": "lanca sponda orografica destra dalle acque minerali al ponte di Mugnago (Comuni di Villette e Malesco)",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-36",
+      "tipo": "divieto",
+      "comune": "Cannobio",
+      "corso_acqua": "Torrente Cannobino",
+      "tratto": "divieto di pesca permanente alla foce nel Lago Maggiore",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-37",
+      "tipo": "divieto",
+      "comune": "Verbania",
+      "corso_acqua": "Torrente San Giovanni",
+      "tratto": "divieto alla foce dalla 1a domenica di settembre alla 1a domenica di marzo",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-38",
+      "tipo": "divieto",
+      "comune": "Verbania",
+      "corso_acqua": "Fiume Toce",
+      "tratto": "divieto permanente alla foce nel Lago Maggiore (+ limitazioni ord. 1/15)",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-DIV-39",
+      "tipo": "divieto",
+      "comune": "Verbania",
+      "corso_acqua": "Torrente San Bernardino",
+      "tratto": "divieto permanente dal ponte della SS 34 alla foce e alla foce",
+      "regola": "divieto di pesca"
+    },
+    {
+      "id": "VCO-CON-01",
+      "tipo": "concessione",
+      "comune": "Verbania",
+      "corso_acqua": "Fiume Toce",
+      "tratto": "dal ponte di Migiandone alla confluenza con il Lago Maggiore - gestione FIPSAS (tessera)"
+    },
+    {
+      "id": "VCO-CON-02",
+      "tipo": "concessione",
+      "comune": "Gravellona Toce",
+      "corso_acqua": "Torrente Strona",
+      "tratto": "dalla confluenza con il Fiume Toce a monte - gestione FIPSAS (tessera)"
+    },
+    {
+      "id": "VCO-CON-03",
+      "tipo": "concessione",
+      "comune": "Verbania",
+      "corso_acqua": "Lago Maggiore",
+      "tratto": "tratto VCO del Lago Maggiore - tessera FIPSAS"
+    },
+    {
+      "id": "VCO-CON-04",
+      "tipo": "concessione",
+      "comune": "Verbania",
+      "corso_acqua": "Lago Maggiore (Pallanza)",
+      "tratto": "tratto di Pallanza gestito dall'Associazione LA RIVA - tessera associativa"
+    },
+    {
+      "id": "VCO-DDEP-01",
+      "tipo": "ddep",
+      "comune": "Verbania",
+      "corso_acqua": "Lago Maggiore (Suna)",
+      "tratto": "tratto di Suna - diritto esclusivo di pesca ex Cuzzi Lamberti"
+    },
+    {
+      "id": "VCO-CON-05",
+      "tipo": "concessione",
+      "comune": "Omegna",
+      "corso_acqua": "Lago d'Orta",
+      "tratto": "tratto di lago in Comune di Omegna - tessera FIPSAS"
+    },
+    {
+      "id": "VCO-RIS-01",
+      "tipo": "riserva",
+      "comune": "San Bernardino Verbano",
+      "corso_acqua": "Torrente San Bernardino",
+      "tratto": "Riserva San Bernardino - zona no-kill a mosca (cap. 4.8 libretto)"
+    },
+    {
+      "id": "VCO-FIPSAS-01",
+      "tipo": "no_kill",
+      "comune": "Premia",
+      "corso_acqua": "Fiume Toce",
+      "tratto": "zona no-kill FIPSAS (divieto di trattenere temoli)",
+      "regola": "acque in concessione FIPSAS VCO (serve tessera/permesso FIPSAS)",
+      "fonte_pagina": 0,
+      "fonte_extra": "fipsasvco.it - acque in concessione"
+    },
+    {
+      "id": "VCO-FIPSAS-02",
+      "tipo": "concessione",
+      "comune": "Crodo",
+      "corso_acqua": "Fiume Toce",
+      "tratto": "tratto FIPSAS a valle della diga di Verampio",
+      "regola": "acque in concessione FIPSAS VCO (serve tessera/permesso FIPSAS)",
+      "fonte_pagina": 0,
+      "fonte_extra": "fipsasvco.it - acque in concessione"
+    },
+    {
+      "id": "VCO-FIPSAS-03",
+      "tipo": "concessione",
+      "comune": "Domodossola",
+      "corso_acqua": "Fiume Toce",
+      "tratto": "da Pozzoladossola al ponte Mizzoccola, inclusi tratti del Torrente Diveria e Torrente Bogna - gestione FIPSAS",
+      "regola": "acque in concessione FIPSAS VCO (serve tessera/permesso FIPSAS)",
+      "fonte_pagina": 0,
+      "fonte_extra": "fipsasvco.it - acque in concessione"
+    },
+    {
+      "id": "VCO-FIPSAS-04",
+      "tipo": "concessione",
+      "comune": "Beura-Cardezza",
+      "corso_acqua": "Fiume Toce",
+      "tratto": "dalla Cappella degli Scopelli allo sbocco nel Lago Maggiore - gestione FIPSAS",
+      "regola": "acque in concessione FIPSAS VCO (serve tessera/permesso FIPSAS)",
+      "fonte_pagina": 0,
+      "fonte_extra": "fipsasvco.it - acque in concessione"
+    },
+    {
+      "id": "VCO-FIPSAS-05",
+      "tipo": "turistica",
+      "comune": "Varzo",
+      "corso_acqua": "Torrente Diveria",
+      "tratto": "da frazione Balbalonesca al ponte Romano; zona di pesca turistica presso Spagna - FIPSAS",
+      "regola": "acque in concessione FIPSAS VCO (serve tessera/permesso FIPSAS)",
+      "fonte_pagina": 0,
+      "fonte_extra": "fipsasvco.it - acque in concessione"
+    },
+    {
+      "id": "VCO-FIPSAS-06",
+      "tipo": "concessione",
+      "comune": "Druogno",
+      "corso_acqua": "Torrente Melezzo Occidentale",
+      "tratto": "nei Comuni di Druogno, Trontano e Masera - gestione FIPSAS",
+      "regola": "acque in concessione FIPSAS VCO (serve tessera/permesso FIPSAS)",
+      "fonte_pagina": 0,
+      "fonte_extra": "fipsasvco.it - acque in concessione"
+    },
+    {
+      "id": "VCO-FIPSAS-07",
+      "tipo": "concessione",
+      "comune": "Antrona Schieranco",
+      "corso_acqua": "Torrente Ovesca",
+      "tratto": "dalla confluenza rio Troncone/Loranco al fiume Toce - gestione FIPSAS",
+      "regola": "acque in concessione FIPSAS VCO (serve tessera/permesso FIPSAS)",
+      "fonte_pagina": 0,
+      "fonte_extra": "fipsasvco.it - acque in concessione"
+    },
+    {
+      "id": "VCO-FIPSAS-08",
+      "tipo": "concessione",
+      "comune": "Cannobio",
+      "corso_acqua": "Torrente Cannobino",
+      "tratto": "dal sasso di Finero al Lago Maggiore - gestione FIPSAS",
+      "regola": "acque in concessione FIPSAS VCO (serve tessera/permesso FIPSAS)",
+      "fonte_pagina": 0,
+      "fonte_extra": "fipsasvco.it - acque in concessione"
+    },
+    {
+      "id": "VCO-FIPSAS-09",
+      "tipo": "concessione",
+      "comune": "Omegna",
+      "corso_acqua": "Scaricatore Nigoglia",
+      "tratto": "dalle porte del Lago d'Orta al torrente Strona - gestione FIPSAS",
+      "regola": "acque in concessione FIPSAS VCO (serve tessera/permesso FIPSAS)",
+      "fonte_pagina": 0,
+      "fonte_extra": "fipsasvco.it - acque in concessione"
+    },
+    {
+      "id": "VCO-FIPSAS-10",
+      "tipo": "concessione",
+      "comune": "Madonna del Sasso",
+      "corso_acqua": "Torrente Pellino",
+      "tratto": "Torrenti Pellino, Scarpia e Rio Plesina - gestione FIPSAS",
+      "regola": "acque in concessione FIPSAS VCO (serve tessera/permesso FIPSAS)",
+      "fonte_pagina": 0,
+      "fonte_extra": "fipsasvco.it - acque in concessione"
+    },
+    {
+      "id": "VCO-FIPSAS-11",
+      "tipo": "concessione",
+      "comune": "Antrona Schieranco",
+      "corso_acqua": "Lago di Cheggio",
+      "tratto": "laghi di Antrona: Cheggio e Campliccioli - gestione FIPSAS",
+      "regola": "acque in concessione FIPSAS VCO (serve tessera/permesso FIPSAS)",
+      "fonte_pagina": 0,
+      "fonte_extra": "fipsasvco.it - acque in concessione"
+    },
+    {
+      "id": "VCO-FIPSAS-12",
+      "tipo": "concessione",
+      "comune": "Formazza",
+      "corso_acqua": "Lago di Morasco",
+      "tratto": "laghi di Morasco: Toggia e Kastel - gestione FIPSAS",
+      "regola": "acque in concessione FIPSAS VCO (serve tessera/permesso FIPSAS)",
+      "fonte_pagina": 0,
+      "fonte_extra": "fipsasvco.it - acque in concessione"
+    }
+  ]
+}

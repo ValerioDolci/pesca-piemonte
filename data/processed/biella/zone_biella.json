@@ -1,0 +1,258 @@
+{
+  "provincia": "Biella",
+  "fonte": "Vademecum del pescatore biellese 2026 - Provincia di Biella (agg. 18/02/2026)",
+  "fonte_file": "data/sources/biella/vademecum_biellese_2026.pdf",
+  "deroghe_provinciali": {
+    "misura_minima_trota_fario_salmonicole_cm": 24,
+    "misura_minima_trota_fario_ciprinicole_cm": 22,
+    "salmonidi_max_giorno": 6,
+    "giorni_divieto_acque_salmonicole": "martedi e venerdi (esclusi festivi), salvo zone No-Kill",
+    "salmonicole_solo_amo_senza_ardiglione": true,
+    "iridea_pescabile_tutto_anno_in_ciprinicole": true
+  },
+  "zone": [
+    {
+      "id": "BI-PROT-01",
+      "tipo": "protezione",
+      "comune": "Donato",
+      "corso_acqua": "Rio del Fornetto",
+      "tratto": "dalla confluenza con il T. Viona fino alle sorgenti",
+      "regola": "divieto assoluto di pesca",
+      "fonte_pagina": 2
+    },
+    {
+      "id": "BI-PROT-02",
+      "tipo": "protezione",
+      "comune": "Graglia",
+      "corso_acqua": "Torrente Janca",
+      "tratto": "da 200 m a monte del ponte del Tracciolino di Oropa a 300 m a valle fino alla confluenza del Rio Baracon",
+      "regola": "divieto assoluto di pesca",
+      "fonte_pagina": 2
+    },
+    {
+      "id": "BI-PROT-03",
+      "tipo": "protezione",
+      "comune": "Sordevolo",
+      "corso_acqua": "Torrente Elvo",
+      "tratto": "da 300 m a monte a 300 m a valle del Ponte dell'Elvo al Tracciolino di Oropa",
+      "regola": "divieto assoluto di pesca",
+      "fonte_pagina": 2
+    },
+    {
+      "id": "BI-PROT-04",
+      "tipo": "protezione",
+      "comune": "Sagliano Micca",
+      "corso_acqua": "Rio Morezza",
+      "tratto": "da Localita Usciso fino a Cascina Sciura (Comuni di Sagliano Micca e Tavigliano)",
+      "regola": "divieto assoluto di pesca",
+      "fonte_pagina": 2
+    },
+    {
+      "id": "BI-PROT-05",
+      "tipo": "protezione",
+      "comune": "Piedicavallo",
+      "corso_acqua": "Rio Urialet",
+      "tratto": "tutto il corso",
+      "regola": "divieto assoluto di pesca",
+      "fonte_pagina": 2
+    },
+    {
+      "id": "BI-PROT-06",
+      "tipo": "protezione",
+      "comune": "Callabiana",
+      "corso_acqua": "Torrente Strona",
+      "tratto": "dal ponte della SP 105 alla confluenza con il Rio dei Nousarei (Comuni di Callabiana e Camandona)",
+      "regola": "divieto assoluto di pesca",
+      "fonte_pagina": 2
+    },
+    {
+      "id": "BI-PROT-07",
+      "tipo": "protezione",
+      "comune": "Camandona",
+      "corso_acqua": "Rio delle Oche",
+      "tratto": "dal ponte sulla Strada Comunale presso la Frazione Molino fino alla confluenza con il Torrente Strona",
+      "regola": "divieto assoluto di pesca",
+      "fonte_pagina": 2
+    },
+    {
+      "id": "BI-PROT-08",
+      "tipo": "protezione",
+      "comune": "Coggiola",
+      "corso_acqua": "Rio Fura",
+      "tratto": "dalla confluenza con il T. Sessera fino alle sorgenti",
+      "regola": "divieto assoluto di pesca",
+      "fonte_pagina": 2
+    },
+    {
+      "id": "BI-PROT-09",
+      "tipo": "protezione",
+      "comune": "Crevacuore",
+      "corso_acqua": "Rio Caneglio",
+      "tratto": "tra la confluenza del Torrente Sessera e il ponte sulla SP 200 - Via Garibaldi",
+      "regola": "divieto assoluto di pesca",
+      "fonte_pagina": 2,
+      "estremi": {
+        "da": {
+          "confluenza": "Sessera"
+        },
+        "a": {
+          "luogo": "Via Garibaldi, Crevacuore, Biella"
+        }
+      }
+    },
+    {
+      "id": "BI-PROT-10",
+      "tipo": "protezione",
+      "comune": "Biella",
+      "corso_acqua": "Rio della Furia",
+      "tratto": "dalla confluenza con il Torrente Oropa fino a 300 m a monte della presa idrica dell'acquedotto di frazione Valle di Pralungo (tot. 500 m)",
+      "regola": "divieto assoluto di pesca",
+      "fonte_pagina": 2,
+      "estremi": {
+        "da": {
+          "confluenza": "Oropa"
+        },
+        "a": {
+          "offset_m": 500
+        }
+      }
+    },
+    {
+      "id": "BI-PROT-11",
+      "tipo": "protezione",
+      "comune": "Pralungo",
+      "corso_acqua": "Torrente Oropa",
+      "tratto": "dal ponte in Frazione Valle di Pralungo per 300 m a valle e 200 m a monte (Comuni di Biella e Pralungo)",
+      "regola": "divieto assoluto di pesca",
+      "fonte_pagina": 3
+    },
+    {
+      "id": "BI-PROT-12",
+      "tipo": "protezione",
+      "comune": "Campiglia Cervo",
+      "corso_acqua": "Torrente Cervo",
+      "tratto": "da Frazione delle Piane a Frazione Molino (tot. 500 m)",
+      "regola": "divieto assoluto di pesca",
+      "fonte_pagina": 3,
+      "estremi": {
+        "da": {
+          "luogo": "Piane, Campiglia Cervo, Biella"
+        },
+        "a": {
+          "luogo": "Molino, Campiglia Cervo, Biella"
+        }
+      }
+    },
+    {
+      "id": "BI-PROT-13",
+      "tipo": "protezione",
+      "comune": "Crevacuore",
+      "corso_acqua": "Rio Bodro",
+      "tratto": "dalla confluenza con il torrente Sessera fino al ponte della S.P. 121",
+      "regola": "divieto assoluto di pesca",
+      "fonte_pagina": 3,
+      "estremi": {
+        "da": {
+          "confluenza": "Sessera"
+        },
+        "a": {
+          "sorgente": true
+        }
+      }
+    },
+    {
+      "id": "BI-NK-01",
+      "tipo": "no_kill",
+      "comune": "Muzzano",
+      "corso_acqua": "Torrente Elvo",
+      "tratto": "tratto delimitato a valle dal ponte sulla SP 500 e per circa 600 m a monte (Comuni di Muzzano e Sordevolo)",
+      "regola": "rilascio obbligatorio, solo mosche artificiali",
+      "fonte_pagina": 6,
+      "estremi": {
+        "da": {
+          "luogo": "Muzzano, Biella"
+        },
+        "a": {
+          "offset_m": 600
+        }
+      }
+    },
+    {
+      "id": "BI-NK-02",
+      "tipo": "no_kill",
+      "comune": "Campiglia Cervo",
+      "corso_acqua": "Torrente Cervo",
+      "tratto": "dal Rio Concabbia alla lama della scuola",
+      "regola": "rilascio obbligatorio, solo mosche artificiali",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "BI-NK-03",
+      "tipo": "no_kill",
+      "comune": "Biella",
+      "corso_acqua": "Torrente Cervo",
+      "tratto": "dal ponte di Chiavazza verso monte fino al ponticello di via Craveia a Tollegno (Comuni di Biella e Tollegno)",
+      "regola": "rilascio obbligatorio, solo mosche artificiali",
+      "fonte_pagina": 6,
+      "estremi": {
+        "da": {
+          "luogo": "Chiavazza, Biella"
+        },
+        "a": {
+          "luogo": "Tollegno, Biella"
+        }
+      }
+    },
+    {
+      "id": "BI-NK-04",
+      "tipo": "no_kill",
+      "comune": "Pralungo",
+      "corso_acqua": "Torrente Oropa",
+      "tratto": "dalla confluenza con il T. Cervo fino all'imbocco della roggia di S. Giuseppe (Comuni di Biella e Pralungo)",
+      "regola": "rilascio obbligatorio, solo mosche artificiali",
+      "fonte_pagina": 6,
+      "estremi": {
+        "da": {
+          "confluenza": "Cervo"
+        },
+        "a": {
+          "luogo": "Pralungo, Biella"
+        }
+      }
+    },
+    {
+      "id": "BI-NK-05",
+      "tipo": "no_kill",
+      "comune": "Valdilana",
+      "corso_acqua": "Torrente Sessera",
+      "tratto": "dalla passerella dell'acquedotto in localita Frera fino a 800 m a monte (Comune di Valdilana, ex Trivero)",
+      "regola": "rilascio obbligatorio, solo mosche artificiali",
+      "fonte_pagina": 6,
+      "estremi": {
+        "da": {
+          "luogo": "Frera, Valdilana, Biella"
+        },
+        "a": {
+          "offset_m": 800
+        }
+      }
+    },
+    {
+      "id": "BI-NK-06",
+      "tipo": "no_kill",
+      "comune": "Pray",
+      "corso_acqua": "Torrente Sessera",
+      "tratto": "dal ponte sulla SP 200 II tronco km 8+300 (Pray) alla confluenza con il Rio Fontana (Crevacuore)",
+      "regola": "rilascio obbligatorio, solo mosche artificiali",
+      "fonte_pagina": 6,
+      "estremi": {
+        "da": {
+          "luogo": "Pray, Biella"
+        },
+        "a": {
+          "luogo": "Crevacuore, Biella"
+        }
+      }
+    }
+  ]
+}

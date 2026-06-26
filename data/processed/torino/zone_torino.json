@@ -1,0 +1,2019 @@
+{
+  "provincia": "Torino",
+  "fonte": "Vademecum del Pescatore 2026 - Citta Metropolitana di Torino (agg. 20/02/2026)",
+  "fonte_file": "data/sources/torino/vademecum_2026.pdf",
+  "note": "Sottoinsieme pilota: zone turistiche e no-kill (pp. 12-13). Le ~80 zone di protezione (Decreto 353/2025) saranno aggiunte in seguito. Geometrie a livello comune (v0), da raffinare a tratto (v1). | Aggiornato Fase A: +118 zone di protezione (Decreto 353/2025) +23 acque salmonicole. DDEP/DEP-UC: da aggiungere.",
+  "zone": [
+    {
+      "id": "TO-TUR-01",
+      "tipo": "turistica",
+      "comune": "Ala di Stura",
+      "corso_acqua": "Torrente Stura di Ala",
+      "tratto": "dal ponte del Cresto a valle fino allo sbarramento della centrale Poma (~100 m a valle del ponte del Villar)",
+      "gestore": "Comune e A.S.D. Tutela Stura di Lanzo",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-TUR-02",
+      "tipo": "turistica",
+      "comune": "Cantoira",
+      "corso_acqua": "Torrente Stura di Valgrande",
+      "tratto": "dal ponte dell'ecostazione a valle sino al ponte di Via Santa Cristina",
+      "gestore": "Comune e A.S.D. Tutela Stura di Lanzo",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-TUR-03",
+      "tipo": "turistica",
+      "comune": "Cesana Torinese",
+      "corso_acqua": "Torrente Ripa",
+      "tratto": "dal ponte degli impianti da sci a monte fino al ponte di Bousson",
+      "gestore": "Comune e Associazione Pescatori Valsusa",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-TUR-04",
+      "tipo": "turistica",
+      "comune": "Coazze",
+      "corso_acqua": "Torrente Sangone",
+      "tratto": "dalla confluenza con il Rio Balma a monte per 1500 m",
+      "gestore": "Comune e Ass. Pescatori Val Sangone",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-TUR-05",
+      "tipo": "turistica",
+      "comune": "Locana",
+      "corso_acqua": "Torrente Orco",
+      "tratto": "dal confine con il comune di Noasca (localita Frera) a valle sino alla galleria di Rosone",
+      "gestore": "Comune e Ass. Pesc. Alta Valle Orco",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-TUR-06",
+      "tipo": "turistica",
+      "comune": "Oulx",
+      "corso_acqua": "Lago Orfu",
+      "tratto": "intero lago",
+      "gestore": "Comune e Associazione Pescatori Valsusa",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-TUR-07",
+      "tipo": "turistica",
+      "comune": "Pomaretto - Perosa Argentina",
+      "corso_acqua": "Torrenti Germanasca-Chisone",
+      "tratto": "dalla confluenza dei torrenti Germanasca-Chisone fino all'opera di presa della troticoltura Marucco (sx orografica su Perosa Argentina, dx orografica su Pomaretto)",
+      "gestore": "Comuni",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-TUR-08",
+      "tipo": "turistica",
+      "comune": "Usseglio",
+      "corso_acqua": "Torrente Stura di Viu",
+      "tratto": "dal ponte del Rio Lunella a valle sino al ponte detto delle Ramassere",
+      "gestore": "Comune e A.S.D. Tutela Stura di Lanzo",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-TUR-09",
+      "tipo": "turistica",
+      "comune": "Valprato Soana",
+      "corso_acqua": "Torrente Soana",
+      "tratto": "dal ponte della frazione Ronchietto al ponte della frazione Zurlera",
+      "gestore": "Comune e Ass. Pesc. Medio-Bassa Valle Orco",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-NK-01",
+      "tipo": "no_kill",
+      "comune": "Ala di Stura",
+      "corso_acqua": "Torrente Stura di Ala",
+      "tratto": "dal ponte del Toma a valle fino al ponte del Cresto",
+      "gestore": "Comune e A.S.D. Tutela Stura di Lanzo",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-NK-02",
+      "tipo": "no_kill",
+      "comune": "Balme",
+      "corso_acqua": "Rio Paschiet",
+      "tratto": "dalla passerella Ponte Bianco (frazione Cornetti) a monte fino alla passerella della localita Pian Sale",
+      "gestore": "Comune e A.S.D. Tutela Stura di Lanzo",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-NK-03",
+      "tipo": "no_kill",
+      "comune": "Bardonecchia",
+      "corso_acqua": "Torrente Melezet",
+      "tratto": "dal ponte per la localita San Sisto fino alla confluenza con il torrente Rho",
+      "gestore": "Comune e A.P.S. Pescatori Valsusa",
+      "note": "nuova istituzione",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-NK-04",
+      "tipo": "no_kill",
+      "comune": "Cesana Torinese",
+      "corso_acqua": "Torrente Ripa",
+      "tratto": "dal ponte di via Roma fino al ponte degli impianti da sci e dal ponte di Bousson fino al ponte Blaise",
+      "gestore": "Comune e Ass. Pescatori Valsusa",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-NK-05",
+      "tipo": "no_kill",
+      "comune": "Coazze",
+      "corso_acqua": "Torrente Sangone",
+      "tratto": "dalla confluenza con il Rio Balma a valle per 1000 m",
+      "gestore": "Comune e Ass. Pescatori Val Sangone",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-NK-06",
+      "tipo": "no_kill",
+      "comune": "Noasca",
+      "corso_acqua": "Torrente Orco",
+      "tratto": "tra la Localita del Pian (1 tornante a monte di Noasca) a valle sino al ponte di Gera",
+      "stato": "SOSPESA in attesa di eventuale rinnovo",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-NK-07",
+      "tipo": "no_kill",
+      "comune": "Pomaretto",
+      "corso_acqua": "Torrente Germanasca",
+      "tratto": "dal ponte Masselli a valle fino alla confluenza con il Torrente Chisone",
+      "gestore": "Comune e Associazione Pescatori Valli Chisone e Germanasca",
+      "fonte_pagina": 12
+    },
+    {
+      "id": "TO-NKC-01",
+      "tipo": "no_kill_cmto",
+      "comune": "Cesana Torinese",
+      "corso_acqua": "Torrente Dora Riparia",
+      "tratto": "da localita Desert al ponte di Fenils",
+      "gestore": "Citta Metropolitana di Torino (gestione diretta)",
+      "fonte_pagina": 13
+    },
+    {
+      "id": "TO-NKC-02",
+      "tipo": "no_kill_cmto",
+      "comune": "Oulx",
+      "corso_acqua": "Torrente Dora di Bardonecchia",
+      "tratto": "da passaggio ferroviario nel concentrico sino al ponte di Royeres",
+      "gestore": "Citta Metropolitana di Torino (gestione diretta)",
+      "fonte_pagina": 13
+    },
+    {
+      "id": "TO-NKC-03",
+      "tipo": "no_kill_cmto",
+      "comune": "Luserna San Giovanni",
+      "corso_acqua": "Torrente Pellice",
+      "tratto": "dal ponte della S.P. Luserna-Rora sino al ponte Blancio per complessivi 1850 m",
+      "gestore": "Citta Metropolitana di Torino (gestione diretta)",
+      "note": "richiede ricevuta tariffa annuale D.D.E.P.",
+      "fonte_pagina": 13
+    },
+    {
+      "id": "TO-NKC-04",
+      "tipo": "no_kill_cmto",
+      "comune": "Pragelato",
+      "corso_acqua": "Torrente Chisone",
+      "tratto": "da Soucheres al ponte di Traverses",
+      "gestore": "Citta Metropolitana di Torino (gestione diretta)",
+      "note": "richiede ricevuta tariffa annuale D.D.E.P.",
+      "fonte_pagina": 13
+    },
+    {
+      "id": "TO-PROT-001",
+      "tipo": "protezione",
+      "comune": "Ala Di Stura",
+      "corso_acqua": "Torrente Stura Di Ala",
+      "tratto": "Dalla diga dell'enel a valle fino a 100 metri sotto il ponte della seggiovia",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-002",
+      "tipo": "protezione",
+      "comune": "Almese",
+      "corso_acqua": "Torrente Messa",
+      "tratto": "Dal ponte vecchio di almese per 300 m a monte",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-003",
+      "tipo": "protezione",
+      "comune": "Arignano",
+      "corso_acqua": "Lago Di Arignano",
+      "tratto": "In tutto il lago",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-004",
+      "tipo": "protezione",
+      "comune": "Avigliana",
+      "corso_acqua": "Lago Grande E Canale Naviglia",
+      "tratto": "Tutto il canale naviglia e i laghetti ad esso collegati, nonché il tratto di sponda del lago che si estende a destra e a sinistra della foce del canale per 110 m in direzione sud",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-005",
+      "tipo": "protezione",
+      "comune": "Avigliana",
+      "corso_acqua": "Rio Meana E Lago Grande Rio Meana",
+      "tratto": "Per tutto il suo corso e sponda del lago grande per 100 m a ovest e 15 m a est della sua foce",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-006",
+      "tipo": "protezione",
+      "comune": "Avigliana",
+      "corso_acqua": "Lago Piccolo",
+      "tratto": "Da 100 m prima della traversa che regola l'imbocco dell'emissario rio meana a 100 metri prima della foce del rio giacomino",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-007",
+      "tipo": "protezione",
+      "comune": "Balme",
+      "corso_acqua": "Rio Paschiet",
+      "tratto": "Dal ponte della frazione cornetti alla confluenza con lo stura",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-008",
+      "tipo": "protezione",
+      "comune": "Bardonecchia",
+      "corso_acqua": "Torrente Melezet",
+      "tratto": "Dalla diga delle sette fontane a valle fino al ponte detto di quartara o dei cavalli",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-009",
+      "tipo": "protezione",
+      "comune": "Bobbio Pellice",
+      "corso_acqua": "Torrente Guicciard",
+      "tratto": "Dal ponte della gianna a valle fino al ponte delle selle",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-010",
+      "tipo": "protezione",
+      "comune": "Borgaro-Torino",
+      "corso_acqua": "Lago Di Villaretto Lago Di Villaretto (Lago Del Pescatore)",
+      "tratto": "",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-011",
+      "tipo": "protezione",
+      "comune": "Bosconero",
+      "corso_acqua": "Fontanile Del Ghiareto",
+      "tratto": "Dalla lanca di pompaggio a valle fino alla confluenza con l'orco",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-012",
+      "tipo": "protezione",
+      "comune": "Brusasco - Cavagnolo",
+      "corso_acqua": "Laghi Degli Aironi",
+      "tratto": "I tre laghi denominati \"i laghi degli aironi\", su sponda destra orografica del po",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-013",
+      "tipo": "protezione",
+      "comune": "Cafasse",
+      "corso_acqua": "Bealera Di Fiano",
+      "tratto": "Dalle opere di presa a valle sino alle paratoie di biforcazione",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-014",
+      "tipo": "protezione",
+      "comune": "Candia Canavese",
+      "corso_acqua": "Lago Di Candia",
+      "tratto": "Nelle aree della palude e della paludetta nonché nel canale traversaro (tratto dalle origini al ponte di via vische)",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-015",
+      "tipo": "protezione",
+      "comune": "Cantoira",
+      "corso_acqua": "Sorgente",
+      "tratto": "In frazione balme per tutto il suo corso",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-016",
+      "tipo": "protezione",
+      "comune": "Cantoira-Ceres",
+      "corso_acqua": "Stura Di Valgrande",
+      "tratto": "Dall'opera di presa di cantoira a valle sino alla confluenza con lo stura di ala",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-017",
+      "tipo": "protezione",
+      "comune": "Carignano",
+      "corso_acqua": "Fiume Po Laghetto Con Immissario Ed Emissario E",
+      "tratto": "Tratto di fiume scorrente nell'area denominata garettino",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-018",
+      "tipo": "protezione",
+      "comune": "Carignano- Carmagnola",
+      "corso_acqua": "Lanca Po Cit (Rio Corno)",
+      "tratto": "Tratto dalla confluenza con il torrente meletta a monte per 1000 m (zona cascina betlemme)",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-019",
+      "tipo": "protezione",
+      "comune": "Carmagnola",
+      "corso_acqua": "Fiume Po",
+      "tratto": "50 m a monte e 50 m a valle dello sbocco della lanca di san michele",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-020",
+      "tipo": "protezione",
+      "comune": "Carmagnola",
+      "corso_acqua": "Torrente Maira",
+      "tratto": "Nel tratto compreso tra il ponte della s.p. poirino- pinerolo e confluenza con il po",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-021",
+      "tipo": "protezione",
+      "comune": "Carmagnola",
+      "corso_acqua": "Lanca Del Ceretto Lanca Del Ceretto",
+      "tratto": "",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-022",
+      "tipo": "protezione",
+      "comune": "Castellamonte",
+      "corso_acqua": "Roggia Dei Molini",
+      "tratto": "Dalle origini in località spineto fino alla confluenza con il canale di caluso",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-023",
+      "tipo": "protezione",
+      "comune": "Castellamonte- Cuorgnè",
+      "corso_acqua": "Torrente Orco",
+      "tratto": "Tratto in regione spineto da confluenza con il torrente piova fino a 300 m a valle della presa canale di caluso",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-024",
+      "tipo": "protezione",
+      "comune": "Castelnuovo Nigra",
+      "corso_acqua": "Torrente Piova",
+      "tratto": "Tratto dal ponte romano per 600 m a valle",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-025",
+      "tipo": "protezione",
+      "comune": "Ceres",
+      "corso_acqua": "Torrente Stura Di Ala",
+      "tratto": "Dalla foce del rio crosiasse alla foce del rio ciamnet 26",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-026",
+      "tipo": "protezione",
+      "comune": "Ceres",
+      "corso_acqua": "Torrente Stura Di Ala",
+      "tratto": "Dall'opera di presa di almesio nell’omonima frazione a valle fino allla confluenza con lo stura di valgrande",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-027",
+      "tipo": "protezione",
+      "comune": "Ceresole Reale",
+      "corso_acqua": "Torrente Orco",
+      "tratto": "Dal confine con il parco nazionale gran paradiso sino alla confluenza con il bacino di ceresole reale",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-028",
+      "tipo": "protezione",
+      "comune": "Ceresole Reale",
+      "corso_acqua": "Lago Di Ceresole Sponda Sx",
+      "tratto": "Per circa 400 m a monte della diga",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-029",
+      "tipo": "protezione",
+      "comune": "Ceresole Reale",
+      "corso_acqua": "Torrente Orco",
+      "tratto": "Dall’imbocco della piattaforma dell’elisoccorso a valle fino in prossimità della sbarra di chiusura della ex ss460",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-030",
+      "tipo": "protezione",
+      "comune": "Ceresole Reale",
+      "corso_acqua": "Lago Di Ceresole Sponda Destra Orografica",
+      "tratto": "Dalla diga al ponte borgata villa",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-031",
+      "tipo": "protezione",
+      "comune": "Cesana Torinese",
+      "corso_acqua": "Torrente Ripa",
+      "tratto": "Dal ponte di via roma a cesana capoluogo a valle sino alla confluenza con il rio manet",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-032",
+      "tipo": "protezione",
+      "comune": "Chialamberto",
+      "corso_acqua": "Torrente Stura Di Val Grande",
+      "tratto": "Dal ponte per cossiglia a valle per 50 m",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-033",
+      "tipo": "protezione",
+      "comune": "Chialamberto",
+      "corso_acqua": "Torrente Stura Di Val Grande",
+      "tratto": "Dal ponte della fraz. gabbi a valle per 50 m",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-034",
+      "tipo": "protezione",
+      "comune": "Chivasso",
+      "corso_acqua": "Torrente Orco",
+      "tratto": "Nel tratto scorrente dal ponte dell'autostrada to-mi a monte per 500 m",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-035",
+      "tipo": "protezione",
+      "comune": "Coazze",
+      "corso_acqua": "Rio Della Balma",
+      "tratto": "Da quota 1600 m alla confluenza con il sangone",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-036",
+      "tipo": "protezione",
+      "comune": "Colleretto- Castelnuovo",
+      "corso_acqua": "Torrente Piova",
+      "tratto": "Tratto in località cintano a monte per 400 m",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-037",
+      "tipo": "protezione",
+      "comune": "Condove-Chiusa S. Michele",
+      "corso_acqua": "Dora Riparia",
+      "tratto": "Tratto compreso tra il ponte della ferrovia in localita cave di caprie e il ponte dora sulla s.p. 200",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-038",
+      "tipo": "protezione",
+      "comune": "Cuorgnè",
+      "corso_acqua": "Torrente Orco",
+      "tratto": "Da 400 m a monte del ponte del pedaggio fino a 130 m a valle dello stesso",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-039",
+      "tipo": "protezione",
+      "comune": "Cuorgnè",
+      "corso_acqua": "Canale Ex Manifattura",
+      "tratto": "Per tutto il suo corso",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-040",
+      "tipo": "protezione",
+      "comune": "Druento",
+      "corso_acqua": "Torrente Ceronda",
+      "tratto": "Tratto scorrente all'interno del pr \"la mandria\" dal ponte della bizzarria al ponte del violino",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-041",
+      "tipo": "protezione",
+      "comune": "Fenestrelle",
+      "corso_acqua": "Torrente Chisone",
+      "tratto": "Tratto delimitato dai ponti della \"spiaggetta\" e del “campeggio”",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-042",
+      "tipo": "protezione",
+      "comune": "Giaveno",
+      "corso_acqua": "Torrente Ollasio",
+      "tratto": "Dall'ospedale al ponte del parco comunale",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-043",
+      "tipo": "protezione",
+      "comune": "Groscavallo",
+      "corso_acqua": "Sorgente",
+      "tratto": "In frazione pialpetta per tutto il suo corso",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-044",
+      "tipo": "protezione",
+      "comune": "Groscavallo",
+      "corso_acqua": "Torrente Stura Di Valgrande",
+      "tratto": "Dal ponte di pialpetta a valle fino al ponte di migliere",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-045",
+      "tipo": "protezione",
+      "comune": "Ivrea",
+      "corso_acqua": "Roggia Pianezza",
+      "tratto": "Tratto lungo via dei cappuccini dal ponte per l’entrata all’azienda energetica e gas società cooperativa a valle sino alla regione campasso",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-046",
+      "tipo": "protezione",
+      "comune": "Ivrea-Albiano D'Ivrea",
+      "corso_acqua": "Naviglio D’Ivrea",
+      "tratto": "Dal ponte di via dei cappuccini in comune di ivrea a valle sino al ponte della sp 80 in comune di albiano d'ivrea",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-047",
+      "tipo": "protezione",
+      "comune": "La Cassa",
+      "corso_acqua": "Torrente Ceronda",
+      "tratto": "A monte (per 500 m circa) dello sbarramento presso cascina s. ida sia sul torrente che sul suo braccio laterale",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-048",
+      "tipo": "protezione",
+      "comune": "La Loggia",
+      "corso_acqua": "Fiume Po",
+      "tratto": "Dalla diga di la loggia a monte per 100 m sulla sponda destra orografica",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-049",
+      "tipo": "protezione",
+      "comune": "La Loggia",
+      "corso_acqua": "Fiume Po",
+      "tratto": "Per un tratto di 400 m a valle delle opere di sbarramento della centrale",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-050",
+      "tipo": "protezione",
+      "comune": "Lanzo Torinese",
+      "corso_acqua": "Canale Colombaro Dallo Sbocco Del Canale",
+      "tratto": "Fino alla confluenza con la stura di lanzo",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-051",
+      "tipo": "protezione",
+      "comune": "Lanzo Torinese",
+      "corso_acqua": "Canale Riva Destra",
+      "tratto": "Dalla presa del canale riva destra a valle sino allo sfioratore",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-052",
+      "tipo": "protezione",
+      "comune": "Lanzo Torinese",
+      "corso_acqua": "Torrente Stura",
+      "tratto": "Dal ponte del diavolo alle \"rucasse\"",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-053",
+      "tipo": "protezione",
+      "comune": "Lemie",
+      "corso_acqua": "Torrente Stura Di Viù",
+      "tratto": "Dalla zona denominata duemie fino a 10 m a monte del ponte degli olmetti 27",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-054",
+      "tipo": "protezione",
+      "comune": "Levone Canavese",
+      "corso_acqua": "Torrente Levona",
+      "tratto": "Dal ponte delle fornaci a valle fino al ponte sulla strada comunale per rivara",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-055",
+      "tipo": "protezione",
+      "comune": "Locana-Sparone",
+      "corso_acqua": "Torrente Orco",
+      "tratto": "Dall’opera di presa in località bardonetto (locana) a valle sino al ponte per la località piani a sparone",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-056",
+      "tipo": "protezione",
+      "comune": "Luserna San Giovanni",
+      "corso_acqua": "Torrente Pellice",
+      "tratto": "Dal ponte della s.p. luserna-rorà a valle per 100 m",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-057",
+      "tipo": "protezione",
+      "comune": "Luserna San Giovanni",
+      "corso_acqua": "Bealera Del Bersaglio",
+      "tratto": "In località bersaglio nel tratto compreso fra il pozzo dell'acquedotto comunale ed il canale di pralafera",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-058",
+      "tipo": "protezione",
+      "comune": "Massello",
+      "corso_acqua": "Germanasca di Massello",
+      "tratto": "In prossimità della borgata piccolo passet fino al ponte della s.p. 169 in località centrale",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-059",
+      "tipo": "protezione",
+      "comune": "Mattie",
+      "corso_acqua": "Bealera Sagne Dei Giordani",
+      "tratto": "Dalla sorgente nel boschetto in località giordani fino alla confluenza con il rio gerardo",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-060",
+      "tipo": "protezione",
+      "comune": "Mazzè-Rondissone- Torrazza P.Te",
+      "corso_acqua": "Canale Natta",
+      "tratto": "Dalle origini a valle sino alla s.p. 89 torrazza- saluggia",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-061",
+      "tipo": "protezione",
+      "comune": "Moncalieri",
+      "corso_acqua": "Fiume Po Laghetto Con Emissario E Immissario Adiacente La Sponda Orografica Dx Del Po Presso La A.F.V. “La Gorra” E Sponda Orografica Destra Del Po Compresa",
+      "tratto": "",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-062",
+      "tipo": "protezione",
+      "comune": "Moncalieri",
+      "corso_acqua": "Fiume Po",
+      "tratto": "Tratto scorrente dal ponte della ferrovia fino a 30 m a valle del ponte vecchio",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-063",
+      "tipo": "protezione",
+      "comune": "Noasca",
+      "corso_acqua": "Risorgiva Risorgiva",
+      "tratto": "In frazione pra",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-064",
+      "tipo": "protezione",
+      "comune": "Nole-Ciriè",
+      "corso_acqua": "Torrente Ronello",
+      "tratto": "Da risorgiva \"fontane cup\" nel territorio del parco la mandria fino a confluenza con la stura di lanzo",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-065",
+      "tipo": "protezione",
+      "comune": "Oulx",
+      "corso_acqua": "Lago Borello, Rio Villaretto E Altre Acque Acque Interne Al Sic It1110022 Eccettuato Il Laghetto Di Pesca Sportiva Esistente",
+      "tratto": "",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-066",
+      "tipo": "protezione",
+      "comune": "Oulx",
+      "corso_acqua": "Emissario Lago Borello",
+      "tratto": "Tutto il corso",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-067",
+      "tipo": "protezione",
+      "comune": "Pancalieri",
+      "corso_acqua": "Rio Del Mulino",
+      "tratto": "Tratto scorrente all'interno del parco comunale dal campo sportivo fino alla proprietà clara per 1 km",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-068",
+      "tipo": "protezione",
+      "comune": "Parella",
+      "corso_acqua": "Torrente Chiusella",
+      "tratto": "Tratto dall'imbocco della roggia cartiera (avio) per 300 m a monte e 50 m a valle",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-069",
+      "tipo": "protezione",
+      "comune": "Perosa Argentina",
+      "corso_acqua": "Torrente Chisone",
+      "tratto": "Per 50 metri a monte della zona pesca turistica",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-070",
+      "tipo": "protezione",
+      "comune": "Perosa Argentina",
+      "corso_acqua": "Torrente Chisone Dallo Sbarramento Del Contonificio",
+      "tratto": "Fino alla confluenza con il germanasca",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-071",
+      "tipo": "protezione",
+      "comune": "Perrero",
+      "corso_acqua": "Bealera Di Perrero",
+      "tratto": "Nel tratto scorrente in località siberia dalla sp per 400 m a valle e canale di fronte all'incubatoio ittico",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-072",
+      "tipo": "protezione",
+      "comune": "Pessinetto",
+      "corso_acqua": "Torrente Stura",
+      "tratto": "Dal ponte della ferrovia presso l'ex-cotonificio a valle fino al ponte della ferrovia presso il cimitero",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-073",
+      "tipo": "protezione",
+      "comune": "Pinasca",
+      "corso_acqua": "Rio Di Grandubbione",
+      "tratto": "Dalla confluenza in chisone fino alla seconda briglia a monte della sp23",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-074",
+      "tipo": "protezione",
+      "comune": "Piobesi",
+      "corso_acqua": "Canale Chisoletta",
+      "tratto": "Dalle paratoie sul torrente chisola al ponte della s.p. none-piobesi",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-075",
+      "tipo": "protezione",
+      "comune": "Piobesi",
+      "corso_acqua": "Rio Essa",
+      "tratto": "Dalle paratoie in località devesio-pruise a monte per 300 m",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-076",
+      "tipo": "protezione",
+      "comune": "Pomaretto",
+      "corso_acqua": "Torrente Germanasca",
+      "tratto": "Per 50 metri a monte del confine della znk",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-077",
+      "tipo": "protezione",
+      "comune": "Pont Canavese",
+      "corso_acqua": "Torrente Orco",
+      "tratto": "Dal canale genisio a monte sino alla confluenza della roggia ex-allevamento ittico fariano",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-078",
+      "tipo": "protezione",
+      "comune": "Pont Canavese",
+      "corso_acqua": "Torrente Orco (Canale Genisio)",
+      "tratto": "Tratto scorrente dalla paratoia in località oltreorco per tutto il suo corso",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-079",
+      "tipo": "protezione",
+      "comune": "Pont Canavese",
+      "corso_acqua": "Torrente Soana",
+      "tratto": "Dalla ditta genisio bernardo sino al ponte dell'asilo, compresa la vasca a servizio dell'impianto genisio 28",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-080",
+      "tipo": "protezione",
+      "comune": "Pont Canavese",
+      "corso_acqua": "Roggia Del Mulino",
+      "tratto": "Da s.p. pont canavese-sparone, in località deiro, a valle fino alla confluenza con l'orco",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-081",
+      "tipo": "protezione",
+      "comune": "Porte",
+      "corso_acqua": "Scaricatore Centrale Di Malanaggio",
+      "tratto": "Dalla centrale fino allo sbocco in chisone",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-082",
+      "tipo": "protezione",
+      "comune": "Porte",
+      "corso_acqua": "Canale Di Porte",
+      "tratto": "Da ponte palestro a valle fino al ponte di strada s. martino",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-083",
+      "tipo": "protezione",
+      "comune": "Pragelato",
+      "corso_acqua": "Torrente Chisone",
+      "tratto": "Tratto scorrente nel parco della val troncea tra la briglia in località lendeniera fino al ponte della tuccia, compreso il laghetto in sponda destra",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-084",
+      "tipo": "protezione",
+      "comune": "Prali",
+      "corso_acqua": "Lago Verde Lago Verde",
+      "tratto": "",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-085",
+      "tipo": "protezione",
+      "comune": "Prarostino-San Germano Chisone",
+      "corso_acqua": "Rio Turina",
+      "tratto": "Dal muro della diga in località san bartolomeo a valle sino alla confluenza con il torrente chisone",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-086",
+      "tipo": "protezione",
+      "comune": "Quincinetto",
+      "corso_acqua": "Roggia Montellina",
+      "tratto": "Dal “troppo pieno” dell'acquedotto fino a 200 m a valle dell'incubatoio ittico provinciale in località montellina",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-087",
+      "tipo": "protezione",
+      "comune": "Rivarolo",
+      "corso_acqua": "Roggia Vesignano",
+      "tratto": "Da 400 m a monte della ditta gribaldi sino alla ditta stessa",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-088",
+      "tipo": "protezione",
+      "comune": "San Colombano Belmonte",
+      "corso_acqua": "Torrente Gallenca",
+      "tratto": "Tratto compreso tra il ponte della s.p. prascorsano- cuorgnè fino alla dighetta in località buasca",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-089",
+      "tipo": "protezione",
+      "comune": "San Germano Chisone",
+      "corso_acqua": "Risorgiva (Sentiero Bianco)",
+      "tratto": "Dal ponte sul sentiero bianco fino alla confluenza in chisone",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-090",
+      "tipo": "protezione",
+      "comune": "San Germano Chisone",
+      "corso_acqua": "Torrente Risigliardo",
+      "tratto": "Dal ponte della sp166 a valle fino alla confluenza in chisone",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-091",
+      "tipo": "protezione",
+      "comune": "San Giorgio Canavese",
+      "corso_acqua": "Roggia Di San Giorgio",
+      "tratto": "Dal ponte di via per ozegna al ponte di via san martino",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-092",
+      "tipo": "protezione",
+      "comune": "San Giorgio Canavese",
+      "corso_acqua": "Torrente Malesina",
+      "tratto": "Dalla confluenza della roggia di san giorgio con il malesina fino alla diga della presa della roggia di san giusto in località gallo",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-093",
+      "tipo": "protezione",
+      "comune": "San Giorgio Canavese",
+      "corso_acqua": "Roggia Del Mulino",
+      "tratto": "Dal ponte di via garibaldi al ponte di via san martino",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-094",
+      "tipo": "protezione",
+      "comune": "San Giusto - Foglizzo",
+      "corso_acqua": "Roggia Del Mulino",
+      "tratto": "Dalla presa della roggia in località cascina gallo a valle per tutto il corso, fino alla confluenza con il malesina in loc. cascina miglio",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-095",
+      "tipo": "protezione",
+      "comune": "San Secondo Di Pinerolo",
+      "corso_acqua": "Canale Colombini",
+      "tratto": "Dalle origini a valle sino alla centrale, scaricatori compresi",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-096",
+      "tipo": "protezione",
+      "comune": "Sauze Di Cesana",
+      "corso_acqua": "Torrente Ripa",
+      "tratto": "Tratto compreso tra il ponte blaize e il ponte terribile",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-097",
+      "tipo": "protezione",
+      "comune": "Torino",
+      "corso_acqua": "Laghetti Parco Colonnetti Laghetti Del Parco Colonnetti",
+      "tratto": "",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-098",
+      "tipo": "protezione",
+      "comune": "Torino",
+      "corso_acqua": "Torrente Stura Dallo Sbarramento A Protezione Del Ponte Di Corso Giulio Cesare",
+      "tratto": "A valle per 700 m",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-099",
+      "tipo": "protezione",
+      "comune": "Torino",
+      "corso_acqua": "Torrente Stura",
+      "tratto": "Dal ponte amedeo viii a valle in sponda sx orografica fino a confluenza con il po ed a monte per 500 m",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-100",
+      "tipo": "protezione",
+      "comune": "Torino",
+      "corso_acqua": "Laghetto Della Falchera Laghetto Situato A Nord Dell'Istmo Che Separa I Due Laghi",
+      "tratto": "",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-101",
+      "tipo": "protezione",
+      "comune": "Torino",
+      "corso_acqua": "Laghetti \"Pellerina\" Laghetti Del Parco Della \"Pellerina\"",
+      "tratto": "",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-102",
+      "tipo": "protezione",
+      "comune": "Torre Pellice",
+      "corso_acqua": "Torrente Pellice",
+      "tratto": "Dal ponte blancio a monte per 100 m",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-103",
+      "tipo": "protezione",
+      "comune": "Trana-Avigliana",
+      "corso_acqua": "Rio Grosso O Naviglia Di Trana",
+      "tratto": "Tratto di 1000 m a monte della passerella pedonale in ferro dell'area attrezzata fipsas",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-104",
+      "tipo": "protezione",
+      "comune": "Trana-Giaveno",
+      "corso_acqua": "Risorgiva Murga",
+      "tratto": "Dalle origini in comune di giaveno, presso i confini comunali, fino alla confluenza con il rio ollasio",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-105",
+      "tipo": "protezione",
+      "comune": "Trausella (Valchiusa)",
+      "corso_acqua": "Torrente Chiusella",
+      "tratto": "Dal ponte di ferro di trausella a valle per 200 m",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-106",
+      "tipo": "protezione",
+      "comune": "Traversella",
+      "corso_acqua": "Torrente Chiusella",
+      "tratto": "Tratto in località fondo dal ponte romano per 200 m a valle e 200 m a monte 29",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-107",
+      "tipo": "protezione",
+      "comune": "Usseaux",
+      "corso_acqua": "Torrente Chisone Bacino Di Pourrières -",
+      "tratto": "Su tutte le opere in calcestruzzo costituenti il corpo diga",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-108",
+      "tipo": "protezione",
+      "comune": "Val Di Chy",
+      "corso_acqua": "Lago Di Alice Lago Di Alice",
+      "tratto": "",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-109",
+      "tipo": "protezione",
+      "comune": "Venaria Reale",
+      "corso_acqua": "Torrente Ceronda",
+      "tratto": "Dal ponte verde per 300 m a valle e 300 m a monte",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-110",
+      "tipo": "protezione",
+      "comune": "Venaria Reale",
+      "corso_acqua": "Rio Valsoglia",
+      "tratto": "Tratto scorrente all'interno della tenuta la mandria",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-111",
+      "tipo": "protezione",
+      "comune": "Villafranca Piemonte",
+      "corso_acqua": "Torrente Pellice",
+      "tratto": "Dal ponte della s.p. 139 a valle per 500 m",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-112",
+      "tipo": "protezione",
+      "comune": "Villafranca Piemonte",
+      "corso_acqua": "Risorgiva Martinetto",
+      "tratto": "Dall'origine con la risorgiva del mulino in comune di villafranca al ponte villafranca-moretta",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-113",
+      "tipo": "protezione",
+      "comune": "Villar Pellice",
+      "corso_acqua": "Comba Tournau",
+      "tratto": "Dalla cascata sita a quota 1600 metri circa fino alla confluenza con il torrente guicciard per un tratto di 2700 m",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-114",
+      "tipo": "protezione",
+      "comune": "Villar Pellice",
+      "corso_acqua": "Torrente Pellice",
+      "tratto": "Dal ponte delle rovine a valle sino al ponte cro",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-115",
+      "tipo": "protezione",
+      "comune": "Villar Pellice",
+      "corso_acqua": "Torrente Liussa",
+      "tratto": "Dal ponte di pietra a 700 m s.l.m. a valle sino alla confluenza con il torrente pellice",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-116",
+      "tipo": "protezione",
+      "comune": "Vistrorio",
+      "corso_acqua": "Torrente Chiusella",
+      "tratto": "Tratto dal ponte della provinciale vistrorio - vidracco a monte fino alla confluenza con il savenca",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-117",
+      "tipo": "protezione",
+      "comune": "Viù",
+      "corso_acqua": "Torrente Stura Di Viù Località Fucine - Dallo Sbarramento Enel",
+      "tratto": "A monte fino allo scaricatore n. 5",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-PROT-118",
+      "tipo": "protezione",
+      "comune": "Viù",
+      "corso_acqua": "Torrente Viana Località Fucine -",
+      "tratto": "Dalla confluenza con il torrente stura fino al ponte venera 30",
+      "regola": "zona di protezione - divieto di pesca",
+      "fonte_pagina": 26,
+      "decreto": "Decreto Cons. Deleg. 353 del 16.12.2025 (valide fino 31.12.2028)"
+    },
+    {
+      "id": "TO-SALM-01",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Angiale",
+      "tratto": "Torrente Angiale e suoi affluenti e defluenti dalle origini alle paratoie in località Cascina Gruatera ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-02",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Cantogno",
+      "tratto": "Torrente Cantogno e suoi affluenti e defluenti per tutto il loro corso ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-03",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Ceronda",
+      "tratto": "Torrente Ceronda e suoi affluenti dalle origini al Ponte di Baratonia in Comune di Fiano ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-04",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Chiamogna",
+      "tratto": "Torrente Chiamogna e suoi affluenti e defluenti dalle origini al ponte sulla Strada Provinciale di Pinerolo-Torre Pellice ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-05",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Chisola",
+      "tratto": "Torrente Chisola e suoi affluenti e defluenti dalle origini fino a tutto il territorio del Comune di Cumiana ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-06",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Chisone",
+      "tratto": "Torrente Chisone e suoi affluenti dalle origini alla confluenza con il torrente Pellice ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-07",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Chiusella",
+      "tratto": "Torrente Chiusella e suoi affluenti e defluenti dalle origini al ponte di Colleretto Giacosasa-Pranzalito per tutto il loro corso ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-08",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Fiume Dora Baltea",
+      "tratto": "Fiume Dora Baltea dal confine con la Regione Autonoma Valle d'Aosta al ponte alla confluenza con il fiume Po in tutto il territorio della Provincia di Torino e tutti gli affluenti compresi nel tratto dal confine con la Regione Autonoma Vall",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-09",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Fiume Dora Riparia",
+      "tratto": "Fiume Dora Riparia e suoi affluenti e defluenti per tutto il suo corso dalle origini fino al confine del Comune di Pianezza in zona Bivio Cotonificio Valle Susa ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-10",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Lemina",
+      "tratto": "Torrente Lemina e suoi affluenti dalle origini al ponte di San Pietro Val Lemina ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-11",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Malesina",
+      "tratto": "Torrente Malesina e suoi affluenti e defluenti per tutto il loro corso ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-12",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Malone",
+      "tratto": "Torrente Malone dalle origini al ponte di Front Canavese e suoi affluenti e defluenti per tutto il loro corso ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-13",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Messa",
+      "tratto": "Torrente Messa e suoi affluenti e defluenti per tutto il loro corso ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-14",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Noce",
+      "tratto": "Torrente Noce dalle origini alla strada dei laghi in Comune di Frossasco e suoi affluenti e defluenti per tutto il loro corso ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-15",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Orco",
+      "tratto": "Torrente Orco dalle origini al ponte della strada provinciale Rivarolo-Ozegna e tutti i canali e affluenti e defluenti per tutto il loro corso ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-16",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Pellice",
+      "tratto": "Torrente Pellice per tutto il suo corso compresi i suoi affluenti e defluenti con l'esclusione del",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-17",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Chiamogna,",
+      "tratto": "Torrente Chiamogna, dal ponte sulla strada provinciale Pinerolo-Torre Pellice a valle ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-18",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Ripa e affluenti e defluenti",
+      "tratto": "Torrente Ripa e affluenti e defluenti per tutto il loro corso ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-19",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Sangone",
+      "tratto": "Torrente Sangone dalle origini al ponte di Trana e suoi affluenti e defluenti per tutto il loro corso ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-20",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Torrente Soana",
+      "tratto": "Torrente Soana e suoi affluenti e defluenti per tutto il loro corso ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-21",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Fiume Stura di Lanzo",
+      "tratto": "Fiume Stura di Lanzo e suoi affluenti e defluenti dalle origini fino al ponte della strada Villanova-Cafasse e i canali: riva sx (dalle origini fino al territorio comunale di Ciriè compreso) e riva dx (dalle origini fino al territorio comun",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-22",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Rogge e corsi d'acqua scorrenti in territorio del Comune di ",
+      "tratto": "Rogge e corsi d'acqua scorrenti in territorio del Comune di Villafranca Piemonte con esclusione del fiume Po ",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-SALM-23",
+      "tipo": "salmonicola",
+      "comune": "",
+      "corso_acqua": "Laghi montani collocati al di sopra dei 1000 m",
+      "tratto": "Laghi montani collocati al di sopra dei 1000 m",
+      "regola": "acque salmonicole",
+      "fonte_pagina": 6
+    },
+    {
+      "id": "TO-DDEP-01",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Fiume Po",
+      "tratto": "tratti in Villafranca Piemonte; Carignano (sbocco Mellea Vecchio - confine Moncalieri); dal confine Moncalieri alla confluenza Sangone; Torino (Madonna del Pilone - confluenza Dora Riparia); Castiglione T.se, San Raffaele Cimena, San Sebastiano Po, Lauriano, Verrua Savoia",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-02",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Chisola",
+      "tratto": "dalla Casabianca (Volvera) allo sbocco nel Po",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-03",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Banna",
+      "tratto": "nel Comune di Moncalieri fino alla confluenza con il Po",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-04",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Pellice",
+      "tratto": "da Bobbio Pellice a Luserna San Giovanni; Luserna, Bricherasio, Campiglione Fenile, Bibiana, Garzigliana, Villafranca Piemonte",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-05",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Angrogna",
+      "tratto": "dalle origini alla confluenza con il Pellice",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-06",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrenti Luserna - Traversero",
+      "tratto": "dalle origini alle confluenze con Pellice e Luserna",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-07",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Germanasca",
+      "tratto": "dalle origini alla confluenza con il Chisone",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-08",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrenti Faetto - Riclaretto e affluenti",
+      "tratto": "dalle origini alla confluenza con il Germanasca",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-09",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Chisone",
+      "tratto": "da Pragelato alla frazione Meano di Perosa Argentina; Perosa Argentina, San Secondo di Pinerolo, Garzigliana, Macello",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-10",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Chisonetto",
+      "tratto": "dalle origini alla confluenza con il Chisone",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-11",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Bacino di Fenestrelle",
+      "tratto": "intero bacino di Fenestrelle",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-12",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Sangone",
+      "tratto": "nei Comuni di Coazze, Giaveno, Trana",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-13",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Fiume Dora Riparia",
+      "tratto": "Salbertrand ed Exilles; da Sant'Ambrogio ad Alpignano",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-14",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Ripa",
+      "tratto": "dalle origini al ponte Blaise e affluenti dx/sx nel Comune di Sauze di Cesana",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-15",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Messa",
+      "tratto": "nel Comune di Rubiana",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-16",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Ceronda",
+      "tratto": "tra il ponte del Violino e il ponte di Venaria",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-17",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Stura di Viu",
+      "tratto": "dalle origini al bacino di Malciaussia; Malciaussia-Lemie (affluenti Nanta e Ovarda); da Lemie alla confluenza con la Stura di Ala",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-18",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Stura di Lanzo",
+      "tratto": "Germagnano, Lanzo, Balangero, Mathi, Nole, Cirie, Caselle, Borgaro, Venaria",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-19",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Malone",
+      "tratto": "Front, Rivarossa, Lombardore, San Benigno, Volpiano",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-20",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Orco",
+      "tratto": "dalla diga di Ceresole al confine di Locana; Sparone e Pont C.se; da Cuorgne a Salassa; Rivarolo, Feletto, Bosconero, San Benigno",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-21",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrenti Soana e Pianetto",
+      "tratto": "nei Comuni di Ingria, Ronco, Valprato",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-22",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Soana",
+      "tratto": "da Ingria alla confluenza con il torrente Orco",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-23",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrenti Gallenca - Brovino - Bosone",
+      "tratto": "Canischio, Prascorsano, Cuorgne, Salassa, Valperga",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-24",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Piova",
+      "tratto": "dalle origini alla confluenza con il torrente Orco",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-25",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Chiusella",
+      "tratto": "Traversella; Issiglio e Vistrorio; da Strambinello a Pavone; Strambino",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-26",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Torrente Savenca",
+      "tratto": "dalle origini alla confluenza con il torrente Chiusella",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DDEP-27",
+      "tipo": "ddep",
+      "comune": "",
+      "corso_acqua": "Fiume Dora Baltea",
+      "tratto": "Carema, Quincinetto, Quassolo; da Quassolo a Borgomasino",
+      "regola": "Diritto Demaniale Esclusivo di Pesca (D.D.E.P.) - serve ricevuta tariffa annuale CMTO (€12/2026)",
+      "fonte_pagina": 8
+    },
+    {
+      "id": "TO-DEP-01",
+      "tipo": "concessione",
+      "comune": "Ribordone",
+      "corso_acqua": "Torrente Ribordone",
+      "tratto": "Comune di Ribordone (D.E.P. del Comune)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-02",
+      "tipo": "concessione",
+      "comune": "Ronco Canavese",
+      "corso_acqua": "Torrenti Forzo e Guerra, Rii Comba/Lazin/Servino/Canaussa",
+      "tratto": "Comune di Ronco C.se (D.E.P. del Comune)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-03",
+      "tipo": "concessione",
+      "comune": "Azeglio",
+      "corso_acqua": "Lago di Viverone (Azeglio)",
+      "tratto": "superficie in Comune di Azeglio (U.C.)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-04",
+      "tipo": "concessione",
+      "comune": "Candia Canavese",
+      "corso_acqua": "Lago di Candia",
+      "tratto": "U.C. del Comune di Candia",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-05",
+      "tipo": "concessione",
+      "comune": "Montalto Dora",
+      "corso_acqua": "Lago Pistono",
+      "tratto": "",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-06",
+      "tipo": "concessione",
+      "comune": "Ivrea",
+      "corso_acqua": "Lago Sirio",
+      "tratto": "D.E.P. di privati",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-07",
+      "tipo": "concessione",
+      "comune": "Mazze",
+      "corso_acqua": "Fiume Dora Baltea",
+      "tratto": "tra Pietra Mora e Rastelli di Saluggia (D.E.P. Soc. Pesca Sportiva Dora Baltea)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-08",
+      "tipo": "concessione",
+      "comune": "Verolengo",
+      "corso_acqua": "Fiume Dora Baltea",
+      "tratto": "tenuta Del Duca; dal ponte S. Anna al confine comunale (D.E.P. privati)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-09",
+      "tipo": "concessione",
+      "comune": "Brusasco",
+      "corso_acqua": "Fiume Po e Dora Baltea",
+      "tratto": "Brusasco e Cavagnolo, sponde opposte (D.E.P. privati)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-10",
+      "tipo": "concessione",
+      "comune": "Verolengo",
+      "corso_acqua": "Fiume Po Rotto",
+      "tratto": "dal confine Verolengo alla confluenza con Dora Baltea (D.E.P. privati)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-11",
+      "tipo": "concessione",
+      "comune": "Brusasco",
+      "corso_acqua": "Fiume Po",
+      "tratto": "sponda destra Brusasco (D.E.P. F.I.P.S.A.S.)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-12",
+      "tipo": "concessione",
+      "comune": "Cavagnolo",
+      "corso_acqua": "Fiume Po",
+      "tratto": "sponda destra Cavagnolo, incluso lancone dei Piloni (D.E.P. F.I.P.S.A.S.)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-13",
+      "tipo": "concessione",
+      "comune": "San Raffaele Cimena",
+      "corso_acqua": "Fiume Po",
+      "tratto": "riva destra fino a meta alveo per 2150 m da ex confine Gassino-San Raffaele (D.E.P. Fipsas)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-14",
+      "tipo": "concessione",
+      "comune": "",
+      "corso_acqua": "Canale Cavour",
+      "tratto": "primo tratto (D.E.P. Coutenza Canali Cavour)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-15",
+      "tipo": "concessione",
+      "comune": "Torino",
+      "corso_acqua": "Fiume Po",
+      "tratto": "dallo sbocco della Dora Riparia in Torino al confine di S. Mauro T.se (D.E.P. F.I.P.S.A.S.)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-16",
+      "tipo": "concessione",
+      "comune": "Germagnano",
+      "corso_acqua": "Torrente Stura di Lanzo",
+      "tratto": "nel Comune di Germagnano non oltre S. Stefano (D.E.P. del Comune)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-17",
+      "tipo": "concessione",
+      "comune": "Coassolo Torinese",
+      "corso_acqua": "Torrente Tesso (Rio Savant e Rio Monastero)",
+      "tratto": "nel Comune di Coassolo (D.E.P. del Comune)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-18",
+      "tipo": "concessione",
+      "comune": "Avigliana",
+      "corso_acqua": "Lago Grande di Avigliana",
+      "tratto": "D.E.P. di privati",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-19",
+      "tipo": "concessione",
+      "comune": "Avigliana",
+      "corso_acqua": "Lago Piccolo di Avigliana",
+      "tratto": "D.E.P. della F.I.P.S.A.S.",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-20",
+      "tipo": "concessione",
+      "comune": "Villafranca Piemonte",
+      "corso_acqua": "Fiume Po",
+      "tratto": "dalla confluenza Cantogno all'imboccatura bealera del Mulino (U.C. Villafranca, gestione CMTO)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-21",
+      "tipo": "concessione",
+      "comune": "",
+      "corso_acqua": "Canale De Pretis",
+      "tratto": "D.E.P. Coutenza Canali Cavour",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    },
+    {
+      "id": "TO-DEP-22",
+      "tipo": "concessione",
+      "comune": "Carmagnola",
+      "corso_acqua": "Fiume Po",
+      "tratto": "dal confine di Lombriasco allo sbocco del torrente Meletta (D.E.P. del Comune di Carmagnola)",
+      "regola": "Diritto esclusivo di pesca / uso civico - serve permesso del titolare/concessionario",
+      "fonte_pagina": 11
+    }
+  ]
+}
