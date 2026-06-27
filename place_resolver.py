@@ -18,14 +18,33 @@ _gc = json.load(open(GC)) if GC.exists() else {}
 PLACE = re.compile(r'\b(?:frazione|fraz\.|localit[aà]|loc\.|borgata)\s+([A-ZÀ-Ù][a-zà-ù]+(?:\s+[A-ZÀ-Ù][a-zà-ù]+)?)')
 SKIP = {"comune","comuni","localita","prossimita","tutto","corrispondenza","direzione","loc"}
 
-def geocode(q):
-    if q in _gc: return tuple(_gc[q]) if _gc[q] else None
+def _nominatim(q):
     u="https://nominatim.openstreetmap.org/search?"+urllib.parse.urlencode({"q":q,"format":"json","limit":1})
     try:
         d=json.load(urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"pesca/0.1"}),timeout=20))
-        r=(float(d[0]["lat"]),float(d[0]["lon"])) if d else None
-    except Exception: r=None
-    _gc[q]=list(r) if r else None; json.dump(_gc,open(GC,"w"),ensure_ascii=False); time.sleep(1.0); return r
+        return (float(d[0]["lat"]),float(d[0]["lon"])) if d else None
+    except Exception: return None
+
+def _overpass_place(name,comune):
+    q=(f'[out:json][timeout:40];area[name="{comune}"][admin_level=8]->.c;'
+       f'(node[place][name="{name}"](area.c);nwr["name"="{name}"](area.c););out center 1;')
+    for _ in range(2):
+        try:
+            r=json.load(urllib.request.urlopen(urllib.request.Request("https://overpass-api.de/api/interpreter",
+                data=urllib.parse.urlencode({"data":q}).encode(),headers={"User-Agent":"pesca/0.1"}),timeout=50))
+            for e in r["elements"]:
+                lat=e.get("lat") or e.get("center",{}).get("lat"); lon=e.get("lon") or e.get("center",{}).get("lon")
+                if lat: time.sleep(1.5); return (lat,lon)
+            time.sleep(1.5); return None
+        except Exception: time.sleep(8)
+    return None
+
+def geocode(q, place=None, comune=None):
+    if q in _gc: return tuple(_gc[q]) if _gc[q] else None
+    r=_nominatim(q); time.sleep(1.0)
+    if r is None and place and comune:           # fallback Overpass per luoghi oscuri
+        r=_overpass_place(place, comune)
+    _gc[q]=list(r) if r else None; json.dump(_gc,open(GC,"w"),ensure_ascii=False); return r
 
 def main(apply=False):
     comuni=json.load(open(ROOT/"data/processed/comuni_coords.json"))
@@ -49,7 +68,7 @@ def main(apply=False):
             # prova il primo luogo che geocodifica vicino a comune+fiume
             anchor=None; used=None
             for pl in places:
-                g=geocode(f"{pl}, {cm}, {prov}, Italia")
+                g=geocode(f"{pl}, {cm}, {prov}, Italia", place=pl, comune=cm)
                 if not g: continue
                 if cpt and R.hav(g,cpt)>8000: continue
                 j=R.nearest_idx(line,g); snap=R.hav(line[j],g)
