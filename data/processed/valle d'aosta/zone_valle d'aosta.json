@@ -1,0 +1,120 @@
+{
+  "provincia": "Valle d'Aosta",
+  "fonte": "Calendario Ittico 2026 Regione Valle d'Aosta + Consorzio Pesca VdA (pescavda.it) - Art.15 riserve, Art.16 no-kill",
+  "fonte_file": "data/sources/valledaosta/calendario_ittico_2026.pdf",
+  "note": "Regione autonoma, licenza separata. 7 riserve turistiche + 2 speciali + 5 no-kill. Acque libere: Dora Baltea salmonicola.",
+  "zone": [
+    {
+      "id": "VDA-TUR-01",
+      "tipo": "turistica",
+      "comune": "Cogne",
+      "corso_acqua": "Torrente Urtier",
+      "tratto": "riserva turistica a cattura: dalla confluenza con il torrente Valeille al piazzale in loc. Moulon",
+      "regola": "riserva/tratto gestito dal Consorzio Pesca Valle d'Aosta - serve permesso"
+    },
+    {
+      "id": "VDA-TUR-02",
+      "tipo": "turistica",
+      "comune": "Saint-Rhémy-en-Bosses",
+      "corso_acqua": "Torrente Artanavaz",
+      "tratto": "riserva turistica: dal ponte a valle della confluenza col Saint-Rhémy (loc. Cerisey) all'opera di derivazione idroelettrica loc. l'Ilette (Etroubles)",
+      "regola": "riserva/tratto gestito dal Consorzio Pesca Valle d'Aosta - serve permesso"
+    },
+    {
+      "id": "VDA-TUR-03",
+      "tipo": "turistica",
+      "comune": "Valtournenche",
+      "corso_acqua": "Lago di Maen",
+      "tratto": "riserva turistica: lago allo sbarramento idroelettrico di Ussin (loc. Maen)",
+      "regola": "riserva/tratto gestito dal Consorzio Pesca Valle d'Aosta - serve permesso"
+    },
+    {
+      "id": "VDA-TUR-04",
+      "tipo": "turistica",
+      "comune": "Brusson",
+      "corso_acqua": "Torrente Evançon",
+      "tratto": "riserva turistica: dal ponte carrabile loc. Goen al ponte stradale Lille (a monte sbarramento di Brusson)",
+      "regola": "riserva/tratto gestito dal Consorzio Pesca Valle d'Aosta - serve permesso"
+    },
+    {
+      "id": "VDA-TUR-05",
+      "tipo": "turistica",
+      "comune": "Champorcher",
+      "corso_acqua": "Torrente Ayasse",
+      "tratto": "riserva turistica: da valle delle cascate (ex centralina Brun) alla presa del canale irriguo del Mellier",
+      "regola": "riserva/tratto gestito dal Consorzio Pesca Valle d'Aosta - serve permesso"
+    },
+    {
+      "id": "VDA-TUR-06",
+      "tipo": "turistica",
+      "comune": "Gressoney-La-Trinité",
+      "corso_acqua": "Torrente Lys",
+      "tratto": "riserva turistica: dal ponte di Betta al ponte di attraversamento della strada regionale",
+      "regola": "riserva/tratto gestito dal Consorzio Pesca Valle d'Aosta - serve permesso"
+    },
+    {
+      "id": "VDA-TUR-07",
+      "tipo": "turistica",
+      "comune": "Saint-Vincent",
+      "corso_acqua": "Lago La Palud",
+      "tratto": "riserva turistica: lago presso il Col de Joux",
+      "regola": "riserva/tratto gestito dal Consorzio Pesca Valle d'Aosta - serve permesso"
+    },
+    {
+      "id": "VDA-RIS-01",
+      "tipo": "riserva",
+      "comune": "Valpelline",
+      "corso_acqua": "Torrente Buthier",
+      "tratto": "riserva speciale a cattura: dal ponte loc. Crousa allo sbarramento CVA loc. Plan de la Ressa",
+      "regola": "riserva/tratto gestito dal Consorzio Pesca Valle d'Aosta - serve permesso"
+    },
+    {
+      "id": "VDA-RIS-02",
+      "tipo": "riserva",
+      "comune": "La Thuile",
+      "corso_acqua": "Lago Verney",
+      "tratto": "riserva speciale a cattura: lago Verney",
+      "regola": "riserva/tratto gestito dal Consorzio Pesca Valle d'Aosta - serve permesso"
+    },
+    {
+      "id": "VDA-NK-01",
+      "tipo": "no_kill",
+      "comune": "Pré-Saint-Didier",
+      "corso_acqua": "Dora di La Thuile",
+      "tratto": "tratto no-kill: dal ponte SS loc. Balma al ponte per la centrale Torrent (fraz. Elévaz)",
+      "regola": "riserva/tratto gestito dal Consorzio Pesca Valle d'Aosta - serve permesso"
+    },
+    {
+      "id": "VDA-NK-02",
+      "tipo": "no_kill",
+      "comune": "Cogne",
+      "corso_acqua": "Torrente Grand Eyvia",
+      "tratto": "tratto no-kill: dal ponte di Laval al ponte di Brenvé (di fronte al campo di calcio)",
+      "regola": "riserva/tratto gestito dal Consorzio Pesca Valle d'Aosta - serve permesso"
+    },
+    {
+      "id": "VDA-NK-03",
+      "tipo": "no_kill",
+      "comune": "Saint-Marcel",
+      "corso_acqua": "Fiume Dora Baltea",
+      "tratto": "tratto no-kill: dallo sbarramento CVA (Saint-Marcel) al ponte per le frazioni dell'envers (Chambave) - Comuni Chambave/Fénis/Nus/Saint-Marcel/Verrayes",
+      "regola": "riserva/tratto gestito dal Consorzio Pesca Valle d'Aosta - serve permesso"
+    },
+    {
+      "id": "VDA-NK-04",
+      "tipo": "no_kill",
+      "comune": "Brusson",
+      "corso_acqua": "Torrente Evançon",
+      "tratto": "tratto no-kill: dal ponte-canale 50m a valle della presa al ponte di Allésaz (Challand-Saint-Anselme) + torrente Graine",
+      "regola": "riserva/tratto gestito dal Consorzio Pesca Valle d'Aosta - serve permesso"
+    },
+    {
+      "id": "VDA-NK-05",
+      "tipo": "no_kill",
+      "comune": "Avise",
+      "corso_acqua": "Torrente Vertosan",
+      "tratto": "tratto no-kill: tutto il corso dalle sorgenti alla confluenza in Dora Baltea",
+      "regola": "riserva/tratto gestito dal Consorzio Pesca Valle d'Aosta - serve permesso"
+    }
+  ]
+}

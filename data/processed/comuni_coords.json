@@ -659,5 +659,53 @@
   "Varallo|Vercelli": {
     "lat": 45.8137306,
     "lon": 8.2592113
+  },
+  "Avise|Valle d'Aosta": {
+    "lat": 45.7085893,
+    "lon": 7.1397458
+  },
+  "Brusson|Valle d'Aosta": {
+    "lat": 45.7580348,
+    "lon": 7.7521754
+  },
+  "Champorcher|Valle d'Aosta": {
+    "lat": 45.6042155,
+    "lon": 7.5720289
+  },
+  "Cogne|Valle d'Aosta": {
+    "lat": 45.5898949,
+    "lon": 7.3817473
+  },
+  "Gressoney-La-Trinité|Valle d'Aosta": {
+    "lat": 45.872849,
+    "lon": 7.8250659
+  },
+  "La Thuile|Valle d'Aosta": {
+    "lat": 45.6971464,
+    "lon": 6.9182886
+  },
+  "Pré-Saint-Didier|Valle d'Aosta": {
+    "lat": 45.7639422,
+    "lon": 6.9853467
+  },
+  "Saint-Marcel|Valle d'Aosta": {
+    "lat": 45.7345596,
+    "lon": 7.4461962
+  },
+  "Saint-Rhémy-en-Bosses|Valle d'Aosta": {
+    "lat": 45.8237439,
+    "lon": 7.1821889
+  },
+  "Saint-Vincent|Valle d'Aosta": {
+    "lat": 45.7609541,
+    "lon": 7.6752455
+  },
+  "Valpelline|Valle d'Aosta": {
+    "lat": 45.8309653,
+    "lon": 7.3482093
+  },
+  "Valtournenche|Valle d'Aosta": {
+    "lat": 45.911551,
+    "lon": 7.6192547
   }
 }

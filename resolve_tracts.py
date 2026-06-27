@@ -16,7 +16,7 @@ Senza 'estremi' o river assente -> fallback Point sul comune (confidence 'bassa'
 
 Uso: python3 resolve_tracts.py <provincia>     (es. Biella)
 """
-import sys, json, math, time, urllib.request, urllib.parse
+import sys, json, math, unicodedata, time, urllib.request, urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -54,10 +54,13 @@ def load_ways(prov):
         if nm and len(g) >= 2: out.append({"name": nm, "geom": g})
     return out
 
+def _deacc(x):
+    return ''.join(c for c in unicodedata.normalize('NFD',x) if unicodedata.category(c)!='Mn')
+
 def river_components(ways, name_key):
     """ Way con nome che contiene name_key -> componenti connesse (liste di polilinee)."""
     k = name_key.lower()
-    sel = [w["geom"] for w in ways if k in w["name"].lower()]
+    sel = [w["geom"] for w in ways if _deacc(k) in _deacc(w["name"].lower())]
     comps = []  # ogni comp = lista di segmenti
     for g in sel:
         placed = False
