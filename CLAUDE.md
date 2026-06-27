@@ -92,12 +92,15 @@ pesca-piemonte/
 - **Confini provinciali**: `data/processed/province_boundaries.json` (Overpass relation ISO IT-TO/BI/NO/VB), render tratteggiato per provincia (ogni provincia = soprattassa/licenza separata; Torino in evidenza). Si nasconde col filtro provincia.
 - **Fat-click**: aloni invisibili (26px linee / 20px multilinee / cerchio 16px) per tocco facile su mobile.
 - **stitch() corretto**: non ricuce buchi >250m. Post-check revert tratti con salti interni >400m (artefatti).
-- Pipeline rigenerazione completa: `auto_estremi`→`resolve_tracts`→`sonnet_resolve --markers [--web]`→`whole_rivers`→`build_map`→ cp site/ → push.
+- Pipeline rigenerazione completa: `auto_estremi`→`resolve_tracts`→`road_bridges --apply`→`place_resolver --apply`→`sonnet_resolve --markers [--web]`→`whole_rivers`→`lakes_geocode --apply`→`qa_audit`→`build_map`→ cp index.html → push.
+- **Orchestratore nuova area**: `./run_region.sh <Area> [--web]` esegue tutta la geometria→QA→build (no push). Vedi **`PIPELINE.md`** per il flusso e2e completo + lezioni apprese (DDEP non-interi, laghi per nome, ordine lon/lat, rate-limit Overpass, ecc.).
+- **`lakes_geocode.py`**: laghi sullo specchio d'acqua (Nominatim per nome + fallback Overpass natural=water), non al centro comune. Output `data/processed/laghi_coords.json`.
+- **`qa_audit.py [Area]`**: gate QA (id duplicati, zone invisibili = BLOCCANTE; salti interni, over-long, lontano-da-comune, laghi-da-geocodare = warning). DEVE dare 0 bloccanti.
 
 ## Pubblicazione (GitHub Pages)
 - **LIVE**: https://valeriodolci.github.io/pesca-piemonte/ — repo PUBBLICO `ValerioDolci/pesca-piemonte` (solo `index.html` self-contained + README, in cartella locale `site/`).
 - Mappa mobile-friendly: pannello collassabile (☰), parte chiuso su schermi ≤640px.
-- **Aggiornare**: `python3 build_map.py` → `cp mappa/index.html site/index.html` → `cd site && git add -A && git commit && git push`. Pages si ribuilda in ~1 min.
+- **Aggiornare**: `python3 build_map.py` → `cp mappa/index.html index.html` → `git add -A && git commit --author "ValerioDolci <valerio.dolci89@gmail.com>" -m ...` → `git push origin main` (repo = questa cartella, serve `index.html` in ROOT; non c'è più `site/`). Pages si ribuilda in ~1 min.
 
 ## Ambiente
 

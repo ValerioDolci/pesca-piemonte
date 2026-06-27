@@ -7,14 +7,37 @@ Gate: il punto deve cadere entro GATE_KM dal comune della zona, altrimenti si sc
 Uso: python3 lakes_geocode.py            # diagnostica
      python3 lakes_geocode.py --apply    # scrive laghi_coords.json
 """
-import sys, json, glob, re
+import sys, json, glob, re, time, urllib.request, urllib.parse
 from pathlib import Path
 import resolve_tracts as R
 import place_resolver as P
+import road_bridges as RB
 
 ROOT = Path(__file__).parent
 GATE_KM = 10.0
 OUT = ROOT / "data/processed/laghi_coords.json"
+
+def _overpass_water(name, prov):
+    """Fallback per laghi/invasi alpini assenti da Nominatim: cerca lo specchio d'acqua
+    (natural=water / reservoir / water=lake) per nome dentro la provincia (ISO)."""
+    iso = RB.ISO.get(prov)
+    key = re.sub(r"\b(lago|laghi|laghetto|di|del|della|d')\b", "", name, flags=re.I).strip()
+    if not iso or len(key) < 3: return None
+    q = (f'[out:json][timeout:60];area["ISO3166-2"="{iso}"]->.b;'
+         f'(nwr["natural"="water"]["name"~"{key}",i](area.b);'
+         f'nwr["landuse"="reservoir"]["name"~"{key}",i](area.b);'
+         f'nwr["water"="lake"]["name"~"{key}",i](area.b););out center 1;')
+    try:
+        r = json.load(urllib.request.urlopen(urllib.request.Request(
+            "https://overpass-api.de/api/interpreter",
+            data=urllib.parse.urlencode({"data": q}).encode(),
+            headers={"User-Agent": "pesca/0.1"}), timeout=70))
+        for e in r["elements"]:
+            lat = e.get("lat") or e.get("center", {}).get("lat")
+            lon = e.get("lon") or e.get("center", {}).get("lon")
+            if lat: time.sleep(1.0); return (lat, lon)
+    except Exception: pass
+    time.sleep(1.0); return None
 
 def lake_name(corso):
     """Estrae un nome-lago pulito: rimuove ripetizioni-artefatto e tronca alle parole utili."""
@@ -45,10 +68,15 @@ def main(apply=False):
             q = f"{name}, {cm}, {prov}, Italia" if cm else f"{name}, {prov}, Italia"
             g = P.geocode(q, place=name, comune=cm or None)
             ok = bool(g) and (cpt is None or R.hav(g, cpt) <= GATE_KM * 1000)
+            src = "nominatim"
+            if not ok:                                # fallback Overpass (laghi/invasi alpini)
+                g2 = _overpass_water(name, prov)
+                if g2 and (cpt is None or R.hav(g2, cpt) <= GATE_KM * 1000):
+                    g, ok, src = g2, True, "overpass"
             d = (R.hav(g, cpt) / 1000) if (g and cpt) else None
             if ok:
                 out[it["id"]] = [round(g[0], 6), round(g[1], 6)]; kept += 1
-                print(f"  OK   {it['id']:13} {name[:30]:30} scarto-comune {d:.1f}km" if d is not None else f"  OK   {it['id']:13} {name[:30]:30}")
+                print(f"  OK   {it['id']:13} {name[:30]:30} scarto-comune {d:.1f}km [{src}]" if d is not None else f"  OK   {it['id']:13} {name[:30]:30} [{src}]")
             else:
                 skip += 1
                 why = "no-geocode" if not g else f"{d:.1f}km > {GATE_KM}km"
