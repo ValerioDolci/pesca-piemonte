@@ -33,6 +33,8 @@ def river_centroid(prov, corso):
     return min(pts, key=lambda p: (p[0] - mlat) ** 2 + (p[1] - mlon) ** 2)
 OUT = ROOT / "mappa"; OUT.mkdir(exist_ok=True)
 coords = json.load(open(ROOT / "data/processed/comuni_coords.json"))
+_lf = ROOT / "data/processed/laghi_coords.json"
+laghi = json.load(open(_lf)) if _lf.exists() else {}   # {id: [lat,lon]} marker sullo specchio d'acqua
 
 TIPI = {
     "protezione":   {"label": "Zona di protezione (divieto)", "color": "#9f1239"},
@@ -68,6 +70,8 @@ for gj in sorted(glob.glob(str(ROOT / "data/processed/*/tracts_*.geojson"))):
             add_line(base, [[c[1], c[0]] for c in g["coordinates"]])
         elif g["type"] == "MultiLineString":
             add_multiline(base, [[[c[1], c[0]] for c in seg] for seg in g["coordinates"]])
+        elif p["id"] in laghi:                       # lago: marker sullo specchio d'acqua
+            add_point({**base, "conf": "lago"}, laghi[p["id"]][0], laghi[p["id"]][1])
         else:
             add_point(base, g["coordinates"][1], g["coordinates"][0])
 
@@ -76,6 +80,12 @@ for zf in sorted(glob.glob(str(ROOT / "data/processed/*/zone_*.json"))):
     z = json.load(open(zf)); prov = z["provincia"]; fonti.setdefault(prov, z["fonte"])
     for it in z["zone"]:
         if it["id"] in added_ids: continue
+        if it["id"] in laghi:                        # lago geolocalizzato per nome -> sullo specchio d'acqua
+            add_point({"prov": prov, "tipo": it["tipo"], "comune": it["comune"],
+                       "corso": it.get("corso_acqua", ""), "tratto": it.get("tratto", ""),
+                       "regola": it.get("regola", ""), "conf": "lago", "len_m": None, "id": it["id"]},
+                      laghi[it["id"]][0], laghi[it["id"]][1])
+            continue
         pc = None
         for cand in [it["comune"]] + re.split(r"\s*-\s*|/|;|,", it["comune"]):
             cand = cand.strip()
