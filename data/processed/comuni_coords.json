@@ -579,5 +579,53 @@
   "Pinerolo|Torino": {
     "lat": 44.8873086,
     "lon": 7.3319454
+  },
+  "Borgosesia|Vercelli": {
+    "lat": 45.7166676,
+    "lon": 8.2768572
+  },
+  "Carisio|Vercelli": {
+    "lat": 45.40936,
+    "lon": 8.199027
+  },
+  "Cigliano|Vercelli": {
+    "lat": 45.3094496,
+    "lon": 8.0209788
+  },
+  "Formigliana|Vercelli": {
+    "lat": 45.429262,
+    "lon": 8.291928
+  },
+  "Greggio|Vercelli": {
+    "lat": 45.4557989,
+    "lon": 8.3788547
+  },
+  "Pezzana|Vercelli": {
+    "lat": 45.2598901,
+    "lon": 8.4958255
+  },
+  "Quarona|Vercelli": {
+    "lat": 45.757869,
+    "lon": 8.265721
+  },
+  "Saluggia|Vercelli": {
+    "lat": 45.2354962,
+    "lon": 8.0117019
+  },
+  "Stroppiana|Vercelli": {
+    "lat": 45.2304649,
+    "lon": 8.4565564
+  },
+  "Trino|Vercelli": {
+    "lat": 45.1939397,
+    "lon": 8.2969866
+  },
+  "Vercelli|Vercelli": {
+    "lat": 45.3251557,
+    "lon": 8.4227666
+  },
+  "Villarboit|Vercelli": {
+    "lat": 45.437362,
+    "lon": 8.337329
   }
 }

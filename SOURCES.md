@@ -50,3 +50,12 @@ Contiene localizzazione zone di divieto e zone no-kill. Regole specifiche note: 
 - [ ] VCO: cercare libretto/piano più recente del 2022 (DCP 7/2023)
 - [ ] Manifesto annuale Torino (sintesi 1 pagina) se utile
 - [ ] Eventuali shapefile/mappe ufficiali zone (per geometrie) — probabilmente assenti, da disegnare a mano
+
+## Vercelli (Provincia) — fonte ufficiale 2024 ✅
+
+| File | Documento | Fonte | Data |
+|------|-----------|-------|------|
+| `data/sources/vercelli/zone_protezione_2024_2028.pdf` | Zone di protezione fauna ittica | provincia.vercelli.it (Decreto Pres. 25 del 21/03/2024) | valide 2024-2028 |
+| `data/sources/vercelli/zone_nokill_2024_2028.pdf` | Zone di pesca no-kill | provincia.vercelli.it (Decreto 25/2024) | valide 2024-2028 |
+
+11 zone protezione + 3 no-kill. Acque: Sesia, Dora Baltea, Po, Elvo, Cervo, Rovasenda, Roggia Bona/Marcova, Roggione, Rio Venenza. Fonte ufficiale e attuale (a differenza di Novara).

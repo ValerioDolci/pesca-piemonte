@@ -1,0 +1,120 @@
+{
+  "provincia": "Vercelli",
+  "fonte": "Zone protezione e no-kill Provincia di Vercelli, Decreto Presidente n.25 del 21/03/2024 (valide 2024-2028)",
+  "fonte_file": "data/sources/vercelli/zone_protezione_2024_2028.pdf + zone_nokill_2024_2028.pdf",
+  "note": "Fonte ufficiale e attuale. 11 protezione + 3 no-kill.",
+  "zone": [
+    {
+      "id": "VC-PROT-01",
+      "tipo": "protezione",
+      "comune": "Vercelli",
+      "corso_acqua": "Roggione di Vercelli",
+      "tratto": "dal ponte della tangenziale (rotonda per San Germano) fino a 200 m a valle",
+      "regola": "zona di protezione - divieto di pesca"
+    },
+    {
+      "id": "VC-PROT-02",
+      "tipo": "protezione",
+      "comune": "Greggio",
+      "corso_acqua": "Zone umide Parco Lame del Sesia",
+      "tratto": "zone umide e corsi d'acqua nel parco (escluso il corso principale del Sesia), Comuni di Greggio, Albano V.se, Oldenico, Villata",
+      "regola": "zona di protezione - divieto di pesca"
+    },
+    {
+      "id": "VC-PROT-03",
+      "tipo": "protezione",
+      "comune": "Pezzana",
+      "corso_acqua": "Roggia Bona",
+      "tratto": "dal ponte della SP Pezzana-Caresana (C.na Castelletto) alle paratoie della C.na Bellincontro (Caresana)",
+      "regola": "zona di protezione - divieto di pesca"
+    },
+    {
+      "id": "VC-PROT-04",
+      "tipo": "protezione",
+      "comune": "Saluggia",
+      "corso_acqua": "Fiume Dora Baltea",
+      "tratto": "600 m presso lo stabilimento CNEN-EUREX: da 300 m a monte a 300 m a valle del canale di scarico",
+      "regola": "zona di protezione - divieto di pesca"
+    },
+    {
+      "id": "VC-PROT-05",
+      "tipo": "protezione",
+      "comune": "Cigliano",
+      "corso_acqua": "Fiume Dora Baltea",
+      "tratto": "tutto il tratto scorrente in comune di Cigliano",
+      "regola": "zona di protezione - divieto di pesca"
+    },
+    {
+      "id": "VC-PROT-06",
+      "tipo": "protezione",
+      "comune": "Trino",
+      "corso_acqua": "Fiume Po e Roggione Scolmatore",
+      "tratto": "1500 m prospicienti la Centrale E. Fermi + canale scolmatore Roggione (escluso tratto a monte della recinzione)",
+      "regola": "zona di protezione - divieto di pesca"
+    },
+    {
+      "id": "VC-PROT-07",
+      "tipo": "protezione",
+      "comune": "Carisio",
+      "corso_acqua": "Torrente Elvo",
+      "tratto": "tra il ponte dell'autostrada TO-MI e il confine con la provincia di Biella",
+      "regola": "zona di protezione - divieto di pesca"
+    },
+    {
+      "id": "VC-PROT-08",
+      "tipo": "protezione",
+      "comune": "Villarboit",
+      "corso_acqua": "Torrente Rovasenda",
+      "tratto": "tra il ponte dell'autostrada TO-MI e il ponte della SP Albano-Villarboit",
+      "regola": "zona di protezione - divieto di pesca"
+    },
+    {
+      "id": "VC-PROT-09",
+      "tipo": "protezione",
+      "comune": "Borgosesia",
+      "corso_acqua": "Fiume Sesia",
+      "tratto": "da 50 m a monte del ponte di Aranco a valle della diga di Montrigone per circa 50 m",
+      "regola": "zona di protezione - divieto di pesca"
+    },
+    {
+      "id": "VC-PROT-10",
+      "tipo": "protezione",
+      "comune": "Borgosesia",
+      "corso_acqua": "Rio Venenza",
+      "tratto": "tra il Ponte Mulino e la confluenza con il Torrente Sessera (Frazione Guardella)",
+      "regola": "zona di protezione - divieto di pesca"
+    },
+    {
+      "id": "VC-PROT-11",
+      "tipo": "protezione",
+      "comune": "Quarona",
+      "corso_acqua": "Fiume Sesia",
+      "tratto": "dalla diga di Doccio fino a 300 m a valle",
+      "regola": "zona di protezione - divieto di pesca"
+    },
+    {
+      "id": "VC-NK-01",
+      "tipo": "no_kill",
+      "comune": "Stroppiana",
+      "corso_acqua": "Roggia Marcova",
+      "tratto": "~200 m dalle paratoie a monte al ponte sulla SS Vercelli-Casale",
+      "regola": "no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "VC-NK-02",
+      "tipo": "no_kill",
+      "comune": "Formigliana",
+      "corso_acqua": "Torrente Cervo",
+      "tratto": "dal ponte della SP Formigliana-Buronzo a valle per 1500 m fino alla diga naturale",
+      "regola": "no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "VC-NK-03",
+      "tipo": "no_kill",
+      "comune": "Pezzana",
+      "corso_acqua": "Roggia Bona",
+      "tratto": "dalla passerella del Navilone alle paratoie di Pezzana (Comuni Pezzana e Asigliano)",
+      "regola": "no-kill, rilascio obbligatorio"
+    }
+  ]
+}

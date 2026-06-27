@@ -164,7 +164,7 @@ L.tileLayer('https://{{s}}.basemaps.cartocdn.com/light_all/{{z}}/{{x}}/{{y}}{{r}
   attribution:'&copy; OpenStreetMap, &copy; CARTO', maxZoom:19, opacity:0.9 }}).addTo(map);
 
 // confini provinciali (ogni provincia = soprattassa/licenza separata)
-const PROVCOL = {{Torino:'#9f1239', Biella:'#0f766e', Novara:'#155e75', VCO:'#6b21a8'}};
+const PROVCOL = {{Torino:'#9f1239', Biella:'#0f766e', Novara:'#155e75', VCO:'#6b21a8', Vercelli:'#7c2d12'}};
 const boundLayers = {{}};
 Object.entries(BOUNDS).forEach(([prov,segs])=>{{
   const lg=L.layerGroup();
