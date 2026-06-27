@@ -1,0 +1,128 @@
+{
+  "provincia": "Alessandria",
+  "fonte": "Pescare in Provincia di Alessandria 2025 (Provincia di Alessandria)",
+  "fonte_file": "data/sources/alessandria/pescare_2025.pdf",
+  "note": "Estratte zone protezione + ZRP no-kill principali. Esistono anche numerosi tratti DDEP Bormida (concessione) non ancora trascritti.",
+  "zone": [
+    {
+      "id": "AL-PROT-01",
+      "tipo": "protezione",
+      "comune": "Fraconalto",
+      "corso_acqua": "Torrente Lemme",
+      "tratto": "dalle origini alla briglia nell'abitato di Molini (Comuni Fraconalto e Voltaggio) - divieto",
+      "regola": "divieto / protezione"
+    },
+    {
+      "id": "AL-PROT-02",
+      "tipo": "protezione",
+      "comune": "Voltaggio",
+      "corso_acqua": "Rio Barabin",
+      "tratto": "rio Barabin e rio Tavolin dalle origini alla confluenza col rio Acquestriate - divieto",
+      "regola": "divieto / protezione"
+    },
+    {
+      "id": "AL-PROT-03",
+      "tipo": "protezione",
+      "comune": "Cabella Ligure",
+      "corso_acqua": "Torrente Gordenella",
+      "tratto": "dalle origini alla confluenza col torrente Borbera (Comuni Cabella Ligure e Mongiardino Ligure) - divieto",
+      "regola": "divieto / protezione"
+    },
+    {
+      "id": "AL-PROT-04",
+      "tipo": "protezione",
+      "comune": "Grondona",
+      "corso_acqua": "Rio Dorzegna",
+      "tratto": "tutto il suo corso nel comune di Grondona - divieto",
+      "regola": "divieto / protezione"
+    },
+    {
+      "id": "AL-PROT-05",
+      "tipo": "protezione",
+      "comune": "Molare",
+      "corso_acqua": "Rio di Palareia",
+      "tratto": "rio di Palareia (rio del Mulino) e affluenti, loc. Olbicella - divieto",
+      "regola": "divieto / protezione"
+    },
+    {
+      "id": "AL-PROT-06",
+      "tipo": "protezione",
+      "comune": "Bosco Marengo",
+      "corso_acqua": "Torrente Orba",
+      "tratto": "tratto nella Riserva Naturale Speciale del T. Orba, tra C.na S. Michele e C.na Cassetti (Bosco Marengo/Casalcermelli) - divieto",
+      "regola": "divieto / protezione"
+    },
+    {
+      "id": "AL-PROT-07",
+      "tipo": "protezione",
+      "comune": "Valenza",
+      "corso_acqua": "Fiume Po",
+      "tratto": "Lanche del Po nella Riserva Naturale Garzaia di Valenza, sponda sx presso il ponte di Valenza - divieto",
+      "regola": "divieto / protezione"
+    },
+    {
+      "id": "AL-NK-01",
+      "tipo": "no_kill",
+      "comune": "Cabella Ligure",
+      "corso_acqua": "Torrente Borbera",
+      "tratto": "ZRP no-kill: dal ponte delle Bocche a valle fino al ponte di Rosano",
+      "regola": "ZRP no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "AL-NK-02",
+      "tipo": "no_kill",
+      "comune": "Casaleggio Boiro",
+      "corso_acqua": "Torrente Gorzente",
+      "tratto": "ZRP no-kill: dalla diga di compensazione (confluenza rio Roverno) alla confluenza col Piota in loc. Cirimilla (Casaleggio Boiro/Lerma)",
+      "regola": "ZRP no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "AL-NK-03",
+      "tipo": "no_kill",
+      "comune": "Ovada",
+      "corso_acqua": "Torrente Orba",
+      "tratto": "ZRP no-kill: dalla loc. Laione alla diga di derivazione del canale di Rocca Grimalda",
+      "regola": "ZRP no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "AL-NK-04",
+      "tipo": "no_kill",
+      "comune": "Masio",
+      "corso_acqua": "Fiume Tanaro",
+      "tratto": "ZRP no-kill: dal ponte della S.P. 247, 2 km a monte e 1 km a valle",
+      "regola": "ZRP no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "AL-NK-05",
+      "tipo": "no_kill",
+      "comune": "Cassine",
+      "corso_acqua": "Fiume Bormida",
+      "tratto": "ZRP no-kill integrale: dalla diga di Cassine per 2 km a monte (Cassine/Castelnuovo Bormida)",
+      "regola": "ZRP no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "AL-NK-06",
+      "tipo": "no_kill",
+      "comune": "Acqui Terme",
+      "corso_acqua": "Fiume Bormida",
+      "tratto": "ZRP no-kill: dal ponte della S.P. 456 (corso Bagni) alla traversa della derivazione",
+      "regola": "ZRP no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "AL-NK-07",
+      "tipo": "no_kill",
+      "comune": "Visone",
+      "corso_acqua": "Fiume Bormida",
+      "tratto": "ZRP no-kill: dallo sbarramento della derivazione di Visone per 1 km a monte",
+      "regola": "ZRP no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "AL-NK-08",
+      "tipo": "no_kill",
+      "comune": "San Sebastiano Curone",
+      "corso_acqua": "Torrente Curone",
+      "tratto": "ZRP no-kill: tratto compreso tra ponte Lunassi-Brentassi e le vasche ex allevamento",
+      "regola": "ZRP no-kill, rilascio obbligatorio"
+    }
+  ]
+}

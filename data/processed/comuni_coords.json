@@ -914,5 +914,61 @@
   "Vinadio|Cuneo": {
     "lat": 44.2761309,
     "lon": 7.0947094
+  },
+  "Acqui Terme|Alessandria": {
+    "lat": 44.6743287,
+    "lon": 8.4684633
+  },
+  "Bosco Marengo|Alessandria": {
+    "lat": 44.825551,
+    "lon": 8.677248
+  },
+  "Cabella Ligure|Alessandria": {
+    "lat": 44.673751,
+    "lon": 9.09576
+  },
+  "Casaleggio Boiro|Alessandria": {
+    "lat": 44.612903,
+    "lon": 8.7396852
+  },
+  "Cassine|Alessandria": {
+    "lat": 44.749948,
+    "lon": 8.527846
+  },
+  "Fraconalto|Alessandria": {
+    "lat": 44.591047,
+    "lon": 8.878456
+  },
+  "Grondona|Alessandria": {
+    "lat": 44.6906561,
+    "lon": 8.9567074
+  },
+  "Masio|Alessandria": {
+    "lat": 44.8666111,
+    "lon": 8.4201209
+  },
+  "Molare|Alessandria": {
+    "lat": 44.6204339,
+    "lon": 8.6011696
+  },
+  "Ovada|Alessandria": {
+    "lat": 44.638346,
+    "lon": 8.64525
+  },
+  "San Sebastiano Curone|Alessandria": {
+    "lat": 44.7858161,
+    "lon": 9.0646537
+  },
+  "Valenza|Alessandria": {
+    "lat": 45.0140247,
+    "lon": 8.6458214
+  },
+  "Visone|Alessandria": {
+    "lat": 44.6527865,
+    "lon": 8.506379
+  },
+  "Voltaggio|Alessandria": {
+    "lat": 44.6203576,
+    "lon": 8.8426697
   }
 }
