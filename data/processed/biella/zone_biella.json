@@ -156,9 +156,13 @@
           "confluenza": "Sessera"
         },
         "a": {
-          "sorgente": true
+          "punto": [
+            45.686115,
+            8.249539
+          ]
         }
-      }
+      },
+      "note": "ponte SP121 = Via Garibaldi in Crevacuore (geom OSM)"
     },
     {
       "id": "BI-NK-01",
