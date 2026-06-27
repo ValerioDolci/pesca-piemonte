@@ -191,7 +191,7 @@
     {
       "id": "CN-PROT-024",
       "tipo": "protezione",
-      "comune": "Giovanni",
+      "comune": "Cuneo",
       "corso_acqua": "Canale Vermenagna",
       "tratto": "dal ponte in località Tetto Gautieri a valle sino a 300 mt dalla Borgata Baracchi per una lunghezza di mt. 800",
       "regola": "divieto / zona di protezione"
@@ -199,7 +199,7 @@
     {
       "id": "CN-PROT-025",
       "tipo": "protezione",
-      "comune": "Giovanni",
+      "comune": "Cuneo",
       "corso_acqua": "Canale Vermenagna",
       "tratto": "dal ponte in località Tetto Gautieri a valle fino alla presa irrigua sul canale presso Casa Giordano per una lunghezza di 300 mt.. Demonte",
       "regola": "divieto / zona di protezione"
@@ -279,7 +279,7 @@
     {
       "id": "CN-PROT-035",
       "tipo": "protezione",
-      "comune": "Feisoglio",
+      "comune": "Garessio",
       "corso_acqua": "Rio Bianco",
       "tratto": "da circa 500 metri a monte del ponte di pietra sulla strada comunale “Sparvaira” a valle sino a circa 130 metri dallo stesso (il tratto è costeggiato da strada comunale sterrata). Lagnasco Canale del Molino: dallo sbocco",
       "regola": "divieto / zona di protezione"
@@ -287,7 +287,7 @@
     {
       "id": "CN-PROT-036",
       "tipo": "protezione",
-      "comune": "Feisoglio",
+      "comune": "Limone Piemonte",
       "corso_acqua": "Torrente Vermenagna",
       "tratto": "dal ponte di piazza S.Sebastiano a valle sino alla confluenza del Rio di S. Giovanni",
       "regola": "divieto / zona di protezione"
@@ -295,7 +295,7 @@
     {
       "id": "CN-PROT-037",
       "tipo": "protezione",
-      "comune": "Feisoglio",
+      "comune": "Limone Piemonte",
       "corso_acqua": "Torrente Vermenagna",
       "tratto": "in Fraz. Limonetto dal ponte del Mulino a valle sino al ponte di Tetto Giganti. Magliano Alpi",
       "regola": "divieto / zona di protezione"
