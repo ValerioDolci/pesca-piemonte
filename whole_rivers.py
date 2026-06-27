@@ -27,14 +27,17 @@ def river_keys(corso):
 def matches(name, key):
     return bool(key) and len(key) >= 2 and re.search(r"\b" + re.escape(deacc(key)) + r"\b", deacc(name.lower()))
 
-SPECIFIC = re.compile(r'\b(dal|dalla|dall\'|da)\b.{0,80}\b(al|alla|all\'|fino|sino|alla foce|allo sbocco|al ponte|alla confluenza)\b', re.I)
+MOUTH = re.compile(r'\b(confluenz|foce|sbocc)', re.I)  # estremo = bocca del fiume -> intero corso
+ENTIRE = re.compile(r'\b(tutto il corso|tutto il suo corso|intero corso|per tutto)\b', re.I)
 def is_whole(z):
     tr = z.get("tratto", "").lower()
-    # un tratto con estremi espliciti "dal X al Y" NON è intero-corso (è specifico)
-    if SPECIFIC.search(tr) and not any(h in tr for h in WHOLE_HINT): return False
     if z["tipo"] == "salmonicola": return True
     if z["tipo"] in ("ddep", "concessione"):
-        return any(h in tr for h in WHOLE_HINT) or "tratto scorrente nei comuni" in tr or z["tipo"] == "ddep"
+        # intero corso SOLO se: "tutto/intero il corso", oppure "dalle origini ... alla confluenza/foce/sbocco".
+        # "nei comuni X,Y", "da A a B", "dalle origini al bacino/diga Y" = tratto SPECIFICO -> non intero.
+        if ENTIRE.search(tr): return True
+        if "dalle origini" in tr and MOUTH.search(tr): return True
+        return False
     return False
 
 def run(prov):

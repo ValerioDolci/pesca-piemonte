@@ -4,10 +4,33 @@ data/processed/<prov>/tracts_<prov>.geojson (tratti precisi LineString + Point f
 altrimenti i marker da data/processed/<prov>/zone_<prov>.json (geocodifica comune).
 Riproducibile.   Uso: python3 build_map.py  ->  mappa/index.html
 """
-import json, glob, html, re
+import json, glob, html, re, unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).parent
+_ways_cache = {}
+def _deacc(x): return ''.join(c for c in unicodedata.normalize('NFD', x) if unicodedata.category(c) != 'Mn')
+
+def river_centroid(prov, corso):
+    """Medoide dei punti OSM del corso entro la provincia: marker rappresentativo
+    SUL fiume per zone senza comune geocodabile (es. DDEP 'nei Comuni di X,Y,Z')."""
+    wf = ROOT / f"data/processed/{prov.lower()}/osm_waterways.json"
+    if not wf.exists(): return None
+    if prov not in _ways_cache:
+        osm = json.load(open(wf))
+        _ways_cache[prov] = [(_deacc(w["tags"]["name"].lower()),
+                              [(p["lat"], p["lon"]) for p in w.get("geometry", [])])
+                             for w in osm["elements"]
+                             if w.get("tags", {}).get("name") and len(w.get("geometry", [])) >= 2]
+    s = corso.lower()
+    s = re.sub(r'\b(torrenti|torrente|rio|rii|fiume|lago|laghi|canale|rogge|roggia|bealera|bacino di|t\.)\b', ' ', s)
+    key = _deacc(re.split(r'\s+[-–]\s+|\s+e\s+|,', s)[0].strip())
+    if len(key) < 2: return None
+    rx = re.compile(r'\b' + re.escape(key) + r'\b')
+    pts = [p for nm, g in _ways_cache[prov] if rx.search(nm) for p in g]
+    if not pts: return None
+    mlat = sum(p[0] for p in pts) / len(pts); mlon = sum(p[1] for p in pts) / len(pts)
+    return min(pts, key=lambda p: (p[0] - mlat) ** 2 + (p[1] - mlon) ** 2)
 OUT = ROOT / "mappa"; OUT.mkdir(exist_ok=True)
 coords = json.load(open(ROOT / "data/processed/comuni_coords.json"))
 
@@ -54,14 +77,20 @@ for zf in sorted(glob.glob(str(ROOT / "data/processed/*/zone_*.json"))):
     for it in z["zone"]:
         if it["id"] in added_ids: continue
         pc = None
-        for cand in [it["comune"]] + re.split(r"\s*-\s*|/", it["comune"]):
-            pc = coords.get(f"{cand.strip()}|{prov}")
+        for cand in [it["comune"]] + re.split(r"\s*-\s*|/|;|,", it["comune"]):
+            cand = cand.strip()
+            if cand: pc = coords.get(f"{cand}|{prov}")
             if pc: break
-        if not pc: continue
+        if pc:
+            lat, lon, conf = pc["lat"], pc["lon"], ""
+        else:  # nessun comune geocodabile (es. DDEP coi comuni solo nel testo) -> marker sul corso
+            rc = river_centroid(prov, it.get("corso_acqua", ""))
+            if not rc: continue
+            lat, lon, conf = rc[0], rc[1], "corso-approx"
         add_point({"prov": prov, "tipo": it["tipo"], "comune": it["comune"],
                    "corso": it.get("corso_acqua", ""), "tratto": it.get("tratto", ""),
-                   "regola": it.get("regola", ""), "conf": "", "len_m": None, "id": it["id"]},
-                  pc["lat"], pc["lon"])
+                   "regola": it.get("regola", ""), "conf": conf, "len_m": None, "id": it["id"]},
+                  lat, lon)
 
 bpath = ROOT / "data/processed/province_boundaries.json"
 boundaries = json.load(open(bpath)) if bpath.exists() else {}
