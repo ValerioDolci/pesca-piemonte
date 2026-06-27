@@ -707,5 +707,212 @@
   "Valtournenche|Valle d'Aosta": {
     "lat": 45.911551,
     "lon": 7.6192547
+  },
+  "Acceglio|Cuneo": {
+    "lat": 44.4812381,
+    "lon": 6.9462957
+  },
+  "Affluente|Cuneo": null,
+  "Baldi|Cuneo": {
+    "lat": 44.423633,
+    "lon": 7.761136
+  },
+  "Beinette|Cuneo": {
+    "lat": 44.3648103,
+    "lon": 7.6534364
+  },
+  "Bellino|Cuneo": {
+    "lat": 44.584682,
+    "lon": 7.0152803
+  },
+  "Benevagienna|Cuneo": {
+    "lat": 44.5597144,
+    "lon": 7.8569267
+  },
+  "Bosco|Cuneo": {
+    "lat": 44.4744894,
+    "lon": 7.4834355
+  },
+  "Boves|Cuneo": {
+    "lat": 44.2994897,
+    "lon": 7.5677018
+  },
+  "Briga Alta|Cuneo": {
+    "lat": 44.1489305,
+    "lon": 7.7305099
+  },
+  "Busca|Cuneo": {
+    "lat": 44.5084303,
+    "lon": 7.4499173
+  },
+  "Canosio|Cuneo": {
+    "lat": 44.455827,
+    "lon": 7.082721
+  },
+  "Caprauna|Cuneo": {
+    "lat": 44.1189015,
+    "lon": 7.9502569
+  },
+  "Cardè|Cuneo": {
+    "lat": 44.73826,
+    "lon": 7.4752799
+  },
+  "Castelletto Stura|Cuneo": {
+    "lat": 44.4274812,
+    "lon": 7.6320592
+  },
+  "Castelmagno|Cuneo": {
+    "lat": 44.40632,
+    "lon": 7.1858826
+  },
+  "Cavallerleone|Cuneo": {
+    "lat": 44.7366939,
+    "lon": 7.6554046
+  },
+  "Cavallermaggiore|Cuneo": {
+    "lat": 44.7095758,
+    "lon": 7.6930313
+  },
+  "Ceva|Cuneo": {
+    "lat": 44.376912,
+    "lon": 8.0254492
+  },
+  "Costanzo|Cuneo": {
+    "lat": 44.4898853,
+    "lon": 7.3941333
+  },
+  "Cuneo|Cuneo": {
+    "lat": 44.389633,
+    "lon": 7.5479007
+  },
+  "Demonte|Cuneo": {
+    "lat": 44.3243071,
+    "lon": 7.3033518
+  },
+  "Feisoglio|Cuneo": {
+    "lat": 44.5463108,
+    "lon": 8.1061387
+  },
+  "Frassino|Cuneo": {
+    "lat": 44.5642719,
+    "lon": 7.2700476
+  },
+  "Garessio|Cuneo": {
+    "lat": 44.1980273,
+    "lon": 7.9801523
+  },
+  "Giovanni|Cuneo": {
+    "lat": 44.3999025,
+    "lon": 8.0788914
+  },
+  "Grana|Cuneo": {
+    "lat": 44.434771,
+    "lon": 7.4944579
+  },
+  "Langhe|Cuneo": {
+    "lat": 44.4978516,
+    "lon": 7.9765202
+  },
+  "Macra|Cuneo": {
+    "lat": 44.5002483,
+    "lon": 7.1792602
+  },
+  "Magliano Alpi|Cuneo": {
+    "lat": 44.4620365,
+    "lon": 7.8053407
+  },
+  "Moiola|Cuneo": {
+    "lat": 44.3124713,
+    "lon": 7.3899565
+  },
+  "Mondovì|Cuneo": {
+    "lat": 44.4086654,
+    "lon": 7.8079298
+  },
+  "Montanera|Cuneo": {
+    "lat": 44.4589862,
+    "lon": 7.6758123
+  },
+  "Moretta|Cuneo": {
+    "lat": 44.7662387,
+    "lon": 7.5409705
+  },
+  "Narzole|Cuneo": {
+    "lat": 44.5972826,
+    "lon": 7.8687122
+  },
+  "Oncino - Ostana|Cuneo": null,
+  "Pianfei|Cuneo": {
+    "lat": 44.36456,
+    "lon": 7.7135979
+  },
+  "Pietraporzio|Cuneo": {
+    "lat": 44.3437676,
+    "lon": 7.0334623
+  },
+  "Polonghera|Cuneo": {
+    "lat": 44.7878596,
+    "lon": 7.5974959
+  },
+  "Priero|Cuneo": {
+    "lat": 44.3621277,
+    "lon": 8.101295
+  },
+  "Priola|Cuneo": {
+    "lat": 44.2546482,
+    "lon": 8.0221429
+  },
+  "Racconigi|Cuneo": {
+    "lat": 44.776978,
+    "lon": 7.6612137
+  },
+  "Riserva Naturale Speciale Crava-Morozzo|Cuneo": null,
+  "Roaschia|Cuneo": {
+    "lat": 44.2561537,
+    "lon": 7.4583386
+  },
+  "Robilante|Cuneo": {
+    "lat": 44.2855043,
+    "lon": 7.5163729
+  },
+  "Roccavione|Cuneo": {
+    "lat": 44.2970414,
+    "lon": 7.4715263
+  },
+  "Rossana|Cuneo": {
+    "lat": 44.5357937,
+    "lon": 7.4285879
+  },
+  "Saliceto|Cuneo": {
+    "lat": 44.4168706,
+    "lon": 8.1839222
+  },
+  "Sanfront|Cuneo": {
+    "lat": 44.6388254,
+    "lon": 7.2992614
+  },
+  "Savigliano|Cuneo": {
+    "lat": 44.6138134,
+    "lon": 7.6412661
+  },
+  "Stroppo|Cuneo": {
+    "lat": 44.5111441,
+    "lon": 7.1283651
+  },
+  "Stura|Cuneo": {
+    "lat": 44.4963925,
+    "lon": 7.7198804
+  },
+  "Trinità|Cuneo": {
+    "lat": 44.5088963,
+    "lon": 7.7635187
+  },
+  "Valdieri|Cuneo": {
+    "lat": 44.2245672,
+    "lon": 7.284307
+  },
+  "Vinadio|Cuneo": {
+    "lat": 44.2761309,
+    "lon": 7.0947094
   }
 }

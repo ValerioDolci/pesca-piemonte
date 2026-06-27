@@ -1,0 +1,704 @@
+{
+  "provincia": "Cuneo",
+  "fonte": "Divieti di pesca e zone no-kill - Provincia di Cuneo 2025 (Carta acque pescabili)",
+  "fonte_file": "data/sources/cuneo/zone_2025.pdf",
+  "note": "87 zone (protezione/divieto + no-kill, anche DDEP gestiti dalla Provincia). Fonte ufficiale 2025.",
+  "zone": [
+    {
+      "id": "CN-PROT-001",
+      "tipo": "protezione",
+      "comune": "Acceglio",
+      "corso_acqua": "Torrente Maira",
+      "tratto": "dal ponte in prossimità della chiesa di San Pietro, a valle, sino al ponte di legno in centro paese, Loc. “Ponte Maira”",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-002",
+      "tipo": "protezione",
+      "comune": "Acceglio",
+      "corso_acqua": "Rio Unerzio",
+      "tratto": "dall’opera di presa della Centrale idroelettrica “Frere 2”, a valle, sino al ponte collocato al termine del paese in Loc. Chialvetta",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-003",
+      "tipo": "protezione",
+      "comune": "Beinette",
+      "corso_acqua": "Torrente Brobbietto",
+      "tratto": "da via Opifizi alla confluenza con il T. Brobbio",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-004",
+      "tipo": "protezione",
+      "comune": "Beinette",
+      "corso_acqua": "Torrente Josina",
+      "tratto": "dalla pianca dell’ex circolo Acli alla confluenza con il T. Brobbio",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-005",
+      "tipo": "protezione",
+      "comune": "Beinette",
+      "corso_acqua": "Canale Serro",
+      "tratto": "dalla Cascina Gioppi alla Cascina Maruffi per una lunghezza di mt. 800. Bellino",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-006",
+      "tipo": "protezione",
+      "comune": "Bellino",
+      "corso_acqua": "Torrente Varaita",
+      "tratto": "dal ponte di Borgata Chiesa a valle sino al confine con il comune di Casteldelfino. Benevagienna",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-007",
+      "tipo": "protezione",
+      "comune": "Benevagienna",
+      "corso_acqua": "Canale Sarmassa",
+      "tratto": "dal ponte dell’Autostrada A6 sino al ponte sulla S.P. n. 206. Boves",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-008",
+      "tipo": "protezione",
+      "comune": "Boves",
+      "corso_acqua": "Canale Comuna di Boves",
+      "tratto": "dall'incile del canale sino agli spartitori in località Tetto Giuta, in frazione Mellana, per circa 3100 mt. Briga Alta",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-009",
+      "tipo": "protezione",
+      "comune": "Briga Alta",
+      "corso_acqua": "Rio Nivorina di Upega",
+      "tratto": "tratto compreso tra le sorgenti e la confluenza con il T. Negrone. Busca",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-010",
+      "tipo": "protezione",
+      "comune": "Busca",
+      "corso_acqua": "Canale Ceaglia",
+      "tratto": "dalla presa in località Morra del Villar fino alla frazione San Mauro di Busca",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-011",
+      "tipo": "protezione",
+      "comune": "Busca",
+      "corso_acqua": "Canale Varaglia",
+      "tratto": "dalla diga in frazione Castelletto alla frazione Roata Raffo per circa 2000 mt.",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-012",
+      "tipo": "protezione",
+      "comune": "Busca",
+      "corso_acqua": "Rio Talù",
+      "tratto": "dal “Salto del Canile” in località Morra S. Giovanni sino allo sbocco nel T. Maira",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-013",
+      "tipo": "protezione",
+      "comune": "Busca",
+      "corso_acqua": "Canale Attissano",
+      "tratto": "dallo scaricatore nel torrente Maira sino al ponte di via Pignolo in fraz. Attissano. Canosio",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-014",
+      "tipo": "protezione",
+      "comune": "Canosio",
+      "corso_acqua": "Rio Preit",
+      "tratto": "tratto scorrente dalla briglia per la riduzione della velocità delle acque, nei pressi del bivi o per il Colle di San Giovanni, al ponte dell’abitato di Canosio sulla S.P. 283 per circa 1000 mt. Caprauna",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-015",
+      "tipo": "protezione",
+      "comune": "Caprauna",
+      "corso_acqua": "Torrente Pennavaira",
+      "tratto": "dalla sorgente sino alla confluenza del Rio Arena Castelletto Stura",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-016",
+      "tipo": "protezione",
+      "comune": "Castelletto Stura",
+      "corso_acqua": "Canale Sarmassa",
+      "tratto": "dal salto dell’ex Azienda Softan al confine con il comune di Montanera per circa 1000 mt.",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-017",
+      "tipo": "protezione",
+      "comune": "Castelletto Stura",
+      "corso_acqua": "Canale Nuovo di Bene",
+      "tratto": "dal molino di S. Anselmo sino a 200 mt. a valle del ponte strada comunale di Revellino per 1300 mt.",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-018",
+      "tipo": "protezione",
+      "comune": "Castelletto Stura",
+      "corso_acqua": "Canale Bealerasso di Bene",
+      "tratto": "dalla biforcazione di Riforano al ponte della strada comunale presso la Chiesa per 1500 mt. circa. Castelmagno",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-019",
+      "tipo": "protezione",
+      "comune": "Castelmagno",
+      "corso_acqua": "Torrente Grana",
+      "tratto": "dal ponte in località Baite Parvo a valle sino all’opera di presa della centrale idroelettrica Fies.Cavallermaggiore",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-020",
+      "tipo": "protezione",
+      "comune": "Cavallermaggiore",
+      "corso_acqua": "Torrente Maira",
+      "tratto": "dalla confluenza con il T. Mellea a valle sino al ponte S.P.129 per Saluzzo",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-021",
+      "tipo": "protezione",
+      "comune": "Macra",
+      "corso_acqua": "Rio Intersile",
+      "tratto": "dalla nuova passerella che attraversa il rio sul sentiero di collegamento tra le borgate Combe e Torre sino alla confluenza con il Rio Tibert per circa 2000 mt.. Ceva",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-022",
+      "tipo": "protezione",
+      "comune": "Ceva",
+      "corso_acqua": "Rio Ricorezzo",
+      "tratto": "dall’opera di presa della Bealera Mollere a valle sino alla confluenza nel Rio Cevetta. Ceva–Sale S. Giovanni",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-023",
+      "tipo": "protezione",
+      "comune": "Giovanni",
+      "corso_acqua": "Rio Canile",
+      "tratto": "dalla confluenza con il torrente Cevetta a monte per 400 metri Costigliole Saluzzo Bedale del Corso: dalla passerella in prossimità della derivazione detta “della quarta di Costigliole” a valle sino alla strada vicinale ",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-024",
+      "tipo": "protezione",
+      "comune": "Giovanni",
+      "corso_acqua": "Canale Vermenagna",
+      "tratto": "dal ponte in località Tetto Gautieri a valle sino a 300 mt dalla Borgata Baracchi per una lunghezza di mt. 800",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-025",
+      "tipo": "protezione",
+      "comune": "Giovanni",
+      "corso_acqua": "Canale Vermenagna",
+      "tratto": "dal ponte in località Tetto Gautieri a valle fino alla presa irrigua sul canale presso Casa Giordano per una lunghezza di 300 mt.. Demonte",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-026",
+      "tipo": "protezione",
+      "comune": "Demonte",
+      "corso_acqua": "Torrente Kant",
+      "tratto": "dalla briglia di cemento a monte del ponte nuovo di Perosa sino a 100 mt. a valle del Ponte Sottano",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-027",
+      "tipo": "protezione",
+      "comune": "Demonte",
+      "corso_acqua": "Canale Centrale ENEL",
+      "tratto": "in località Bagnolin dallo sbocco della centrale fino alla confluenza con il F. Stura. Feisoglio",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-028",
+      "tipo": "protezione",
+      "comune": "Feisoglio",
+      "corso_acqua": "Torrente Belbo",
+      "tratto": "dal ponte della S.P. Niella-Bossolasco a valle sino all’ex ponte della strada Feisoglio-Bossolasco per 950 mt. Garessio Rio S. Bernardo: da 50 mt. a monte della cappella di S. Giacomo, in località Garessio Borgo, a 100 m",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-029",
+      "tipo": "protezione",
+      "comune": "Feisoglio",
+      "corso_acqua": "Rio Parone",
+      "tratto": "dal ponte di Pian Bernardo a valle sino alla confluenza in Tanaro",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-030",
+      "tipo": "protezione",
+      "comune": "Feisoglio",
+      "corso_acqua": "Rio Luvia",
+      "tratto": "da 400 metri a monte sino alla confluenza in Tanaro",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-031",
+      "tipo": "protezione",
+      "comune": "Feisoglio",
+      "corso_acqua": "Rio Malsangua",
+      "tratto": "dal ponte stabilimento acqua “S. Bernardo” a valle sino alla confluenza in Tanaro",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-032",
+      "tipo": "protezione",
+      "comune": "Feisoglio",
+      "corso_acqua": "Rio Casario",
+      "tratto": "da 400 metri a monte sino alla confluenza in Tanaro",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-033",
+      "tipo": "protezione",
+      "comune": "Feisoglio",
+      "corso_acqua": "Rio Murseco",
+      "tratto": "da 400 metri a monte sino alla confluenza in Tanaro",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-034",
+      "tipo": "protezione",
+      "comune": "Feisoglio",
+      "corso_acqua": "Rio Piangranone",
+      "tratto": "da 400 metri a monte sino alla confluenza in Tanaro",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-035",
+      "tipo": "protezione",
+      "comune": "Feisoglio",
+      "corso_acqua": "Rio Bianco",
+      "tratto": "da circa 500 metri a monte del ponte di pietra sulla strada comunale “Sparvaira” a valle sino a circa 130 metri dallo stesso (il tratto è costeggiato da strada comunale sterrata). Lagnasco Canale del Molino: dallo sbocco",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-036",
+      "tipo": "protezione",
+      "comune": "Feisoglio",
+      "corso_acqua": "Torrente Vermenagna",
+      "tratto": "dal ponte di piazza S.Sebastiano a valle sino alla confluenza del Rio di S. Giovanni",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-037",
+      "tipo": "protezione",
+      "comune": "Feisoglio",
+      "corso_acqua": "Torrente Vermenagna",
+      "tratto": "in Fraz. Limonetto dal ponte del Mulino a valle sino al ponte di Tetto Giganti. Magliano Alpi",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-038",
+      "tipo": "protezione",
+      "comune": "Magliano Alpi",
+      "corso_acqua": "Canale Piozza",
+      "tratto": "dalla S.S. 28 a valle sino al confine comunale nei pressi del ponte “delle Tome” Melle Rio di Melle: dalla presa del canale dell’ex segheria Peiracchia a valle sino alla confluenza con il T. Varaita. Mondovì",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-039",
+      "tipo": "protezione",
+      "comune": "Mondovì",
+      "corso_acqua": "Canale Graziano",
+      "tratto": "tratto del canale nel centro cittadino, dall’incile sul T. Ellero a valle per circa 800 mt.",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-040",
+      "tipo": "protezione",
+      "comune": "Mondovì",
+      "corso_acqua": "Canale Carassone",
+      "tratto": "dalla presa sul Torrente Ellero in via Molino di Lavagna per 2300 mt.circa sino in prossimità della Fornace Pilone.Montanera",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-041",
+      "tipo": "protezione",
+      "comune": "Montanera",
+      "corso_acqua": "Canale Sarmassa",
+      "tratto": "dal confine comunale con Castelletto Stura a valle fino al ponte della S.P. 3.",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-042",
+      "tipo": "protezione",
+      "comune": "Montanera",
+      "corso_acqua": "Canale Sarmassa",
+      "tratto": "tratto in Fraz. Consovero dal ponte di Cascina Ambasio fino a Cascina Veglia per circa 1300 mt.. Narzole",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-043",
+      "tipo": "protezione",
+      "comune": "Narzole",
+      "corso_acqua": "Rio Giuminella",
+      "tratto": "dalla sorgente in Regione Cornetti fino a 20 mt. prima del ponte Narzole-S.Nazario. Pianfei",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-044",
+      "tipo": "protezione",
+      "comune": "Pianfei",
+      "corso_acqua": "Canale Gamberera",
+      "tratto": "da 300 mt. a monte del tiro a volo sino alla piazzola del medesimo. Pietraporzio",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-045",
+      "tipo": "protezione",
+      "comune": "Pietraporzio",
+      "corso_acqua": "Fiume Stura",
+      "tratto": "dalla briglia situata 100 mt. a valle della confluenza del Rio Prati del Vallone fino al ponte del concentrico del paese. Polonghera",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-046",
+      "tipo": "protezione",
+      "comune": "Polonghera",
+      "corso_acqua": "Torrente Varaita",
+      "tratto": "dalla diga dell’incile della bealera del Molino fino alla confluenza della bealera Bealerasso.",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-047",
+      "tipo": "protezione",
+      "comune": "Polonghera",
+      "corso_acqua": "Torrente Varaita",
+      "tratto": "divieto di pesca nel periodo compreso tra la prima domenica di ottobre e l'ultima domenica di febbraio nel tratto compreso tra il confine comunale Polonghera-Casalgrasso nei pressi della zona industriale di Polonghera e ",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-048",
+      "tipo": "protezione",
+      "comune": "Priola",
+      "corso_acqua": "Fiume Tanaro",
+      "tratto": "dallo sbocco del rio Borgato a valle sino al ponte Pian Chiosso. Racconigi",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-049",
+      "tipo": "protezione",
+      "comune": "Racconigi",
+      "corso_acqua": "Torrente Maira",
+      "tratto": "da 200 mt. a valle della Diga della Baluarda fino al ponte della S.P. Racconigi-Casalgrasso. Robilante",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-050",
+      "tipo": "protezione",
+      "comune": "Robilante",
+      "corso_acqua": "Torrente Vermenagna",
+      "tratto": "dal ponte cavalcavia variante S.S. 20 (zona Molino Nuovo) sino al ponte strada S. Margherita. Roaschia",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-051",
+      "tipo": "protezione",
+      "comune": "Roaschia",
+      "corso_acqua": "Rio Bedale",
+      "tratto": "dal ponte d’accesso ai campi sportivi a valle fino al ponte di accesso al cimitero, compreso il Rio di Fontana Dragonera. Rocca de’ Baldi",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-052",
+      "tipo": "protezione",
+      "comune": "Baldi",
+      "corso_acqua": "Canale Piozza",
+      "tratto": "dal Molino Piovano sino al ponte dei Carleveri. Rossana",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-053",
+      "tipo": "protezione",
+      "comune": "Rossana",
+      "corso_acqua": "Rio Torto",
+      "tratto": "dal ponte della S.P. per Lemma a valle fino al ponte per regione Peschiera Bracalla. Sale delle Langhe",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-054",
+      "tipo": "protezione",
+      "comune": "Langhe",
+      "corso_acqua": "Rio Salessola",
+      "tratto": "dalla confluenza con il torrente Cevetta al ponte sulla S.P. 430 di Ceva in loc. Cerrero (400 mt. a monte della confluenza con torrente Cevetta) Priero",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-055",
+      "tipo": "protezione",
+      "comune": "Priero",
+      "corso_acqua": "Rio Molinazzo",
+      "tratto": "dalla confluenza del torrente Cevetta alla confluenza del Rio Chiaggi nel rio Molinazzo (bivio S.P. 55 con strada per la costa di Priero) 400 metri a monte della confluenza con torrente Cevetta. Sant'Albano Stura",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-056",
+      "tipo": "protezione",
+      "comune": "Stura",
+      "corso_acqua": "Canale Sarmassa",
+      "tratto": "dal ponte della S.P. all'altezza della cascina Grandi a valle fino al ponte sulla S.P. S. Albano- Mondovì, in fraz. Dalmazzi, per uno sviluppo di 2000 mt. circa. Savigliano",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-057",
+      "tipo": "protezione",
+      "comune": "Savigliano",
+      "corso_acqua": "Rio Pertusio",
+      "tratto": "dalla presa principale sul T.Maira a valle sino al cimitero",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-058",
+      "tipo": "protezione",
+      "comune": "Affluente",
+      "corso_acqua": "Rio Pertusio",
+      "tratto": "dall’incile sul T. Maira al ponte sul sentiero “Bruno Tortone” per circa 500 m.",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-059",
+      "tipo": "protezione",
+      "comune": "Bosco",
+      "corso_acqua": "Rio Grangia",
+      "tratto": "dalle sorgenti fino al confine comunale con Caramagna, per circa 4000 m. Torre Mondovì",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-060",
+      "tipo": "protezione",
+      "comune": "Mondovì",
+      "corso_acqua": "Rio Borbera",
+      "tratto": "dall’attraversamento a fondo di Via Cantone in borgata Borbera a valle sino alla confluenza con il Torrente Corsaglia. Trinità",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-061",
+      "tipo": "protezione",
+      "comune": "Trinità",
+      "corso_acqua": "Canale Sarmassa",
+      "tratto": "dal cavalcavia della ferrovia Torino-Savona a valle fino al ponte di via Levata in Fraz. Molini. per circa 3500 m.. Valgrana Canale S. Maria: dall’incile alla frazione Cavaliggi da una parte e allo sbocco nel T. Grana da",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-062",
+      "tipo": "protezione",
+      "comune": "Costanzo",
+      "corso_acqua": "Bealera Cumella",
+      "tratto": "dallo sbocco del tunnel di Via Lauretta sino al salto del vecchio Mulino (circa 1km a monte S.P. Dronero-Busca in fraz. Morra).Vinadio",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-063",
+      "tipo": "protezione",
+      "comune": "Vinadio",
+      "corso_acqua": "Torrente Corborant",
+      "tratto": "in Loc. San Bernolfo da circa 500 mt. a monte del ponte nel concentrico fino al ponte stesso",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-064",
+      "tipo": "protezione",
+      "comune": "Vinadio",
+      "corso_acqua": "Torrente Corborant",
+      "tratto": "in loc. Bagni, borgata Strepeis, dal ponte in legno presso la miniera a valle sino al ponte presso il rifugio GTA per circa 500 mt.",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-065",
+      "tipo": "protezione",
+      "comune": "Vinadio",
+      "corso_acqua": "Torrente Corborant",
+      "tratto": "in loc. Pianche, dal salto d’acqua a monte della passerella sulla strada militare alla confluenza con il F. Stura di Demonte.",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-066",
+      "tipo": "protezione",
+      "comune": "Vinadio",
+      "corso_acqua": "Torrente Riofreddo",
+      "tratto": "dalle sorgenti fino alla Fontana Tracolet. Rio di Sant’Anna: dal ponte sottostante il Santuario per 1500 mt. circa. ACQUE SOGGETTE A DIRITTI DEMANIALI DI PESCA ESCLUSIVI DELLA PROVINCIA DI CUNEO IN GESTIONE DIRETTA Ceva",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-067",
+      "tipo": "protezione",
+      "comune": "Ceva",
+      "corso_acqua": "Fiume Tanaro",
+      "tratto": "nel concentrico cittadino, dal ponte S.S. 28 bis a valle fino alla confluenza con il T. Cevetta",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-068",
+      "tipo": "protezione",
+      "comune": "Ceva",
+      "corso_acqua": "Torrente Bovina",
+      "tratto": "dalla confluenza del T. Bovina nel Cevetta a monte fino al ponte della S.P. Ceva-Paroldo. Mondovì",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-069",
+      "tipo": "protezione",
+      "comune": "Mondovì",
+      "corso_acqua": "Torrente Ellero",
+      "tratto": "nel concentrico cittadino dal ponte della Madonnina a valle sino alla presa Endemini. USI CIVICI Cardè",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-070",
+      "tipo": "protezione",
+      "comune": "Cardè",
+      "corso_acqua": "Fiume Po",
+      "tratto": "dalla confluenza del Torr. Ghiandone alla confluenza del Rio Secco. Moretta",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-071",
+      "tipo": "protezione",
+      "comune": "Moretta",
+      "corso_acqua": "Bealera Robaglia",
+      "tratto": "dal confine comunale con Torre San Giorgio a valle sino alla confluenza nella Bealera del Mulino. Sanfront",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-072",
+      "tipo": "protezione",
+      "comune": "Sanfront",
+      "corso_acqua": "Torrente Albetta",
+      "tratto": "dal ponte di Via Divisione Cuneense (strada provinciale n° 117) ed il ponte in Via Comba Albetta nel concentrico comunale.",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-073",
+      "tipo": "protezione",
+      "comune": "Riserva Naturale Speciale Crava-Morozzo",
+      "corso_acqua": "Torrente Pesio",
+      "tratto": "dal ponte Morozzo-Pogliola a valle fino al ponte della S.P. Crava- Rocca de’ Baldi, nell’area istituita a Riserva Naturale Speciale Crava Morozzo",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-074",
+      "tipo": "protezione",
+      "comune": "Riserva Naturale Speciale Crava-Morozzo",
+      "corso_acqua": "Torrente Brobbio",
+      "tratto": "dal ponte S.P. Morozzo-S. Biagio fino alla confluenza nel T. Pesio, nell’area istituita a Riserva Naturale Speciale Crava-Morozzo. Valdieri Nei diritti esclusivi di pesca del Comune di Valdieri: Bealera della Peschiera: ",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-PROT-075",
+      "tipo": "protezione",
+      "comune": "Valdieri",
+      "corso_acqua": "Torrente Gesso",
+      "tratto": "divieto di trattenere la Trota marmorata (Salmo marmoratus) nel tratto del Torrente Gesso che va da 100 metri a valle del Salto della Brignola (ponte Andonno-Roaschia) a monte fino al ponte di Cialombard al confine con l",
+      "regola": "divieto / zona di protezione"
+    },
+    {
+      "id": "CN-NK-01",
+      "tipo": "no_kill",
+      "comune": "Cavallermaggiore",
+      "corso_acqua": "Torrente Maira",
+      "tratto": "dal ponte della S.P. 129 a valle fino alla \"traversa fissa di derivazione dotata di sbarramento abbattibile della centralina idroelettrica di Cavallermaggiore\" e dal ponte ex ferrovia di \"Moretta\" fino a 50 metri a valle",
+      "regola": "no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "CN-NK-02",
+      "tipo": "no_kill",
+      "comune": "Polonghera",
+      "corso_acqua": "Torrente Varaita",
+      "tratto": "nel tratto compreso tra il confine comunale Polonghera- Casalgrasso nei pressi della zona industriale di Polonghera e la confluenza del Torrente Varaita nel Fiume PO per una lunghezza di circa 1500 m. Nella zona è consen",
+      "regola": "no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "CN-NK-03",
+      "tipo": "no_kill",
+      "comune": "Roccavione",
+      "corso_acqua": "Torrente Vermenagna",
+      "tratto": "nel tratto compreso tra la presa di acqua superficiale Italgen, e il ponte della SS n. 20 per un tratto di 1000 m. Nella zona è consentita anche la pesca a spinning con artificiale armato con amo singolo senza ardiglione",
+      "regola": "no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "CN-NK-04",
+      "tipo": "no_kill",
+      "comune": "Oncino - Ostana",
+      "corso_acqua": "Fiume Po",
+      "tratto": "dal ponte in legno nei pressi del bivio per Ostana a valle sino al ponte di Oncino per una lunghezza di 3000 mt. circa. Cuneo",
+      "regola": "no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "CN-NK-05",
+      "tipo": "no_kill",
+      "comune": "Cuneo",
+      "corso_acqua": "Fiume Stura",
+      "tratto": "dal Ponte Vassallo, ponte ciclo-pedonabile nei pressi delle Basse di Stura, al ponte Vecchio per una lunghezza complessiva di 1100 mt. circa. Monterosso Grana",
+      "regola": "no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "CN-NK-06",
+      "tipo": "no_kill",
+      "comune": "Grana",
+      "corso_acqua": "Torrente Grana",
+      "tratto": "dalla briglia a monte del ponte nel concentrico comunale sino a 200 m. a valle del ponte stesso per una lunghezza complessiva di 450 mt. circa. Prazzo - Marmora - Stroppo",
+      "regola": "no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "CN-NK-07",
+      "tipo": "no_kill",
+      "comune": "Stroppo",
+      "corso_acqua": "Torrente Maira",
+      "tratto": "dal ponte della S.P. 422 presso la pista di fondo a monte dell'abitato di Ponte Marmora, sino a 100 mt a valle della confluenza del Rio di Elva nel Maira per una lunghezza complessiva di 1200 mt. circa. Cavallerleone",
+      "regola": "no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "CN-NK-08",
+      "tipo": "no_kill",
+      "comune": "Cavallerleone",
+      "corso_acqua": "Torrente Maira",
+      "tratto": "da circa 400 m. a monte del ponte della Pedaggera sino allo sbarramento dell’incile del Canale Brunotta, per una lunghezza complessiva di m. 700 circa. Saliceto",
+      "regola": "no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "CN-NK-09",
+      "tipo": "no_kill",
+      "comune": "Saliceto",
+      "corso_acqua": "Fiume Bormida",
+      "tratto": "tratto compreso, a monte, tra la Loc. Pian Rocchetta (confine col Comune di Cengio - SV) ed, a valle, con termine in loc. Sattamini all’altezza del Rio Luvia (confine col Comune di Camerana -CN) per una lunghezza comples",
+      "regola": "no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "CN-NK-10",
+      "tipo": "no_kill",
+      "comune": "Frassino",
+      "corso_acqua": "Torrente Varaita",
+      "tratto": "dal ponte della S.P. n. 8 della Valle Varaita (nuova variante) in fraz. Rore di Sampeyre al ponte immediatamente a valle dell'abitato di Frassino",
+      "regola": "no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "CN-NK-11",
+      "tipo": "no_kill",
+      "comune": "Moiola",
+      "corso_acqua": "Fiume Stura",
+      "tratto": "dal ponte di San Membotto a valle sino al confine comunale di Gaiola",
+      "regola": "no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "CN-NK-12",
+      "tipo": "no_kill",
+      "comune": "Garessio",
+      "corso_acqua": "Fiume Tanaro",
+      "tratto": "dalla confluenza del Torrente Piangranone a valle sino al confine comunale con Priola. Nella zona è consentita la pesca anche la pesca a spinning con artificiale armato con amo singolo senza ardiglione",
+      "regola": "no-kill, rilascio obbligatorio"
+    }
+  ]
+}
