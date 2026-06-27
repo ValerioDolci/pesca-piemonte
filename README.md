@@ -1,5 +1,9 @@
 # 🎣 Carta Idrografica della Pesca — Piemonte nord-ovest + Valle d'Aosta
 
+> 🧪 **Progetto hobbistico, in BETA.** Realizzato per passione, non è un servizio ufficiale
+> né esaustivo: può contenere errori, imprecisioni nei tratti e zone mancanti. **Verifica
+> sempre il regolamento ufficiale della provincia prima di pescare.**
+
 Mappa interattiva delle zone di pesca dilettantistica (protezione/divieto, no-kill, zone
 turistiche, acque salmonicole, diritti esclusivi D.D.E.P., acque in concessione FIPSAS/
 associazioni) di **8 aree**: Torino, Cuneo, VCO, Vercelli, Biella, Alessandria,
@@ -26,8 +30,13 @@ provincia prima di pescare. La normativa cambia ogni anno e zona per zona.
 | Valle d'Aosta | 14 | Calendario Ittico 2026 + Consorzio Pesca VdA |
 | Novara | 6 | (mirror 2023, incompleto) |
 
-**~431 zone**: 219 tratti precisi (linee) + 37 interi-corsi (multilinee) + 175 marker.
+**~431 zone**: ~216 tratti precisi (linee) + 37 interi-corsi (multilinee) + ~175 marker.
 Dataset consolidato: [`data/processed/tutti_i_tratti.csv`](data/processed/tutti_i_tratti.csv).
+
+**Gap di fonte (beta):** *Novara* e *Asti* non pubblicano l'elenco zone in forma utilizzabile
+(siti dismessi / pagine rimosse) → coperte solo parzialmente o assenti. Province del
+Piemonte sud-est (es. resto del cuneese minore) e i piccoli rii/rogge non presenti in
+OpenStreetMap restano come marker o da completare. Contributi/segnalazioni benvenuti.
 
 ## Come funziona (in breve)
 Per ogni area: fonte ufficiale → estrazione dati → la descrizione testuale di ogni tratto

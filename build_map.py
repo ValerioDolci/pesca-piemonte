@@ -146,7 +146,7 @@ HTML = f"""<!DOCTYPE html>
     <div class="grp">Provincia</div><div class="row" id="prov"></div>
     <div class="grp">Tipo di zona</div><ul class="legend" id="legend"></ul>
     <div class="foot">
-      Dato <b>non ufficiale</b> &mdash; verifica sempre il vademecum ufficiale.<br>
+      🧪 <b>Progetto hobbistico, in beta</b> &mdash; dato <b>non ufficiale</b>, può contenere errori. Verifica sempre il regolamento ufficiale.<br>
       Linea = tratto preciso (geometria OSM); cerchio = posizione al comune (da rifinire).<br>
       {fonti_html}
     </div>
