@@ -33,13 +33,17 @@ pesca-piemonte/
 3. **`tract_agent_tool.py`** `prep|apply <Prov> <ID>` — tool subagente (prep input / apply output). `apply_data` riusato da sonnet_resolve.
 4. **`sonnet_resolve.py`** `<Prov> [--markers|ID...] [--web]` — risolve gli estremi chiamando Sonnet via `claude --print` (subscription). GATE qualità (scarta estremi >250m / tratti <15m). **Strumento principale Fase B.**
 5. **`whole_rivers.py`** `[Prov]` — disegna gli interi corsi (salmonicole/DDEP) come MultiLineString (tutti i segmenti OSM, no stitching).
-6. **`build_map.py`** → `mappa/index.html` — assembla la mappa: tratti (geojson) + marker fallback + interi-corsi + confini provinciali + UI mobile.
+6. **`road_bridges.py`** `[--apply]` — tratti che citano una strada (SP/SR/SS NNN): incrocio reale OSM strada×fiume (gate prossimità comune). Il metodo geometrico più preciso.
+7. **`place_resolver.py`** `[--apply]` — tratti che citano una frazione/località: geocoding Nominatim + fallback Overpass place-search, poi aggancio al fiume.
+8. **`build_map.py`** → `mappa/index.html` — assembla la mappa: tratti (geojson) + marker fallback + interi-corsi + confini provinciali (aree-licenza) + UI mobile.
+
+> Metodo a step completo (con i controlli di qualità) in **`PROCESS.md`**.
 
 ## Rigenerare la mappa dopo modifiche ai dati
 ```
 python3 build_map.py
-cp mappa/index.html site/index.html
-cd site && git add -A && git commit -m "..." && git push   # → GitHub Pages
+cp mappa/index.html index.html      # GitHub Pages serve la root
+git add -A && git commit -m "..." && git push
 ```
 
 ## Note
