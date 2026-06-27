@@ -627,5 +627,37 @@
   "Villarboit|Vercelli": {
     "lat": 45.437362,
     "lon": 8.337329
+  },
+  "Alagna Valsesia|Vercelli": {
+    "lat": 45.8512107,
+    "lon": 7.9371767
+  },
+  "Campertogno|Vercelli": {
+    "lat": 45.798953,
+    "lon": 8.0321533
+  },
+  "Carcoforo|Vercelli": {
+    "lat": 45.9087495,
+    "lon": 8.049537
+  },
+  "Cravagliana|Vercelli": {
+    "lat": 45.8483853,
+    "lon": 8.2026904
+  },
+  "Rimasco|Vercelli": {
+    "lat": 45.8588347,
+    "lon": 8.0629434
+  },
+  "Rimella|Vercelli": {
+    "lat": 45.9075478,
+    "lon": 8.1813547
+  },
+  "Scopello|Vercelli": {
+    "lat": 45.757984,
+    "lon": 8.1127615
+  },
+  "Varallo|Vercelli": {
+    "lat": 45.8137306,
+    "lon": 8.2592113
   }
 }

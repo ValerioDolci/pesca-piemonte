@@ -2,7 +2,7 @@
   "provincia": "Vercelli",
   "fonte": "Zone protezione e no-kill Provincia di Vercelli, Decreto Presidente n.25 del 21/03/2024 (valide 2024-2028)",
   "fonte_file": "data/sources/vercelli/zone_protezione_2024_2028.pdf + zone_nokill_2024_2028.pdf",
-  "note": "Fonte ufficiale e attuale. 11 protezione + 3 no-kill.",
+  "note": "Fonte ufficiale e attuale. 11 protezione + 3 no-kill. | +8 acque gestite SVPS Valsesia (valsesiapesca.it).",
   "zone": [
     {
       "id": "VC-PROT-01",
@@ -115,6 +115,86 @@
       "corso_acqua": "Roggia Bona",
       "tratto": "dalla passerella del Navilone alle paratoie di Pezzana (Comuni Pezzana e Asigliano)",
       "regola": "no-kill, rilascio obbligatorio"
+    },
+    {
+      "id": "VC-SVPS-01",
+      "tipo": "no_kill",
+      "comune": "Varallo",
+      "corso_acqua": "Torrente Mastallone",
+      "tratto": "riserva turistica no-kill a mosca: dalla confluenza nel Sesia al Ponte delle Folle (oltre 1 km) - SVPS",
+      "regola": "acque gestite SVPS (Soc. Valsesiana Pescatori Sportivi) - serve permesso/tessera",
+      "fonte_pagina": 0,
+      "fonte_extra": "valsesiapesca.it - acque gestite SVPS"
+    },
+    {
+      "id": "VC-SVPS-02",
+      "tipo": "turistica",
+      "comune": "Scopello",
+      "corso_acqua": "Fiume Sesia",
+      "tratto": "riserva turistica (tocco/spinning/mosca): 1,2 km nel comune di Scopello - SVPS",
+      "regola": "acque gestite SVPS (Soc. Valsesiana Pescatori Sportivi) - serve permesso/tessera",
+      "fonte_pagina": 0,
+      "fonte_extra": "valsesiapesca.it - acque gestite SVPS"
+    },
+    {
+      "id": "VC-SVPS-03",
+      "tipo": "turistica",
+      "comune": "Alagna Valsesia",
+      "corso_acqua": "Fiume Sesia",
+      "tratto": "riserva turistica alta Valsesia: 2 km nel comune di Alagna Valsesia - SVPS",
+      "regola": "acque gestite SVPS (Soc. Valsesiana Pescatori Sportivi) - serve permesso/tessera",
+      "fonte_pagina": 0,
+      "fonte_extra": "valsesiapesca.it - acque gestite SVPS"
+    },
+    {
+      "id": "VC-SVPS-04",
+      "tipo": "no_kill",
+      "comune": "Cravagliana",
+      "corso_acqua": "Torrente Mastallone",
+      "tratto": "Riserva La Selva, mosca no-kill: dal confine inferiore di Cravagliana con Varallo al ponte di Pianaronda - SVPS",
+      "regola": "acque gestite SVPS (Soc. Valsesiana Pescatori Sportivi) - serve permesso/tessera",
+      "fonte_pagina": 0,
+      "fonte_extra": "valsesiapesca.it - acque gestite SVPS"
+    },
+    {
+      "id": "VC-SVPS-05",
+      "tipo": "riserva",
+      "comune": "Rimella",
+      "corso_acqua": "Torrente Landwasser",
+      "tratto": "Riserva Landwasser (soci): dalla confluenza con il Mastallone alla Madonna del Rumore (Comuni Rimella e Cravagliana) - SVPS",
+      "regola": "acque gestite SVPS (Soc. Valsesiana Pescatori Sportivi) - serve permesso/tessera",
+      "fonte_pagina": 0,
+      "fonte_extra": "valsesiapesca.it - acque gestite SVPS"
+    },
+    {
+      "id": "VC-SVPS-06",
+      "tipo": "no_kill",
+      "comune": "Campertogno",
+      "corso_acqua": "Fiume Sesia",
+      "tratto": "Riserva delle Piode, mosca catch&release: da Pila a Campertogno (7 km) - SVPS",
+      "regola": "acque gestite SVPS (Soc. Valsesiana Pescatori Sportivi) - serve permesso/tessera",
+      "fonte_pagina": 0,
+      "fonte_extra": "valsesiapesca.it - acque gestite SVPS"
+    },
+    {
+      "id": "VC-SVPS-07",
+      "tipo": "riserva",
+      "comune": "Carcoforo",
+      "corso_acqua": "Torrente Egua",
+      "tratto": "Riserva alta montagna: dalla confluenza del torrente Dorca al ponte Molino (3 km), strada per Carcoforo - SVPS",
+      "regola": "acque gestite SVPS (Soc. Valsesiana Pescatori Sportivi) - serve permesso/tessera",
+      "fonte_pagina": 0,
+      "fonte_extra": "valsesiapesca.it - acque gestite SVPS"
+    },
+    {
+      "id": "VC-SVPS-08",
+      "tipo": "riserva",
+      "comune": "Rimasco",
+      "corso_acqua": "Torrente Sermenza",
+      "tratto": "Riserva alta montagna: dalla cascata del Buzzo fino a 200 m a monte del ponte delle Quare (3 km), verso Rima - SVPS",
+      "regola": "acque gestite SVPS (Soc. Valsesiana Pescatori Sportivi) - serve permesso/tessera",
+      "fonte_pagina": 0,
+      "fonte_extra": "valsesiapesca.it - acque gestite SVPS"
     }
   ]
 }
