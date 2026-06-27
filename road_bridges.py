@@ -12,7 +12,8 @@ import resolve_tracts as R
 import tract_agent_tool as T
 
 ROOT = Path(__file__).parent
-ISO = {"Torino":"IT-TO","Biella":"IT-BI","Novara":"IT-NO","VCO":"IT-VB"}
+ISO = {"Torino":"IT-TO","Biella":"IT-BI","Novara":"IT-NO","VCO":"IT-VB",
+       "Vercelli":"IT-VC","Cuneo":"IT-CN","Alessandria":"IT-AL","Valle d'Aosta":"IT-23"}
 ROAD = re.compile(r'\b(S\.?[PRS]\.?)\s*\.?\s*n?\.?\s*(\d{1,4})', re.I)
 GATE_KM = 6.0
 def deacc(s): return "".join(c for c in unicodedata.normalize("NFD",s) if unicodedata.category(c)!="Mn")
