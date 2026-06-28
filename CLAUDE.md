@@ -4,7 +4,13 @@ Tool personale per capire **cosa / dove / come** andare a pesca nelle province d
 **Torino, Biella, Novara, VCO**. Obiettivo finale: **mappa interattiva** che evidenzi
 i tratti d'acqua e la regola che vi si applica (no-kill, turistica, protezione, salmonicola, ecc.).
 
-## Stato corrente (2026-06-26)
+## Stato corrente (2026-06-28)
+
+**Dataset reale: 8 aree, ~597 zone** (Torino 210, Novara **169**, Cuneo 87, VCO 58, Vercelli 22, Biella 19, Alessandria 15, Valle d'Aosta 14 bonus). Le sezioni datate sotto (4 province / 281 zone) sono storiche, non più attuali.
+
+**Aggiornamento 2026-06-28 — Novara colmata (6→169 zone).** Trovata la fonte UFFICIALE provinciale `data/sources/novara/bacini_acqua_pesca.pdf` (353 corsi d'acqua: Corso|Tipo|Comuni|Gestione|Inizio|Sviluppo|Termine) + lista FIPSAS Fishing Tour `fipsas_elenco_acque_2026.pdf`. Pipeline `ingest_novara_bacini.py` (Opzione B): 163 acque gestite/speciali (146 concessioni + 17 diritti esclusivi/riserve) + 6 mirror; 168 LIBERA = baseline esclusa; 3 non-attive saltate. 57 comuni geocodati (fix 3 refusi fonte). Geometria post-Sonnet: **49 tratti precisi (linea/multilinea) + 120 marker** (deterministico dava 14+3; `sonnet_resolve` ha risolto i 55 su-fiume, poi revert di 22 artefatti — salto interno >400m / >18km dal comune / len assurda). QA Novara: **0 bloccanti, 0 warning**. CSV grezzo rigenerabile `data/processed/novara/bacini_novara_raw.csv`.
+**Auth claude CLI**: token lungo (`claude setup-token`, subscription, no costo API) in `data/secrets/claude_oauth.token` (GITIGNORATO, dir `data/secrets/` esclusa). `sonnet_resolve.py` lo carica in `CLAUDE_CODE_OAUTH_TOKEN`. Stesso token degli altri bot (research-bot/ai-digest plist).
+⚠️ QA globale: resta 1 bloccante storico `TO-SALM-23` ("Laghi montani >1000m" = categoria, non geolocalizzabile → da marcare non-mappabile). Limiti fonte residui: **Asti** assente (provincia non pubblica l'elenco).
 
 **Fase 1 — base di conoscenza (2 livelli) + mappa v0.2 (TO + BI).**
 

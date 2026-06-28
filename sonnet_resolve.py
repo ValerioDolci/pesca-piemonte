@@ -16,6 +16,16 @@ ROOT = Path(__file__).parent
 CLAUDE = "/opt/homebrew/bin/claude"
 ENV = {**os.environ, "PATH": "/opt/homebrew/bin:" + os.environ.get("PATH","")}
 
+# Auth headless della CLI claude (subscription, no costo API):
+# token lungo generato con `claude setup-token`, messo in un file GITIGNORATO.
+# Lo script lo carica a runtime in CLAUDE_CODE_OAUTH_TOKEN. Se il file non c'e',
+# si usa l'env esistente / il login interattivo del keychain.
+_TOKEN_FILE = ROOT / "data/secrets/claude_oauth.token"
+if not ENV.get("CLAUDE_CODE_OAUTH_TOKEN") and _TOKEN_FILE.exists():
+    _tok = _TOKEN_FILE.read_text().strip()
+    if _tok and not _tok.startswith("#"):
+        ENV["CLAUDE_CODE_OAUTH_TOKEN"] = _tok
+
 PROMPT = """Sei un geolocalizzatore di tratti fluviali per una mappa della pesca in Piemonte.
 Ti do un tratto di fiume descritto in burocratese e la polilinea reale del fiume (punti idx,lat,lon da MONTE idx0 a VALLE).
 Individua le coordinate di INIZIO e FINE del tratto, che DEVONO cadere sul fiume (vicino a un punto della polilinea).

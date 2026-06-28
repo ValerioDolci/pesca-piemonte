@@ -27,13 +27,16 @@ Struttura (= modello dati): Classificazione acque · Modalità vietate · Acque 
 
 Contiene localizzazione zone di divieto e zone no-kill. Regole specifiche note: carpa solo no-kill 1–31 maggio, divieto carpa 1–30 giugno; salmonidi misura minima 24 cm.
 
-## Novara (Provincia) — sito provinciale dismesso (410)
+## Novara (Provincia) — ✅ fonte UFFICIALE reperita (2026-06-28)
 
 | File | Documento | Fonte | Data | Pagine |
 |------|-----------|-------|------|--------|
-| `data/sources/novara/regolamento_provincia_novara_2023.pdf` | Regolamento Provincia di Novara | mirror pescafiume.it (orig. Provincia Novara) | 2023 | — |
+| `data/sources/novara/bacini_acqua_pesca.pdf` | **Gestione dei corsi d'acqua e dei bacini della Provincia di Novara ai fini della pesca** (UFFICIALE) | Provincia di Novara (municipium) | 2025 | 15 |
+| `data/sources/novara/fipsas_elenco_acque_2026.pdf` | Elenco acque FIPSAS Fishing Tour Novara (permessi BLU/PREMIUM/ROSSE + no-kill) | fishingtournovara.it | feb 2026 | 2 |
+| `data/sources/novara/regolamento_provincia_novara_2023.pdf` | Regolamento Provincia di Novara (mirror, ora superato) | mirror pescafiume.it | 2023 | — |
 
-⚠️ Fonte secondaria (mirror). Da ri-verificare con fonte ufficiale Novara o regionale. Acque principali: Sesia, Ticino, Terdoppio, Agogna, canali (Cavour, Q. Sella, Regina Elena), Lago d'Orta.
+✅ **Buco Novara colmato.** Il doc ufficiale è una tabella di **353 corsi d'acqua** con `Corso | Tipo | Comuni | Gestione | Inizio | Sviluppo | Termine`. Estratto pulito in `data/processed/novara/bacini_novara_raw.csv` (pdfplumber). Ingestion `ingest_novara_bacini.py` (Opzione B): mappate **163 acque gestite/speciali** (concessioni FIPSAS/APD/Associazioni/Comuni/Consorzi + 17 diritti esclusivi/riserve); le ~168 a gestione LIBERA = pesca libera baseline (non mappate). Conservate le 6 zone del mirror 2023 (no-kill Agogna, campi gara, salmonicole Sesia/Orta). Permessi/no-kill incrociati con la lista FIPSAS.
+⚠️ Geometria: lo step Sonnet (`sonnet_resolve`) per promuovere i ~55 marker su-fiume a tratto richiede `claude` CLI autenticato (non disponibile nell'ambiente bot → da lanciare da sessione loggata).
 
 ## Verbano-Cusio-Ossola (Provincia)
 
@@ -46,7 +49,7 @@ Contiene localizzazione zone di divieto e zone no-kill. Regole specifiche note: 
 
 ## TODO reperimento
 - [ ] L.R. 37/2006 testo PDF (norma primaria) da Arianna
-- [ ] Novara: fonte ufficiale (non mirror) — sito provinciale dismesso, valutare regionale/FIPSAS
+- [x] Novara: fonte ufficiale (non mirror) — ✅ trovata 2026-06-28 (`bacini_acqua_pesca.pdf` + FIPSAS Fishing Tour)
 - [ ] VCO: cercare libretto/piano più recente del 2022 (DCP 7/2023)
 - [ ] Manifesto annuale Torino (sintesi 1 pagina) se utile
 - [ ] Eventuali shapefile/mappe ufficiali zone (per geometrie) — probabilmente assenti, da disegnare a mano

@@ -5,3 +5,6 @@ __pycache__/
 mappa/
 # rete idrografica OSM: cache rigenerabile via Overpass (vedi STRUCTURE.md)
 data/processed/*/osm_waterways.json
+
+# segreti (token auth claude) - MAI su git
+data/secrets/

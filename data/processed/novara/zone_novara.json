@@ -1,8 +1,8 @@
 {
   "provincia": "Novara",
-  "fonte": "Regolamento di pesca Provincia di Novara (2023, mirror pescafiume.it) - FONTE SECONDARIA/INCOMPLETA",
-  "fonte_file": "data/sources/novara/regolamento_provincia_novara_2023.pdf",
-  "note": "INVENTARIO INCOMPLETO: questo documento (mirror) contiene solo no-kill Agogna, campi gara e salmonicole. Mancano le zone di divieto/protezione provinciali (assenti nel mirror) - servono fonte ufficiale Novara o regionale. Acque principali: Lago Maggiore, Lago d'Orta. Salmonidi max 6/giorno.",
+  "fonte": "Gestione dei corsi d'acqua e dei bacini della Provincia di Novara ai fini della pesca (fonte UFFICIALE provinciale)",
+  "fonte_file": "data/sources/novara/bacini_acqua_pesca.pdf",
+  "note": "Inventario UFFICIALE provinciale: 353 corsi d'acqua totali. Mappate 163 acque gestite/speciali (concessioni FIPSAS/APD/Associazioni/Comuni/Consorzi + diritti esclusivi/riserve). Le ~175 acque a gestione LIBERA sono pesca libera (baseline regionale, non mappate come zone speciali). Permessi/no-kill specifici incrociati con lista FIPSAS Fishing Tour 2026 (data/sources/novara/fipsas_elenco_acque_2026.pdf). Conserva le 6 zone del mirror 2023 (no-kill Agogna, campi gara, salmonicole).",
   "zone": [
     {
       "id": "NO-NK-01",
@@ -57,6 +57,2132 @@
       "tratto": "il lago d'Orta classificato fra le acque salmonicole",
       "regola": "acque salmonicole",
       "fonte_pagina": 1
+    },
+    {
+      "id": "NO-BAC-001",
+      "tipo": "concessione",
+      "comune": "Bellinzago",
+      "corso_acqua": "Diramatore Alto Novarese -",
+      "tratto": "imbocco dal canale Regina Elena a Cavagliano (Bellinzago) — tutto il corso — versatore nel Canale Cavour di Recetto",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-002",
+      "tipo": "concessione",
+      "comune": "Bellinzago",
+      "corso_acqua": "Cavo Argine",
+      "tratto": "BELLINZAGO — dalla fine della Riserva Badia fino alla Fontana Valazza — CAMERI",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-003",
+      "tipo": "concessione",
+      "comune": "Novara",
+      "corso_acqua": "Fontana Avogadro",
+      "tratto": "testa di fontana — tutto il corso — c.le Cavour",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-004",
+      "tipo": "concessione",
+      "comune": "Novara",
+      "corso_acqua": "Fontana Bacu'",
+      "tratto": "testa di fontana — tutto il corso — abitato di Novara",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-005",
+      "tipo": "concessione",
+      "comune": "Cerano",
+      "corso_acqua": "Scaricatore Bagno",
+      "tratto": "dallo Sforzesco — tutto il corso — nel Ticino",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-006",
+      "tipo": "concessione",
+      "comune": "Sozzago",
+      "corso_acqua": "Fontane Bella E Fontanone",
+      "tratto": "nascono a NORD del territorio comunale — scorrono parallele per circa 400 metri — confluiscono nella frazione CAVALLERO (concessione privata FISAS)",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Trecatesi",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "confluenza": "Nella Frazione"
+        },
+        "a": {
+          "offset_m": 400,
+          "auto": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-007",
+      "tipo": "concessione",
+      "comune": "CARPIGNANO San",
+      "corso_acqua": "Roggia Biraga",
+      "tratto": "Dal Fiume Sesia — dalla sponda sinistra del fiume Sesia sino alla bocca Marza in Comune di Castello d'Agogna (Pv) per la parte ricadente in Provincia di Novara — confine provinciale",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-008",
+      "tipo": "concessione",
+      "comune": "Vespolate",
+      "corso_acqua": "Roggia Biraghetta",
+      "tratto": "VESPOLATE — dal sottopasso al Torrente Agogna in Comune di Vespolate alla ferma per la derivazione del cavo di Cascina Gorina in Comune di Ottabiano per la parte ricadente in Provincia di Novara — BORGOLAVEZZARO",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-009",
+      "tipo": "concessione",
+      "comune": "Carpignano",
+      "corso_acqua": "Roggia Bolgora",
+      "tratto": "CARPIGNANO dal fiume SESIA — CARPIGNANO RECETTO - LANDIONA - VICOLUNGO - BIANDRATE - CASALBELTRAME - in concessione dal comune di CASALVOLONE — provincia di VERCELLI confine nel comune di VILLATA",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-010",
+      "tipo": "riserva",
+      "comune": "Vaprio",
+      "corso_acqua": "Cavo Borromeo",
+      "tratto": "VAPRIO D'A. — tratto compreso tra l'idrometro di cascina Torre in Vaprio d'A. e l'idrometro di cascina Argine in Bellinzago N. — BELLINZAGO N.",
+      "regola": "diritto esclusivo di pesca (riservato al concessionario)",
+      "gestore": "EST SESIA RISERVA PRIVATA veronesi Geom Carlo",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-011",
+      "tipo": "concessione",
+      "comune": "Fontaneto A.",
+      "corso_acqua": "Cavo Borromeo Superiore",
+      "tratto": "FONTANETO A. — dalla sorgente (Fontaneto) all'idrometro della cascina Torre (Vaprio) — VAPRIO A.",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-012",
+      "tipo": "concessione",
+      "comune": "Novara",
+      "corso_acqua": "Fontana Borsotti",
+      "tratto": "TESTA DI FONTANA — tutto il corso — a perdersi",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-013",
+      "tipo": "concessione",
+      "comune": "Galliate",
+      "corso_acqua": "Lanca Bosco Leone",
+      "tratto": "GALLIATE — alimentata da acqua sorgiva e dalle piene stagionali del Fiume Ticino — specchio d'acqua \"chiuso\" occasionalmente comunicante col Fiume Ticino durante le piene stagionali",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Galliatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-014",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Fontana Buia",
+      "tratto": "nasce in località Molino S.Maria in comune di TRECATE — prosegue in località CAMPOMAGNO in comune di SOZZAGO per poi continuare nel comune di CERANO — CERANO confluisce nella frazione FERRERA (concessione privata) nelle vicinanze della cascina CAMERONA",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-015",
+      "tipo": "concessione",
+      "comune": "Carpignano",
+      "corso_acqua": "Roggia Asta Principale Busca",
+      "tratto": "sponda sinistra fiume Sesia in Comune di Carpignano — parte ricadente in Provincia di Novara fino al confine con la Provincia di Pavia — Bocca del Cavo della Pista di Bordignana in Provincia di Pavia",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-016",
+      "tipo": "concessione",
+      "comune": "Briona",
+      "corso_acqua": "Cavetto Ramo Sinistro Busca O Ladro",
+      "tratto": "Briona — tutto il corso — Sillavango Roggia Busca",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-017",
+      "tipo": "concessione",
+      "comune": "CARPIGNANO San",
+      "corso_acqua": "Cavetto Ramo Destro Busca O Ladro",
+      "tratto": "Carpignano S. — dalla roggia Molinara di Carpignano S. alla confluenza con il ramo sinistro — Sillavengo",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-018",
+      "tipo": "concessione",
+      "comune": "Sillavengo",
+      "corso_acqua": "Cavetto Asta Principale Busca O Ladro",
+      "tratto": "SILLAVENGO da roggia Busca — dalla confluenza dei rami destro e sinistro fino al confine con la Provincia di Pavia nella parte ricadente in Provincia di Novara per tutto il corso — confine provinciale",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-019",
+      "tipo": "concessione",
+      "comune": "Sozzago",
+      "corso_acqua": "Fontana Calvi",
+      "tratto": "SOZZAGO — 5000 METRI — CASSOLNUOVO",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Sozzago",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-020",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Fontana Campomagno O Rosa",
+      "tratto": "TRECATE — METRI 4000 — CERANO",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Trecatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-021",
+      "tipo": "concessione",
+      "comune": "Briona",
+      "corso_acqua": "Cavo Canturina",
+      "tratto": "BRIONA nasce nei pressi della ferrovia per VARALLO POMBIA — scorre parallelo alla strada provinciale della Valsesia in direzione sud e dopo essere entrata nel comune di CASTELLAZZO rientra nel comune di BRIONA in località cascina MAURIZIA — BRIONA località cascina MAURIZIA si immette nella roggia PELTRENGA",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-022",
+      "tipo": "concessione",
+      "comune": "Momo",
+      "corso_acqua": "Fontana Caravaggio",
+      "tratto": "MOMO - BELLINZAGO",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-023",
+      "tipo": "concessione",
+      "comune": "Romentino",
+      "corso_acqua": "Colatore Cardanino",
+      "tratto": "DALLO SFORZESCO — tutto il corso — nelle lanche del Ticino",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-024",
+      "tipo": "concessione",
+      "comune": "Romentino",
+      "corso_acqua": "Colatore Cardano",
+      "tratto": "testa di fontana — tutto il corso — nello Sforzesco",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-025",
+      "tipo": "concessione",
+      "comune": "Romentino",
+      "corso_acqua": "Scaricatore Cardano",
+      "tratto": "ROMENTINO testa di fontana — tutto il corso — nel Naviglio Sforzesco",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-026",
+      "tipo": "concessione",
+      "comune": "San PIETRO M.",
+      "corso_acqua": "Cavo Cattedrale",
+      "tratto": "S. PIETRO MOSEZZO — dal Canale Cavour in Comune di S. Pritro Mosesso fino alla sbocco nel torrente Arbogna — BORGOLAVEZZARO",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-027",
+      "tipo": "concessione",
+      "comune": "Sozzago",
+      "corso_acqua": "Fontana Cavallero",
+      "tratto": "a fianco Torrente TERDOPPIO — 7000 METRI — CASSOLNUOVO",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Trecatesi",
+      "fonte_pagina": null,
+      "nota": "tratto/i con regolamento no-kill (lista FIPSAS Fishing Tour 2026)"
+    },
+    {
+      "id": "NO-BAC-028",
+      "tipo": "concessione",
+      "comune": "Galliate",
+      "corso_acqua": "Scaricatore Del Canale Cavour",
+      "tratto": "Imbocco Canale Cavour di Galliate — tutto il corso — Confluenza con fiume Ticino",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-029",
+      "tipo": "concessione",
+      "comune": "Recetto",
+      "corso_acqua": "Canale Cavour",
+      "tratto": "confine provinciale — tutto il corso — partizione tra scaricatore in Ticino e dirametore Vigevano in Comune di Galliate",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-030",
+      "tipo": "concessione",
+      "comune": "Casalvolone",
+      "corso_acqua": "Roggia Ceraglio",
+      "tratto": "CASALVOLONE — dall'origine alla confluenza in Bolgora (Molino della Morte) — CASALVOLONE",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-031",
+      "tipo": "riserva",
+      "comune": "Novara",
+      "corso_acqua": "Fontana Cerana O Ariotta O Riotta",
+      "tratto": "Testa di Fontana — nel tratto compreso tra i capo fondi ubicati nel mappale184 di Novara e il suddetto edificio di carico della fontana di e Pernate . — fontana di Pernate",
+      "regola": "diritto esclusivo / gestione: MITTINO Gianni",
+      "gestore": "MITTINO Gianni",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-032",
+      "tipo": "concessione",
+      "comune": "Novara",
+      "corso_acqua": "Roggia Cerana Superiore O Nova",
+      "tratto": "NOVARA dal torrente AGOGNA cascina BADA di S.RITA frazione di AGOGNATE — scorre parallela al cavo RICCA — non fuoriesce dall'altro capo della città confluendo nel cavo RICCA",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-033",
+      "tipo": "riserva",
+      "comune": "Landiona",
+      "corso_acqua": "Fontana Ceresa",
+      "tratto": "LANDIONA — LANDIONA",
+      "regola": "diritto esclusivo / gestione: VIENNESE PIETRO",
+      "gestore": "VIENNESE PIETRO",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-034",
+      "tipo": "concessione",
+      "comune": "Fontaneto",
+      "corso_acqua": "Cavo Cid",
+      "tratto": "FONTANETO — dalla confluenza tra la fontana Galeazza e la Fontana D'Assi a sud della Cascina Picchetta in Comune di Cameri ivi compresi il fontanone Marco, la Fontana Galisciotta e la Fontana Monferrona — CAMERI",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-035",
+      "tipo": "concessione",
+      "comune": "Cressa",
+      "corso_acqua": "Cavo Cid (Detto Fontana D'Assi O San Giovanni)",
+      "tratto": "CRESSA — dall'origine a sud della Cascina Magina in Comune di Cressa alla confluenza con la fontana Galeazza — FONTANETO A.",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-036",
+      "tipo": "concessione",
+      "comune": "Borgomanero",
+      "corso_acqua": "Cavo Cid (Detto Fontana Galeazza)",
+      "tratto": "BORGOMANERO — A Nord-Est del Molino Resega in Comune di Borgomanero ivi compresi i numerosi capofonti fino alla confluenza con la fontana Dessi in Comune di Fontaneto D'Agogna — FONTANETO D'AGOGNA",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-037",
+      "tipo": "concessione",
+      "comune": "Momo",
+      "corso_acqua": "Fontana Cristina",
+      "tratto": "testa di fontana — tutto il corso — in terdoppio",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "nota": "tratto/i con regolamento no-kill (lista FIPSAS Fishing Tour 2026)",
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-038",
+      "tipo": "concessione",
+      "comune": "Casalino",
+      "corso_acqua": "Cavo Crocetto",
+      "tratto": "CASALINO — dalle origini per tutto il percorso nei territori di Orfengo e Casalino — Sfocia nel Cavo Scotti a Palestro",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-039",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Fontana Asta Principale Dadda",
+      "tratto": "a fianco strada regionale 11 TRECATE- NOVARA — 3000 METRI — TRECATE",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Sozzago",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-040",
+      "tipo": "concessione",
+      "comune": "Briona",
+      "corso_acqua": "Cavo D'Assi",
+      "tratto": "nasce dalla roggia MORA in frazione PROH comune di BRIONA — attraversa le frazioni di Cesto e Nibbia - in località laghetti Cobiadino sottopassa il canale Cavour e in frazione Agognate dove viene alimentato da una presa d'acqua del canale Cavour. Scorre in prossimità della cascina Monta quindi prosegue tombato sot — GARBAGNA confluisce nel cavo RILE",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null,
+      "nota": "tratto/i con regolamento no-kill (lista FIPSAS Fishing Tour 2026)"
+    },
+    {
+      "id": "NO-BAC-041",
+      "tipo": "concessione",
+      "comune": "Cressa",
+      "corso_acqua": "Fontana Dassi O San Giovanni",
+      "tratto": "CRESSA — dall'origine a sud della casc.Magina - Comune di Cressa alla confluenza con la fontana Galeazza — FONTANETO D'AGOGNA",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-042",
+      "tipo": "concessione",
+      "comune": "Casalbeltrame",
+      "corso_acqua": "Cavo De Carlis",
+      "tratto": "dalla Busca — tutto il corso",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-043",
+      "tipo": "concessione",
+      "comune": "Casalino",
+      "corso_acqua": "Fosso Colatore Diviso",
+      "tratto": "colatore — tutto il corso — r. Busca",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-044",
+      "tipo": "concessione",
+      "comune": "Novara",
+      "corso_acqua": "Fontana Dominioni",
+      "tratto": "testa di fontana a Monte del Canale Cavour — tutto il corso — a perdersi",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-045",
+      "tipo": "concessione",
+      "comune": "Sozzago",
+      "corso_acqua": "Fontana Elvadina",
+      "tratto": "CASCINA MAGAZZENO — 1000 METRI — SOZZAGO",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Sozzago",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-046",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Canale Erga",
+      "tratto": "FILAROLA - ENEL — 3000 METRI — TRECATE ponte SAN CASSIANO",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Trecatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-047",
+      "tipo": "riserva",
+      "comune": "Casalbeltrame",
+      "corso_acqua": "Fontana Favino",
+      "tratto": "CASALBELTRAME — tratto della lunghezza di circa 1000 mt. Compreso tra il capofonte e l'immissione nel cavo Crosio, in prossimità della cascina Baraggia, in Comune di Casalbeltrame — CASALBELTRAME",
+      "regola": "diritto esclusivo / gestione: BUSOLO CLARISSA",
+      "gestore": "BUSOLO CLARISSA",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-048",
+      "tipo": "concessione",
+      "comune": "Sozzago",
+      "corso_acqua": "Fontana Ferrera",
+      "tratto": "testa di fontana — tutto il corso — confine provinciale",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-049",
+      "tipo": "concessione",
+      "comune": "San PIETRO M.",
+      "corso_acqua": "Fontana Fibiana",
+      "tratto": "S.PIETRO MOSEZZO — dalle origini su tutto il territorio di S. Pietro M. — S.P.IETRO MOSEZZO",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-050",
+      "tipo": "concessione",
+      "comune": "Mandello Vitta",
+      "corso_acqua": "Cavo Filarello",
+      "tratto": "dalla Busca — tutto il corso",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-051",
+      "tipo": "concessione",
+      "comune": "Grignasco",
+      "corso_acqua": "Canale Filatura Di Grignasco",
+      "tratto": "GRIGNASCO — dall'imbocco del canale al secondo ponte dopo scarico Colonia in Comune di Grignasco, dall'ultimo ponte al ponte delle porte rosse di Grignasco,dalla centrale dell'Isola al ponte Torrente Mologna di Prato Sesia, dall'ultimo ponte alla foce del canale nel — PRATO SESIA",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-052",
+      "tipo": "riserva",
+      "comune": "Casalvolone",
+      "corso_acqua": "Fontanile Fontanone",
+      "tratto": "CASALVOLONE — dal capofonte allo sbocco nel cavo Torre — CASALVOLONE",
+      "regola": "diritto esclusivo di pesca (riservato al concessionario)",
+      "gestore": "PRIVATA",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-053",
+      "tipo": "concessione",
+      "comune": "Novara",
+      "corso_acqua": "Cavo Fossalone",
+      "tratto": "NOVARA testa di fontana — origine dalla Fontana Ariotta in Comune di Novara - sbocco nella roggia Cerana in Comune di Trecate — TRECATE roggia Cerana",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-054",
+      "tipo": "concessione",
+      "comune": "Borgomanero",
+      "corso_acqua": "Fontana Galeazza",
+      "tratto": "BORGOMANERO — dall'origine, circa 300 m. a nord-est del Molino Resega ivi compresi i capofontifino alla confluenza con la fontana Dessi — FONTANETO",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "confluenza": "Fontana Dessi"
+        },
+        "a": {
+          "offset_m": 300,
+          "auto": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-055",
+      "tipo": "concessione",
+      "comune": "Vaprio",
+      "corso_acqua": "Fontana Galisciotta",
+      "tratto": "VAPRIO A. — AFFLUENTE CAVO CID — VAPRIO A.",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-056",
+      "tipo": "concessione",
+      "comune": "Casalini",
+      "corso_acqua": "Raccoglitore Galletto",
+      "tratto": "dalla Busca — tutto il corso — a perdersi",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-057",
+      "tipo": "concessione",
+      "comune": "Casalino",
+      "corso_acqua": "Roggia Gamaretta",
+      "tratto": "dalla Busca — tutto il corso — a perdersi",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-058",
+      "tipo": "concessione",
+      "comune": "Vinzaglio",
+      "corso_acqua": "Roggia Gamarra",
+      "tratto": "BORGOVERCELLI — dalla confluenza della Roggia Bolgora con la roggia Morta (Borgovercelli) fino a monte Gallarotto e successivo tratto sino al confine tra i Comuni di Vinzaglio e Palestro in corrispondenza del canale sulla roggia Crocettona per la parte ricadente in Provi — Palestro nel Roggione Sartirana",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-059",
+      "tipo": "concessione",
+      "comune": "Novara",
+      "corso_acqua": "Laghetto Gazurlo",
+      "tratto": "tutta l'area",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-060",
+      "tipo": "concessione",
+      "comune": "Sozzago",
+      "corso_acqua": "Fontana Gottardino",
+      "tratto": "testa di fontana — tutto il corso — confine provinciale",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-061",
+      "tipo": "concessione",
+      "comune": "Galliate",
+      "corso_acqua": "Lanca Lama Di Barcellona",
+      "tratto": "GALLIATE — dalla linea partente dal Mulino del Pericolo passante a m. 58,20 a sud del fabbricato condominiale eretto all'inizio del primo scaricatore del Naviglio al confine territoriale tra il Comune di Galliate e il Comune di Romentino — NAVIGLIO SFORZESCO (PONTE DELLA BINDA)",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Galliatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-062",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Cavo Lanca Croce",
+      "tratto": "TRECATE località BOSCO DANICO (S. MARTINO) — 6000 METRI — TRECATE (BAGNO DEL LINO)",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Trecatesi",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "luogo": "bosco danico, Trecate"
+        },
+        "a": {
+          "offset_m": 6000,
+          "auto": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-063",
+      "tipo": "concessione",
+      "comune": "Romentino",
+      "corso_acqua": "Naviglio Langosco",
+      "tratto": "confine Comune di Galliate — tutto in Comune di Romentino per mt. 3157 — edificio di scarico nella roggia Molinara",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-064",
+      "tipo": "concessione",
+      "comune": "Galliate",
+      "corso_acqua": "Naviglio Langosco",
+      "tratto": "GALLIATE — dalla linea partente dal Mulino del Pericolo passante a m. 58,20 a sud del fabbricato condominiale eretto all'inizio del primo scaricatore del Naviglio al confine territoriale tra il Comune di Galliate e il Comune di Romentino — CONFINE CON ROMENTINO",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-065",
+      "tipo": "concessione",
+      "comune": "Cerano",
+      "corso_acqua": "Canale Langosco",
+      "tratto": "TRECATE — m. 2573 compresi tra i ponti a servizio delle strade comunali San Cassiano (Trecate) e Bagno Posto (Cerano) — CERANO",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-066",
+      "tipo": "concessione",
+      "comune": "Cerano",
+      "corso_acqua": "Naviglio Langosco",
+      "tratto": "CERANO — tratto di mt. 3085 compreso tra il ponte a servizio della strada comunale Bagno alla progr.va 16308 ed il confine con il Comune di Cassolnovo alla progr.va 19393 in Comune di Cerano — CERANO",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-067",
+      "tipo": "concessione",
+      "comune": "Casalino",
+      "corso_acqua": "Cavo Laura",
+      "tratto": "dalla Biraga — tutto il corso — a perdersi",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-068",
+      "tipo": "concessione",
+      "comune": "Cerano",
+      "corso_acqua": "Cavo Lisciotto",
+      "tratto": "CERANO — ESTENSIONE DIRITTO SUL FIUME TICINO — CERANO",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-069",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Fontana Luserta",
+      "tratto": "strada Moneta in comune di TRECATE — 3500 METRI — TRECATE",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Trecatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-070",
+      "tipo": "concessione",
+      "comune": "Caltignaga",
+      "corso_acqua": "Fontana Manetta",
+      "tratto": "testa di fontana — tutto il corso — in Terdoppio",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "nota": "tratto/i con regolamento no-kill (lista FIPSAS Fishing Tour 2026)",
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-071",
+      "tipo": "concessione",
+      "comune": "Vaprio A.",
+      "corso_acqua": "Fontanone Marco",
+      "tratto": "VAPRIO A. — AFFLUENTE CAVO CID — VAPRIO A.",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-072",
+      "tipo": "concessione",
+      "comune": "GARBAGNA Novarese",
+      "corso_acqua": "Laghetti Mariina",
+      "tratto": "tutta l'area",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-073",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Fontana Mirabella O Mietta",
+      "tratto": "NOVARA — NOVARA 5000 METRI — CERANO",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Trecatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-074",
+      "tipo": "concessione",
+      "comune": "Casalino",
+      "corso_acqua": "Roggia Molinara",
+      "tratto": "dalla Busca — tutto il corso — a perdersi",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-075",
+      "tipo": "concessione",
+      "comune": "Galliate",
+      "corso_acqua": "Roggia Molinara",
+      "tratto": "GALLIATE — dalla linea partente dal Mulino del Pericolo passante a m. 58,20 a sud del fabbricato condominiale eretto all'inizio del primo scaricatore del Naviglio al confine territoriale tra il Comune di Galliate e il Comune di Romentino — CONFINE CON ROMENTINO",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-076",
+      "tipo": "concessione",
+      "comune": "Vicolungo",
+      "corso_acqua": "Roggia Molinara",
+      "tratto": "dalla Biraga a Vicolungo — tutto il corso — a perdersi nei capi a Biandrate",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-077",
+      "tipo": "concessione",
+      "comune": "Casalvolone",
+      "corso_acqua": "Roggia Molinara",
+      "tratto": "dalla Busca — tutto il corso — a perdersi",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-078",
+      "tipo": "concessione",
+      "comune": "Mandello Vitta",
+      "corso_acqua": "Roggia Molinara",
+      "tratto": "dalla Busca — tutto il corso",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-079",
+      "tipo": "concessione",
+      "comune": "Cerano",
+      "corso_acqua": "Roggia Molinara",
+      "tratto": "ROMENTINO dal confine della concessione di pesca GALLIATESI sita a circa 300 metri dalla cascina GERANO — scorre interamente nel PARCO DEL TICINO e dopo aver oltrepassato la località MANDELLI entra in TRECATE frazione SAN MARTINO CERANO località BAR VENEZIA, quindi dopo aver sottopassato il naviglio SFORZESCO diventa in concessione FIPSAS — CERANO villa GIULIA confine con la provincia di PAVIA in comune di CASSOLNOVO",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "luogo": "mandelli entra, Cerano"
+        },
+        "a": {
+          "offset_m": 300,
+          "auto": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-080",
+      "tipo": "concessione",
+      "comune": "Bellinzago",
+      "corso_acqua": "Roggia Molinara",
+      "tratto": "POMBIA — dall'imbocco presso il Comune di Pombia fino al confine del territorio di Bellinzago compreso — BELLINZAGO",
+      "regola": "acqua in gestione a consorzio (permesso)",
+      "gestore": "Cons. Roggia Molinara",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-081",
+      "tipo": "concessione",
+      "comune": "Casaleggio",
+      "corso_acqua": "Roggia Molinara",
+      "tratto": "dalla Busca — Tutto i corso — a perdersi",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-082",
+      "tipo": "concessione",
+      "comune": "Landiona",
+      "corso_acqua": "Roggia Molinara",
+      "tratto": "nasce dal fiume SESIA al Km.15 dell'argine EST in comune di LANDIONA — attraversa Landiona incrocia nel D.A.N. in comune di VICOLUNGO per poi attraversare il centro abitato e proseguire nel comune di BIANDRATE — si disperde nelle campagne",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-083",
+      "tipo": "concessione",
+      "comune": "Cressa",
+      "corso_acqua": "Roggia Molinara",
+      "tratto": "BORGOMANERO — dalla derivazione sul Torrente Agogna in Comune di Borgomanero allo sbocco del Cavo Borromeo in Comune di Cressa — CRESSA",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-084",
+      "tipo": "concessione",
+      "comune": "CARPIGNANO San",
+      "corso_acqua": "Roggia Molinara",
+      "tratto": "dalla Busca — tutto i corso — in Busca",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-085",
+      "tipo": "concessione",
+      "comune": "Sillavengo",
+      "corso_acqua": "Roggia Molinara",
+      "tratto": "dalla Busca — tutto il corso",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-086",
+      "tipo": "concessione",
+      "comune": "Biandrate",
+      "corso_acqua": "Roggia Molinara",
+      "tratto": "DA Biraga di iandrate — tutto il corso — a perdersi nei campi a Biandrate",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-087",
+      "tipo": "concessione",
+      "comune": "Casalbeltrame",
+      "corso_acqua": "Roggia Molinara",
+      "tratto": "dalla Busca — tutto il corso — a perdersi",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-088",
+      "tipo": "concessione",
+      "comune": "Vaprio",
+      "corso_acqua": "Fontana Monferrona",
+      "tratto": "VAPRIO A. — AFFLUENTE CAVO CID — VAPRIO A.",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-089",
+      "tipo": "concessione",
+      "comune": "Recetto",
+      "corso_acqua": "Cavo Montebello",
+      "tratto": "dal canale Cavour all'edificio di ferma per la derivazione del cavo Cremona",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-090",
+      "tipo": "concessione",
+      "comune": "Romentino",
+      "corso_acqua": "Lanca Del Ticino Monza",
+      "tratto": "dal lato nord al 200 metri a monte de4l ponte A4",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-091",
+      "tipo": "concessione",
+      "comune": "Novara Trecate",
+      "corso_acqua": "Roggia Mora",
+      "tratto": "PERNATE — dalla deviazione del torrnte terdoppio in frazione Pernate al partitore di Trecate — TRECATE",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null,
+      "nota": "tratto/i con regolamento no-kill (lista FIPSAS Fishing Tour 2026)"
+    },
+    {
+      "id": "NO-BAC-092",
+      "tipo": "concessione",
+      "comune": "ROMAGNANO San",
+      "corso_acqua": "Roggia Mora",
+      "tratto": "ROMAGNANO S. — dall'ultima Centrale di Romagnano Sesia a valle fino alla presa per il canale di adduzione della roggia Busca in Comune di Fara Nov. -dalle porte di Romagnano S. fino lla centrale idroelettica in Regione Castellazzo — FARA NOV.",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null,
+      "nota": "tratto/i con regolamento no-kill (lista FIPSAS Fishing Tour 2026)"
+    },
+    {
+      "id": "NO-BAC-093",
+      "tipo": "concessione",
+      "comune": "Fara",
+      "corso_acqua": "Roggia Mora",
+      "tratto": "DAL Sesia — tra l'abitato di Fara e il Torrente Terdoppio in Comune di Novara, compreso lo scaricatore in Agogna — NOVARA",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "nota": "tratto/i con regolamento no-kill (lista FIPSAS Fishing Tour 2026)"
+    },
+    {
+      "id": "NO-BAC-094",
+      "tipo": "concessione",
+      "comune": "Sozzago",
+      "corso_acqua": "Roggia Mora Camerona",
+      "tratto": "SOZZAGO — dal partitore della Mietta (Sozzago) al partitore della Comerona (Cerano) compreso il tratto in servizio del Mulino Santa Maria (Sozzago) — CERANO",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null,
+      "nota": "tratto/i con regolamento no-kill (lista FIPSAS Fishing Tour 2026)"
+    },
+    {
+      "id": "NO-BAC-095",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Roggia Mora Cerca",
+      "tratto": "TRECATE — dal partitore mora di Trecate fino al partitore delle Staffe di Cerano — CERANO",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null,
+      "nota": "tratto/i con regolamento no-kill (lista FIPSAS Fishing Tour 2026)"
+    },
+    {
+      "id": "NO-BAC-096",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Roggia Moretta",
+      "tratto": "TRECATE — dal partitore Mora di Trecate fino alla confluenza nella roggia Camerona (Sozzago) — CERANO",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-097",
+      "tipo": "riserva",
+      "comune": "Novara Pernate",
+      "corso_acqua": "Fontana Motta",
+      "tratto": "PERNATE — PERNATE",
+      "regola": "diritto esclusivo / gestione: ASS. PESC. FONTANA MOTTA",
+      "gestore": "Ass. Pesc. Fontana Motta",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-098",
+      "tipo": "concessione",
+      "comune": "Cerano",
+      "corso_acqua": "Cavo Negretto",
+      "tratto": "CERANO — ESTENSIONE DIRITTO SUL FIUME TICINO — CERANO",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-099",
+      "tipo": "concessione",
+      "comune": "Nibbia",
+      "corso_acqua": "Fontanone Nibbia Di",
+      "tratto": "testa di fontana — tutto il corso — immissione nel cavo Cattedrale",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-100",
+      "tipo": "concessione",
+      "comune": "Novara",
+      "corso_acqua": "Fontana + Scaricatore Nivellina E Nivellina In Terdoppio",
+      "tratto": "TESTA DI FONTANA in Comune di Novara — tutto il corso — confluenza nel torrente Terdoppio",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "nota": "tratto/i con regolamento no-kill (lista FIPSAS Fishing Tour 2026)",
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-101",
+      "tipo": "concessione",
+      "comune": "Granozzo",
+      "corso_acqua": "Fontana Nuova",
+      "tratto": "testa di fontana — tutto il corso — confine provinciale",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-102",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Fontana Nuova",
+      "tratto": "a fianco strada regionale 11 TRECATE- NOVARA — 2500 metri — TRECATE",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Trecatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-103",
+      "tipo": "concessione",
+      "comune": "Caltignaga",
+      "corso_acqua": "Fontana Orlandina",
+      "tratto": "testa di fontana — tutto il corso — nel Terdoppio",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "nota": "tratto/i con regolamento no-kill (lista FIPSAS Fishing Tour 2026)",
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-104",
+      "tipo": "concessione",
+      "comune": "San NAZZARO San",
+      "corso_acqua": "Colatore Orofreddo",
+      "tratto": "S. NAZZARO S. — dall'origine in continuazione del cavo Montebello alla confluenza con la roggia Villata — S. NAZZARO S.",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-105",
+      "tipo": "concessione",
+      "comune": "Sozzago",
+      "corso_acqua": "Cavo Ospedale",
+      "tratto": "a valle canale TERDOPPIO — 2000 METRI — SOZZAGO",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Sozzago",
+      "fonte_pagina": null,
+      "nota": "tratto/i con regolamento no-kill (lista FIPSAS Fishing Tour 2026)"
+    },
+    {
+      "id": "NO-BAC-106",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Fontana Padulli",
+      "tratto": "sotto ferrovia MILANO-TORINO — 2000 METRI — TRECATE",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Trecatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-107",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Fontana O Cavo Padulli E Vecchia Riunite (Magazzeno)",
+      "tratto": "Radio Favo Aeronautica — 6000 metri — SOZZAGO",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Sozzago",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-108",
+      "tipo": "concessione",
+      "comune": "San Pietro Mosezzo",
+      "corso_acqua": "Cavo Panizzina",
+      "tratto": "SAN PIETRO MOSEZZO dal canale CAVOUR ai laghetti OBBIADINO — dopo aver sottopassato la S.P. 11 Novara-San Pietro M. zona industriale adiacente al BAR KLIPPER entra nel comune di Novara fraz. Casalgiate e dopo aver oltrepassato la strada statale 11 NO/VC costeggia la frazione Lumellogno località cimitero e la fraz.P — VESPPOLATE confine con provincia di PAVIA in comune di CONFIENZA",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-109",
+      "tipo": "concessione",
+      "comune": "Galliate",
+      "corso_acqua": "Lanca Panosa",
+      "tratto": "GALLIATE — alimentata da acqua sorgiva e dalle piene stagionali del Fiume Ticino — specchio d'acqua \"chiuso\" occasionalmente comunicante col Fiume Ticino durante le piene stagionali",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Galliatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-110",
+      "tipo": "concessione",
+      "comune": "Pella",
+      "corso_acqua": "Torrente Pellino",
+      "tratto": "COLMA in provincia del V.C.O. — AROLA (V.C.O.) PELLA — LAGO D'ORTA in comune di PELLA",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-111",
+      "tipo": "concessione",
+      "comune": "San MAURIZIO D'OPAGLIO",
+      "corso_acqua": "Torrenti - Diritto Demaniale Provincia Pellino - Plesina",
+      "tratto": "S. MAURIZIO O. — S. MAURIZIO O.",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-112",
+      "tipo": "concessione",
+      "comune": "S.Pietro Mosezzo",
+      "corso_acqua": "Cavo Piatti",
+      "tratto": "S.PIETRO MOSEZZO — dal Canale Cavour in Comune di S. Pietro M. fino al sottopasso della Roggia Biraga in Comune di Granozzo — GRANOZZO",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-113",
+      "tipo": "concessione",
+      "comune": "Novara",
+      "corso_acqua": "Fontana Pietta",
+      "tratto": "testa di fontana — tutto il corso — confine provinciale",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-114",
+      "tipo": "concessione",
+      "comune": "Tornaco",
+      "corso_acqua": "Cavo Plezza",
+      "tratto": "TORNACO — dall'origine (Tornaco) fino al partitore della Chiappona (Mortara per la parte ricadente in Provincia di Novara — MORTARA",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-115",
+      "tipo": "concessione",
+      "comune": "Novara",
+      "corso_acqua": "Fontana Porta",
+      "tratto": "testa di fontana a monte del fabbricato del podere Cassinazza — tutto il corso — a perdersi",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-116",
+      "tipo": "concessione",
+      "comune": "Cerano",
+      "corso_acqua": "Collettore Prati Nuovi",
+      "tratto": "è il proseguimento della roggia CERANA dal punto di uscita dei due rami sopracitati di cui ne raccoglie le acque — attraversa le campagne a EST dell S.S. per VIGEVANO — confine con provincia di PAVIA in comune di CASSOLNUOVO",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-117",
+      "tipo": "concessione",
+      "comune": "Cameri",
+      "corso_acqua": "Fontana Prato Grigio",
+      "tratto": "CAMERI — dalla sorgente in Bertinelle Vecchia al termine nel Cavo Argine di Cameri — CAMERI",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-118",
+      "tipo": "concessione",
+      "comune": "Novara",
+      "corso_acqua": "Diramatore Quintino Sella",
+      "tratto": "imbocco dal Canale Cavour a Veveri (Novara) — tutto il corso — confine provinciale",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-119",
+      "tipo": "concessione",
+      "comune": "Varallo Pombia",
+      "corso_acqua": "Canale Regina Elena",
+      "tratto": "Imbocco fiume Ticino Varallo Pombia — tutto il corso — Versatore nel Canale Cavour a Veveri Comune Novara",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-120",
+      "tipo": "concessione",
+      "comune": "Borgoticino",
+      "corso_acqua": "Fosso Rese O Scolatoio",
+      "tratto": "OLEGGIO CASTELLO da sorgive — COMIGNAGO - BORGOTICINO - CASTELLETTO TICINO — LAGO MAGGIORE in Comune di CASTELLETTO TICINO",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-121",
+      "tipo": "concessione",
+      "comune": "Novara",
+      "corso_acqua": "Cavo Ricca",
+      "tratto": "NOVARA canale CAVOUR in frazione VIGNALE — dopo aver oltrepassato l'autostrada A4 entra in città nel quartiere S.ANDREA (Via Locchi, Via Oxilia, Via Porta, Viale Dante) scorre tombato e ne esce in quartiere Vill. DALMAZIA perdendosi nelle campagne del TORRION QUARTARA — NOVARA frazione TORRION QUARTARA",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-122",
+      "tipo": "concessione",
+      "comune": "Casalvolone",
+      "corso_acqua": "Fontana Rondino",
+      "tratto": "CASALVOLONE — dal capofonte allo sbocco nel fontanile — CASALVOLONE",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-123",
+      "tipo": "concessione",
+      "comune": "Cameri",
+      "corso_acqua": "Fontana S. Martino E Sue Derivazioni",
+      "tratto": "CAMERI — dalla zona proto grande allo sbocco nella Fontana Valazza — CAMERI",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-124",
+      "tipo": "concessione",
+      "comune": "Romentino",
+      "corso_acqua": "Cavo San Pietro",
+      "tratto": "diramatore vigevano al salto S. Pietro in Comune di Romentino — tutto il corso — bocche termali al salto S. Martino in Comune di Trecate",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-125",
+      "tipo": "concessione",
+      "comune": "Cerano",
+      "corso_acqua": "Roggia San Rocco",
+      "tratto": "CERANO — dalla Roggia Cerana in tutto il suo sviluppo in Comune di Cerano — CERANO si perde nei campi",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-126",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Fontana Santa Maria",
+      "tratto": "a fianco Strada Provinciale TRECATE- OLENGO — 1500 METRI — TRECATE",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Sozzago",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-127",
+      "tipo": "concessione",
+      "comune": "Galliate",
+      "corso_acqua": "Canale Saporiti",
+      "tratto": "GALLIATE — dalla sua origine dal fiume TICINO alla confluenza nella lama BARCELLONA — lama BARCELLONA",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Galliatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-128",
+      "tipo": "concessione",
+      "comune": "Tornaco",
+      "corso_acqua": "Fontana Senella - Senelletta",
+      "tratto": "testa di fontana — tutto il corso — confine provinciale",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-129",
+      "tipo": "concessione",
+      "comune": "Grignasco",
+      "corso_acqua": "Fiume - Diritto Demaniale Della Provincia Fino A Landiona Sesia",
+      "tratto": "GRIGNASCO — dal ponte di S. Quirico in Comune di Grignasco fino all'estremo limite del Comune di Landiona — LANDIONA",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-130",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Naviglio - Scaricatori E Diramazioni Sforzesco",
+      "tratto": "Trecate — canale di by-pass della centrale idroelettrica Moneta e tronco di collegamento con il canale ERGA S.p.a. (già ENEL) in corrispondenza del Mulino di S. Cassiano — Sforzesco in Canale ERGA SPA",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-131",
+      "tipo": "concessione",
+      "comune": "Galliate",
+      "corso_acqua": "Naviglio Sforzesco",
+      "tratto": "GALLIATE — dalla linea partente dal Mulino del Pericolo passante a m. 58,20 a sud del fabbricato condominiale eretto all'inizio del primo scaricatore del Naviglio al confine territoriale tra il Comune di Galliate e il Comune di Romentino — CONFINE COMUNE DI ROMENTINO",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-132",
+      "tipo": "concessione",
+      "comune": "Romentino",
+      "corso_acqua": "Naviglio - Asta Proncipale Sforzesco",
+      "tratto": "Lama Barcellona GALLIATE — da confine Comunalie Galliate/Romentino a confine Provinciale — CONFINE PROVINCIA",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-133",
+      "tipo": "concessione",
+      "comune": "Romentino",
+      "corso_acqua": "Naviglio - Cavi Tributrari Risorgive E Colatori Sforzesco",
+      "tratto": "ROMENTINO — cavi tributrari risorgive e colatori nel bosco denominato Moimone di proprietà Gropallo per tutto il corso — GALLIATE nel Naviglio Sforzesco",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-134",
+      "tipo": "concessione",
+      "comune": "Pombia",
+      "corso_acqua": "Cavo Simonetta",
+      "tratto": "POMBIA — dalla presa del fiume Ticino alla prima chiusa in loc. Montelame — POMBIA",
+      "regola": "acqua in gestione a consorzio (permesso)",
+      "gestore": "Cons. Roggia Molinara",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-135",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Fontana Sorgente Tre Contane",
+      "tratto": "TRECATE sotto ferrovia MILANO-TORINO (S. MARTINO) — 5000 METRI — TRECATE",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Trecatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-136",
+      "tipo": "concessione",
+      "comune": "Casalino",
+      "corso_acqua": "Fontana Storta",
+      "tratto": "testa di fontana — tutto il corso — Cavetto Busca",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-137",
+      "tipo": "concessione",
+      "comune": "Sozzago",
+      "corso_acqua": "Fontana Storta",
+      "tratto": "CASCINA MAGAZZENO — 2000 METRI — SOZZAGO",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Sozzago",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-138",
+      "tipo": "concessione",
+      "comune": "Casalbeltrame",
+      "corso_acqua": "Scaricatore Stroppera",
+      "tratto": "dalla Busca — tutto il corso — a perdersi",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-139",
+      "tipo": "concessione",
+      "comune": "Galliate",
+      "corso_acqua": "Scaricatore Ticinazzo",
+      "tratto": "GALLIATE — dalla sua origine dal Naviglio Langosco (località Villa Fortuna) alla sua confluenza nella Lama Barcellona — LAMA BARCELLONA",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Galliatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-140",
+      "tipo": "concessione",
+      "comune": "Cerano",
+      "corso_acqua": "Cavo Ticinello",
+      "tratto": "CERANO — ESTENSIONE DIRITTO SUL FIUME TICINO — CERANO",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-141",
+      "tipo": "riserva",
+      "comune": "Cameri",
+      "corso_acqua": "Fiume Ticino",
+      "tratto": "NORD : derivazione del Naviglio Langosco dal fiume Ticino in prossimità dello sbarramento del fiume stesso SUD : confine con il diritto di pesca del comune di Galliate OVEST : Fondo scarpata della valle EST : andamento natutale del fiume Ticino — SUD : confine con il diritto di pesca del comune di Galliate",
+      "regola": "diritto esclusivo di pesca (riservato al concessionario)",
+      "gestore": "(DIRITTO ESCLUSIVO) ENTE DI GESTIONE DELLE AREE PROTETTE E DEL LAGO MAGGIORE Loc. Villa Picchetta 28062 Cameri",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-142",
+      "tipo": "riserva",
+      "comune": "Castelletto Sopra Ticino",
+      "corso_acqua": "Fiume Ticino",
+      "tratto": "Parte ricadente in Comune di Castelletto (maggioranza in Lombardia) NORD termine dello scolatore sopra Cicognola in sponda piemontese EST Sponda Varesina SUD Bricola di Abbasso limitata tra la sponda piemontese ed il pilone del fiume Ticino — SUD Bricola di Abbasso limitata tra la sponda piemontese ed il pilone del fiume Ticino",
+      "regola": "diritto esclusivo di pesca (riservato al concessionario)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-143",
+      "tipo": "riserva",
+      "comune": "Cerano",
+      "corso_acqua": "Fiume Ticino",
+      "tratto": "Fiume Ticino, ramo principale e sue diramazioni, rami vivi e morti, nonchè valli, lanche, paludi, letti abbandonati, morte, mortizze e bosie lungo la tratta in Cerano compresa tra il confine territoriale di Trecate a nord, il confine del diritto pesca Fipsas a sud, la roggia sforzesca a ovest, il condine con la Provincia di Milano a est — confine del diritto pesca Fipsas a sud, la roggia sforzesca a ovest, il condine con la Provincia di Milano a est",
+      "regola": "diritto esclusivo di pesca (riservato al concessionario)",
+      "gestore": "Parco del Ticino",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-144",
+      "tipo": "riserva",
+      "comune": "Galliate",
+      "corso_acqua": "Fiume Ticino",
+      "tratto": "Tutto il tratto del Ticino, fino alla linea mediana dal confine del territorio di Cameri a quello di Romentino — (il diritto si intende esteso ai derivati di Ticino, al Naviglio Langosco e alla Roggia Molinara scorrenti sul territorio comunale) — fino al Comune di Romentino",
+      "regola": "diritto esclusivo di pesca (riservato al concessionario)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-145",
+      "tipo": "riserva",
+      "comune": "Marano Ticino",
+      "corso_acqua": "Fiume Ticino",
+      "tratto": "Rami, valli, paludi, mortizze nel tratto che partendo dal sito al di sopra dell’Osteria di Zendone in confine co la Casa Castiglione di Marano Ticino a monte, discendendo compreso anche il Marone, fino allo sperone del Naviglio Grande vicino alla Casa detta della Camera — fino allo sperone del Naviglio Grande vicino alla Casa detta della Camera",
+      "regola": "diritto esclusivo di pesca (riservato al concessionario)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-146",
+      "tipo": "riserva",
+      "comune": "Bellinzago",
+      "corso_acqua": "Fiume Ticino",
+      "tratto": "Dallo Sperone o diga del Naviglio Grande (a monte) al comune di Bellinzago — fino al Comune di Bellinzago",
+      "regola": "diritto esclusivo di pesca (riservato al concessionario)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-147",
+      "tipo": "riserva",
+      "comune": "Oleggio",
+      "corso_acqua": "Fiume Ticino",
+      "tratto": "Dal Comune di Oleggio (a monte) al limite del diritto esclusivo riconosciuto al Comune di Galliate (con esclusione trVARIAZIONI ceduto al Parco del Ticino in Comune di Cameri)",
+      "regola": "diritto esclusivo di pesca (riservato al concessionario)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-148",
+      "tipo": "riserva",
+      "comune": "Pombia",
+      "corso_acqua": "Fiume Ticino",
+      "tratto": "tratto scorrente in Comune di Pombia confinante a nord col Comune di Varallo Pombia e a sud col Comune di Marano Ticino — fino al comune di Marano Ticino",
+      "regola": "diritto esclusivo di pesca (riservato al concessionario)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-149",
+      "tipo": "riserva",
+      "comune": "Romentino",
+      "corso_acqua": "Fiume Ticino",
+      "tratto": "Mt. 1300 circa Delimitazione:Ovest dal limite territoriale dei Comuni di Galliate e Romentino fino alla proprietà dei fratelli Bigatti?Nord: linea di confine tra i Comuni d Romentino di GalliateEst: confine proprietà f.lli Bigatti",
+      "regola": "diritto esclusivo di pesca (riservato al concessionario)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-150",
+      "tipo": "riserva",
+      "comune": "Trecate",
+      "corso_acqua": "Fiume Ticino",
+      "tratto": "Rami, mortizze, ghiaia e lamoni del Ticino, dal confine del territorio di Romentino a quello di Cerano — fino al Comune di Cerano",
+      "regola": "diritto esclusivo di pesca (riservato al concessionario)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-151",
+      "tipo": "riserva",
+      "comune": "Varallo Pombia",
+      "corso_acqua": "Fiume Ticino",
+      "tratto": "Tratto del fiume Ticino scorrente in Comune di Varallo Pombia escluso trVARIAZIONI sotto descritto",
+      "regola": "diritto esclusivo di pesca (riservato al concessionario)",
+      "gestore": "Comune",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-152",
+      "tipo": "concessione",
+      "comune": "Castelletto Ticino",
+      "corso_acqua": "Fiume - Sponda Piemontese Ticino",
+      "tratto": "CASTELLETTO TICINO — dalla località Molino Nuovo di Dorbiè a sud fino al Sasso Picchiato in località Vernone Superiore e da qui sino al confine a sud dell'ex diritto esclusivo di pesca Barberi Attilio, tratto scorrente in Comune di Varallo Pombia. A nord dal confine territori — CAMERI",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "luogo": "molino nuovo, Castelletto Ticino"
+        },
+        "a": {
+          "luogo": "vernone superiore, Castelletto Ticino"
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-153",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Fiume + Lanche E Mortizze Ticino",
+      "tratto": "a 900 metri ponte dell'autostrada TO-MI a valle — tra il confine del Comune di Romentino e il confine del Comune di Cerano per 7000 metri — CERANO",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Trecatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-154",
+      "tipo": "concessione",
+      "comune": "Caltignaga",
+      "corso_acqua": "Fontana Tomba'",
+      "tratto": "testa di fontana — tutto il corso — in Terdoppio",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "nota": "tratto/i con regolamento no-kill (lista FIPSAS Fishing Tour 2026)",
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-155",
+      "tipo": "concessione",
+      "comune": "Sozzago",
+      "corso_acqua": "Fontana Tombone",
+      "tratto": "Via dei SASSI in comune di SOZZAGO — 4000 METRI — SOZZAGO",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Trecatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-156",
+      "tipo": "concessione",
+      "comune": "Sozzago",
+      "corso_acqua": "Cavo Tre Once",
+      "tratto": "CASCINA MILORTA — 1500 METRI — SOZZAGO",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Sozzago",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-157",
+      "tipo": "concessione",
+      "comune": "Galliate",
+      "corso_acqua": "Scaricatore Treccione",
+      "tratto": "GALLIATE — dalla linea partente dal Mulino del Pericolo passante a metri 58,20 a sud del fabbricato condominiale eretto all'inizio del primo scaricatore del Naviglio Langosco alla sua confluenza nel fiume Ticino — FIUME TICINO, 400 METRI A MONTE DEL PONTE DI FERRO SULLA STRADA STATALE 341",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Galliatesi",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "confluenza": "Nel Fiume"
+        },
+        "a": {
+          "offset_m": 400,
+          "auto": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-158",
+      "tipo": "concessione",
+      "comune": "Cameri",
+      "corso_acqua": "Fontana Valazza E Sue Derivazioni",
+      "tratto": "CAMERI — dalla sorgente a monte della ferrovia NOVARA/LUINO al termine nel Terdoppio — CAMERI",
+      "regola": "acqua in gestione/concessione FIPSAS (permesso associativo)",
+      "gestore": "FIPSAS",
+      "fonte_pagina": null,
+      "nota": "tratto/i con regolamento no-kill (lista FIPSAS Fishing Tour 2026)"
+    },
+    {
+      "id": "NO-BAC-159",
+      "tipo": "concessione",
+      "comune": "Trecate",
+      "corso_acqua": "Fontana Vecchia",
+      "tratto": "sotto ferrovia MILANO-TORINO — 2000 METRI — TRECATE",
+      "regola": "acqua gestita da associazione pescatori (permesso)",
+      "gestore": "Ass. Pescatori Trecatesi",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-160",
+      "tipo": "concessione",
+      "comune": "Romentino",
+      "corso_acqua": "Scaricatore Vera",
+      "tratto": "dallo Sforzesco — dagli edifici di presa in sponda sinistra del Naviglio Sforzesco in Comune di Romentino fino all'immissione in sponda destra del fiume Ticino (confine tra i Comuni di Romentino e Trecate) — nelle lanche del Ticino",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null
+    },
+    {
+      "id": "NO-BAC-161",
+      "tipo": "concessione",
+      "comune": "Novara",
+      "corso_acqua": "Cavo Di Veveri",
+      "tratto": "derivazione dal Canale Reg. Elena a Veveri — tutto il corso — termine dei rami destro e sinistro dello stesso Comune di Novara",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-162",
+      "tipo": "concessione",
+      "comune": "Galliate",
+      "corso_acqua": "Diramatore Vigevano",
+      "tratto": "imbocco dal Canale Cavour in Comune di Galliate — tutto il corso — confine provinciale",
+      "regola": "acqua in gestione APD - Associazione Pescatori Dilettanti (permesso)",
+      "gestore": "APD",
+      "fonte_pagina": null,
+      "estremi": {
+        "da": {
+          "intero": true
+        },
+        "a": {
+          "intero": true
+        },
+        "auto": true
+      }
+    },
+    {
+      "id": "NO-BAC-163",
+      "tipo": "concessione",
+      "comune": "Pombia",
+      "corso_acqua": "Cavo Zendone O Acquarino",
+      "tratto": "POMBIA — dalla testa del cavo sino all'immissione dello stesso nel fiume Ticino — MARANO TICINO",
+      "regola": "acqua in gestione a consorzio (permesso)",
+      "gestore": "Cons. Roggia Molinara",
+      "fonte_pagina": null
     }
   ]
 }

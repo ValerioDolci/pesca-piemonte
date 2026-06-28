@@ -1,978 +1,1182 @@
 {
-  "Ala di Stura|Torino": {
-    "lat": 45.31515,
-    "lon": 7.305909
-  },
-  "Balme|Torino": {
-    "lat": 45.3025045,
-    "lon": 7.2154316
-  },
-  "Bardonecchia|Torino": {
-    "lat": 45.078339,
-    "lon": 6.703205
-  },
-  "Cantoira|Torino": {
-    "lat": 45.3433486,
-    "lon": 7.3801242
-  },
-  "Cesana Torinese|Torino": {
-    "lat": 44.9524431,
-    "lon": 6.7906727
-  },
-  "Coazze|Torino": {
-    "lat": 45.0521938,
-    "lon": 7.2979015
-  },
-  "Locana|Torino": {
-    "lat": 45.4176538,
-    "lon": 7.4588144
-  },
-  "Luserna San Giovanni|Torino": {
-    "lat": 44.815437,
-    "lon": 7.251318
-  },
-  "Noasca|Torino": {
-    "lat": 45.4539721,
-    "lon": 7.3145537
-  },
-  "Oulx|Torino": {
-    "lat": 45.0330519,
-    "lon": 6.83251
-  },
-  "Pomaretto|Torino": {
-    "lat": 44.9559831,
-    "lon": 7.1827794
-  },
-  "Pragelato|Torino": {
-    "lat": 44.9814858,
-    "lon": 6.9391604
-  },
-  "Usseglio|Torino": {
-    "lat": 45.2331973,
-    "lon": 7.2177346
-  },
-  "Valprato Soana|Torino": {
-    "lat": 45.5214814,
-    "lon": 7.5493546
-  },
-  "Biella|Biella": {
-    "lat": 45.5664109,
-    "lon": 8.0542758
-  },
-  "Callabiana|Biella": {
-    "lat": 45.631365,
-    "lon": 8.09722
-  },
-  "Camandona|Biella": {
-    "lat": 45.644165,
-    "lon": 8.09972
-  },
-  "Campiglia Cervo|Biella": {
-    "lat": 45.6628077,
-    "lon": 7.9999421
-  },
-  "Coggiola|Biella": {
-    "lat": 45.6881394,
-    "lon": 8.1762643
-  },
-  "Crevacuore|Biella": {
-    "lat": 45.686868,
-    "lon": 8.246722
-  },
-  "Donato|Biella": {
-    "lat": 45.55288,
-    "lon": 7.9072069
-  },
-  "Graglia|Biella": {
-    "lat": 45.558562,
-    "lon": 7.978019
-  },
-  "Muzzano|Biella": {
-    "lat": 45.560762,
-    "lon": 7.988919
-  },
-  "Piedicavallo|Biella": {
-    "lat": 45.6913461,
-    "lon": 7.9531142
-  },
-  "Pralungo|Biella": {
-    "lat": 45.5921482,
-    "lon": 8.0379244
-  },
-  "Pray|Biella": {
-    "lat": 45.6761963,
-    "lon": 8.2087139
-  },
-  "Sagliano Micca|Biella": {
-    "lat": 45.625764,
-    "lon": 8.043319
-  },
-  "Sordevolo|Biella": {
-    "lat": 45.5926184,
-    "lon": 7.9453844
-  },
-  "Valdilana|Biella": {
-    "lat": 45.666126,
-    "lon": 8.144302
-  },
-  "Baceno|VCO": {
-    "lat": 46.3163182,
-    "lon": 8.2579439
-  },
-  "Beura-Cardezza|VCO": {
-    "lat": 46.079578,
-    "lon": 8.299716
-  },
-  "Bognanco|VCO": {
-    "lat": 46.126378,
-    "lon": 8.201113
-  },
-  "Cannobio|VCO": {
-    "lat": 46.0618077,
-    "lon": 8.6976394
-  },
-  "Ceppo Morelli|VCO": {
-    "lat": 45.971773,
-    "lon": 8.067713
-  },
-  "Craveggia|VCO": {
-    "lat": 46.1763227,
-    "lon": 8.5153076
-  },
-  "Crevoladossola|VCO": {
-    "lat": 46.1643821,
-    "lon": 8.2710986
-  },
-  "Crodo|VCO": {
-    "lat": 46.2233007,
-    "lon": 8.3239356
-  },
-  "Domodossola|VCO": {
-    "lat": 46.1152451,
-    "lon": 8.2920459
-  },
-  "Formazza|VCO": {
-    "lat": 46.3919187,
-    "lon": 8.3904724
-  },
-  "Gravellona Toce|VCO": {
-    "lat": 45.930175,
-    "lon": 8.431222
-  },
-  "Macugnaga|VCO": {
-    "lat": 45.9683785,
-    "lon": 7.9672651
-  },
-  "Malesco|VCO": {
-    "lat": 46.1266185,
-    "lon": 8.5009192
-  },
-  "Mergozzo|VCO": {
-    "lat": 45.96128,
-    "lon": 8.4495252
-  },
-  "Montecrestese|VCO": {
-    "lat": 46.1628326,
-    "lon": 8.329842
-  },
-  "Omegna|VCO": {
-    "lat": 45.879774,
-    "lon": 8.408022
-  },
-  "Piedimulera|VCO": {
-    "lat": 46.0242382,
-    "lon": 8.259263
-  },
-  "Pieve Vergonte|VCO": {
-    "lat": 45.9871217,
-    "lon": 8.2829831
-  },
-  "Premia|VCO": {
-    "lat": 46.2681442,
-    "lon": 8.339
-  },
-  "Premosello-Chiovenda|VCO": {
-    "lat": 46.0039555,
-    "lon": 8.3275904
-  },
-  "Re|VCO": {
-    "lat": 46.1304986,
-    "lon": 8.544506
-  },
-  "San Bernardino Verbano|VCO": {
-    "lat": 45.9952224,
-    "lon": 8.4561461
-  },
-  "Santa Maria Maggiore|VCO": {
-    "lat": 46.1349546,
-    "lon": 8.4672779
-  },
-  "Trasquera|VCO": {
-    "lat": 46.2205675,
-    "lon": 8.1849578
-  },
-  "Varzo|VCO": {
-    "lat": 46.2067143,
-    "lon": 8.2544931
-  },
-  "Verbania|VCO": {
-    "lat": 45.9344082,
-    "lon": 8.5580062
-  },
-  "Ala Di Stura|Torino": {
-    "lat": 45.31515,
-    "lon": 7.305909
-  },
-  "Almese|Torino": {
-    "lat": 45.1168763,
-    "lon": 7.39455
-  },
-  "Arignano|Torino": {
-    "lat": 45.0402748,
-    "lon": 7.9015941
-  },
-  "Avigliana|Torino": {
-    "lat": 45.0779435,
-    "lon": 7.3983904
-  },
-  "Bobbio Pellice|Torino": {
-    "lat": 44.8079522,
-    "lon": 7.1167645
-  },
-  "Borgaro|Torino": {
-    "lat": 45.1521446,
-    "lon": 7.6579731
-  },
-  "Bosconero|Torino": {
-    "lat": 45.2686519,
-    "lon": 7.7636388
-  },
-  "Brusasco|Torino": {
-    "lat": 45.1554921,
-    "lon": 8.0601029
-  },
-  "Cafasse|Torino": {
-    "lat": 45.2459605,
-    "lon": 7.5172354
-  },
-  "Candia C.Se|Torino": null,
-  "Carignano|Torino": {
-    "lat": 44.906943,
-    "lon": 7.673225
-  },
-  "Carmagnola|Torino": {
-    "lat": 44.8455856,
-    "lon": 7.7192711
-  },
-  "Castellamonte|Torino": {
-    "lat": 45.381955,
-    "lon": 7.712117
-  },
-  "Castelnuovo Nigra|Torino": {
-    "lat": 45.4373968,
-    "lon": 7.69323
-  },
-  "Ceres|Torino": {
-    "lat": 45.3133772,
-    "lon": 7.3896883
-  },
-  "Ceresole Reale|Torino": {
-    "lat": 45.4324775,
-    "lon": 7.232401
-  },
-  "Cesana T.Se|Torino": null,
-  "Chialamberto|Torino": {
-    "lat": 45.3636694,
-    "lon": 7.3414713
-  },
-  "Chivasso|Torino": {
-    "lat": 45.1898322,
-    "lon": 7.8860277
-  },
-  "Colleretto|Torino": {
-    "lat": 45.4318872,
-    "lon": 7.7995915
-  },
-  "Condove|Torino": {
-    "lat": 45.1174186,
-    "lon": 7.3094552
-  },
-  "Cuorgnè|Torino": {
-    "lat": 45.3897204,
-    "lon": 7.6498168
-  },
-  "Druento|Torino": {
-    "lat": 45.1344531,
-    "lon": 7.5764559
-  },
-  "Fenestrelle|Torino": {
-    "lat": 45.0360951,
-    "lon": 7.0495615
-  },
-  "Giaveno|Torino": {
-    "lat": 45.0420053,
-    "lon": 7.3519942
-  },
-  "Groscavallo|Torino": {
-    "lat": 45.3684966,
-    "lon": 7.2587768
-  },
-  "Ivrea|Torino": {
-    "lat": 45.451803,
-    "lon": 7.8932496
-  },
-  "La Cassa|Torino": {
-    "lat": 45.1802806,
-    "lon": 7.5162134
-  },
-  "La Loggia|Torino": {
-    "lat": 44.957744,
-    "lon": 7.667324
-  },
-  "Lanzo Torinese|Torino": {
-    "lat": 45.2733505,
-    "lon": 7.4774108
-  },
-  "Lemie|Torino": {
-    "lat": 45.2281993,
-    "lon": 7.2920445
-  },
-  "Levone Canavese|Torino": {
-    "lat": 45.335278,
-    "lon": 7.5876151
-  },
-  "Massello Germanasca Di Massello Dalla Confluenza Con Il|Torino": null,
-  "Mattie|Torino": {
-    "lat": 45.1180569,
-    "lon": 7.1150875
-  },
-  "Mazzè|Torino": {
-    "lat": 45.300255,
-    "lon": 7.932723
-  },
-  "Moncalieri|Torino": {
-    "lat": 45.0004614,
-    "lon": 7.6847543
-  },
-  "Nole|Torino": {
-    "lat": 45.2479962,
-    "lon": 7.5723825
-  },
-  "Oulx Emissario|Torino": null,
-  "Pancalieri|Torino": {
-    "lat": 44.833441,
-    "lon": 7.585924
-  },
-  "Parella|Torino": {
-    "lat": 45.430657,
-    "lon": 7.793217
-  },
-  "Perosa Argentina|Torino": {
-    "lat": 44.95744,
-    "lon": 7.190914
-  },
-  "Perrero|Torino": {
-    "lat": 44.9382635,
-    "lon": 7.1146439
-  },
-  "Pessinetto|Torino": {
-    "lat": 45.2893723,
-    "lon": 7.4041025
-  },
-  "Pinasca|Torino": {
-    "lat": 44.94264,
-    "lon": 7.229115
-  },
-  "Piobesi|Torino": {
-    "lat": 44.932943,
-    "lon": 7.610123
-  },
-  "Pont Canavese|Torino": {
-    "lat": 45.4205265,
-    "lon": 7.5968553
-  },
-  "Pont Canavese T. Orco (|Torino": null,
-  "Porte|Torino": {
-    "lat": 44.8872933,
-    "lon": 7.2679711
-  },
-  "Prali|Torino": {
-    "lat": 44.8810735,
-    "lon": 7.0524391
-  },
-  "Prarostino|Torino": {
-    "lat": 44.8657923,
-    "lon": 7.2682233
-  },
-  "Quincinetto|Torino": {
-    "lat": 45.56296,
-    "lon": 7.807315
-  },
-  "Rivarolo|Torino": {
-    "lat": 45.3320235,
-    "lon": 7.7230498
-  },
-  "San Colombano Belmonte|Torino": {
-    "lat": 45.382254,
-    "lon": 7.621015
-  },
-  "San Germano Chisone|Torino": {
-    "lat": 44.89855,
-    "lon": 7.2411746
-  },
-  "San Giorgio Canavese|Torino": {
-    "lat": 45.334155,
-    "lon": 7.796819
-  },
-  "San Giusto|Torino": {
-    "lat": 44.9387521,
-    "lon": 7.3517473
-  },
-  "San Secondo Di Pinerolo|Torino": {
-    "lat": 44.8672222,
-    "lon": 7.298167
-  },
-  "Sauze Di Cesana|Torino": {
-    "lat": 44.9404829,
-    "lon": 6.858975
-  },
-  "Torino|Torino": {
-    "lat": 45.0677551,
-    "lon": 7.6824892
-  },
-  "Torre Pellice|Torino": {
-    "lat": 44.8214685,
-    "lon": 7.2031685
-  },
-  "Trana|Torino": {
-    "lat": 45.039044,
-    "lon": 7.421817
-  },
-  "Trausella (Valchiusa)|Torino": {
-    "lat": 45.489958,
-    "lon": 7.763116
-  },
-  "Traversella|Torino": {
-    "lat": 45.508458,
-    "lon": 7.749415
-  },
-  "Usseaux|Torino": {
-    "lat": 45.0489922,
-    "lon": 7.0286677
-  },
-  "Val Di Chy|Torino": {
-    "lat": 45.4611249,
-    "lon": 7.7928302
-  },
-  "Venaria Reale|Torino": {
-    "lat": 45.1348114,
-    "lon": 7.6268658
-  },
-  "Villafranca Piemonte|Torino": {
-    "lat": 44.778939,
-    "lon": 7.500424
-  },
-  "Villar Pellice|Torino": {
-    "lat": 44.8079035,
-    "lon": 7.1575796
-  },
-  "Vistrorio|Torino": {
-    "lat": 45.4423436,
-    "lon": 7.7681449
-  },
-  "Viù|Torino": {
-    "lat": 45.2391603,
-    "lon": 7.3758398
-  },
-  "Candia Canavese|Torino": {
-    "lat": 45.327755,
-    "lon": 7.885121
-  },
-  "Massello|Torino": {
-    "lat": 44.9671575,
-    "lon": 7.0202425
-  },
-  "Bolzano Novarese|Novara": {
-    "lat": 45.7627855,
-    "lon": 8.4451747
-  },
-  "Borgomanero|Novara": {
-    "lat": 45.6987105,
-    "lon": 8.4652724
-  },
-  "Briga Novarese|Novara": {
-    "lat": 45.7314994,
-    "lon": 8.4560971
-  },
-  "Cerano|Novara": {
-    "lat": 45.410966,
-    "lon": 8.780039
-  },
-  "Grignasco|Novara": {
-    "lat": 45.6840987,
-    "lon": 8.3378533
-  },
-  "Orta San Giulio|Novara": {
-    "lat": 45.7980814,
-    "lon": 8.406951
-  },
-  "Azeglio|Torino": {
-    "lat": 45.423459,
-    "lon": 7.993922
-  },
-  "Cavagnolo|Torino": {
-    "lat": 45.1521373,
-    "lon": 8.0514793
-  },
-  "Coassolo Torinese|Torino": {
-    "lat": 45.2975828,
-    "lon": 7.4604581
-  },
-  "Germagnano|Torino": {
-    "lat": 45.2638716,
-    "lon": 7.4694832
-  },
-  "Mazze|Torino": {
-    "lat": 45.300255,
-    "lon": 7.932723
-  },
-  "Montalto Dora|Torino": {
-    "lat": 45.490759,
-    "lon": 7.862818
-  },
-  "Ribordone|Torino": {
-    "lat": 45.4320395,
-    "lon": 7.50195
-  },
-  "Ronco Canavese|Torino": {
-    "lat": 45.4997374,
-    "lon": 7.5468552
-  },
-  "San Raffaele Cimena|Torino": {
-    "lat": 45.1533098,
-    "lon": 7.853202
-  },
-  "Verolengo|Torino": {
-    "lat": 45.1895918,
-    "lon": 7.9662734
-  },
-  "Antrona Schieranco|VCO": {
-    "lat": 46.0568121,
-    "lon": 8.0964155
-  },
-  "Druogno|VCO": {
-    "lat": 46.1351172,
-    "lon": 8.4342016
-  },
-  "Madonna del Sasso|VCO": {
-    "lat": 45.7880136,
-    "lon": 8.3468543
-  },
-  "Borgaro Torinese|Torino": {
-    "lat": 45.1521446,
-    "lon": 7.6579731
-  },
-  "Cumiana|Torino": {
-    "lat": 44.979742,
-    "lon": 7.376717
-  },
-  "Pinerolo|Torino": {
-    "lat": 44.8873086,
-    "lon": 7.3319454
-  },
-  "Borgosesia|Vercelli": {
-    "lat": 45.7166676,
-    "lon": 8.2768572
-  },
-  "Carisio|Vercelli": {
-    "lat": 45.40936,
-    "lon": 8.199027
-  },
-  "Cigliano|Vercelli": {
-    "lat": 45.3094496,
-    "lon": 8.0209788
-  },
-  "Formigliana|Vercelli": {
-    "lat": 45.429262,
-    "lon": 8.291928
-  },
-  "Greggio|Vercelli": {
-    "lat": 45.4557989,
-    "lon": 8.3788547
-  },
-  "Pezzana|Vercelli": {
-    "lat": 45.2598901,
-    "lon": 8.4958255
-  },
-  "Quarona|Vercelli": {
-    "lat": 45.757869,
-    "lon": 8.265721
-  },
-  "Saluggia|Vercelli": {
-    "lat": 45.2354962,
-    "lon": 8.0117019
-  },
-  "Stroppiana|Vercelli": {
-    "lat": 45.2304649,
-    "lon": 8.4565564
-  },
-  "Trino|Vercelli": {
-    "lat": 45.1939397,
-    "lon": 8.2969866
-  },
-  "Vercelli|Vercelli": {
-    "lat": 45.3251557,
-    "lon": 8.4227666
-  },
-  "Villarboit|Vercelli": {
-    "lat": 45.437362,
-    "lon": 8.337329
-  },
-  "Alagna Valsesia|Vercelli": {
-    "lat": 45.8512107,
-    "lon": 7.9371767
-  },
-  "Campertogno|Vercelli": {
-    "lat": 45.798953,
-    "lon": 8.0321533
-  },
-  "Carcoforo|Vercelli": {
-    "lat": 45.9087495,
-    "lon": 8.049537
-  },
-  "Cravagliana|Vercelli": {
-    "lat": 45.8483853,
-    "lon": 8.2026904
-  },
-  "Rimasco|Vercelli": {
-    "lat": 45.8588347,
-    "lon": 8.0629434
-  },
-  "Rimella|Vercelli": {
-    "lat": 45.9075478,
-    "lon": 8.1813547
-  },
-  "Scopello|Vercelli": {
-    "lat": 45.757984,
-    "lon": 8.1127615
-  },
-  "Varallo|Vercelli": {
-    "lat": 45.8137306,
-    "lon": 8.2592113
-  },
-  "Avise|Valle d'Aosta": {
-    "lat": 45.7085893,
-    "lon": 7.1397458
-  },
-  "Brusson|Valle d'Aosta": {
-    "lat": 45.7580348,
-    "lon": 7.7521754
-  },
-  "Champorcher|Valle d'Aosta": {
-    "lat": 45.6042155,
-    "lon": 7.5720289
-  },
-  "Cogne|Valle d'Aosta": {
-    "lat": 45.5898949,
-    "lon": 7.3817473
-  },
-  "Gressoney-La-Trinité|Valle d'Aosta": {
-    "lat": 45.872849,
-    "lon": 7.8250659
-  },
-  "La Thuile|Valle d'Aosta": {
-    "lat": 45.6971464,
-    "lon": 6.9182886
-  },
-  "Pré-Saint-Didier|Valle d'Aosta": {
-    "lat": 45.7639422,
-    "lon": 6.9853467
-  },
-  "Saint-Marcel|Valle d'Aosta": {
-    "lat": 45.7345596,
-    "lon": 7.4461962
-  },
-  "Saint-Rhémy-en-Bosses|Valle d'Aosta": {
-    "lat": 45.8237439,
-    "lon": 7.1821889
-  },
-  "Saint-Vincent|Valle d'Aosta": {
-    "lat": 45.7609541,
-    "lon": 7.6752455
-  },
-  "Valpelline|Valle d'Aosta": {
-    "lat": 45.8309653,
-    "lon": 7.3482093
-  },
-  "Valtournenche|Valle d'Aosta": {
-    "lat": 45.911551,
-    "lon": 7.6192547
-  },
-  "Acceglio|Cuneo": {
-    "lat": 44.4812381,
-    "lon": 6.9462957
-  },
-  "Affluente|Cuneo": null,
-  "Baldi|Cuneo": {
-    "lat": 44.423633,
-    "lon": 7.761136
-  },
-  "Beinette|Cuneo": {
-    "lat": 44.3648103,
-    "lon": 7.6534364
-  },
-  "Bellino|Cuneo": {
-    "lat": 44.584682,
-    "lon": 7.0152803
-  },
-  "Benevagienna|Cuneo": {
-    "lat": 44.5597144,
-    "lon": 7.8569267
-  },
-  "Bosco|Cuneo": {
-    "lat": 44.4744894,
-    "lon": 7.4834355
-  },
-  "Boves|Cuneo": {
-    "lat": 44.2994897,
-    "lon": 7.5677018
-  },
-  "Briga Alta|Cuneo": {
-    "lat": 44.1489305,
-    "lon": 7.7305099
-  },
-  "Busca|Cuneo": {
-    "lat": 44.5084303,
-    "lon": 7.4499173
-  },
-  "Canosio|Cuneo": {
-    "lat": 44.455827,
-    "lon": 7.082721
-  },
-  "Caprauna|Cuneo": {
-    "lat": 44.1189015,
-    "lon": 7.9502569
-  },
-  "Cardè|Cuneo": {
-    "lat": 44.73826,
-    "lon": 7.4752799
-  },
-  "Castelletto Stura|Cuneo": {
-    "lat": 44.4274812,
-    "lon": 7.6320592
-  },
-  "Castelmagno|Cuneo": {
-    "lat": 44.40632,
-    "lon": 7.1858826
-  },
-  "Cavallerleone|Cuneo": {
-    "lat": 44.7366939,
-    "lon": 7.6554046
-  },
-  "Cavallermaggiore|Cuneo": {
-    "lat": 44.7095758,
-    "lon": 7.6930313
-  },
-  "Ceva|Cuneo": {
-    "lat": 44.376912,
-    "lon": 8.0254492
-  },
-  "Costanzo|Cuneo": {
-    "lat": 44.4898853,
-    "lon": 7.3941333
-  },
-  "Cuneo|Cuneo": {
-    "lat": 44.389633,
-    "lon": 7.5479007
-  },
-  "Demonte|Cuneo": {
-    "lat": 44.3243071,
-    "lon": 7.3033518
-  },
-  "Feisoglio|Cuneo": {
-    "lat": 44.5463108,
-    "lon": 8.1061387
-  },
-  "Frassino|Cuneo": {
-    "lat": 44.5642719,
-    "lon": 7.2700476
-  },
-  "Garessio|Cuneo": {
-    "lat": 44.1980273,
-    "lon": 7.9801523
-  },
-  "Giovanni|Cuneo": {
-    "lat": 44.3999025,
-    "lon": 8.0788914
-  },
-  "Grana|Cuneo": {
-    "lat": 44.434771,
-    "lon": 7.4944579
-  },
-  "Langhe|Cuneo": {
-    "lat": 44.4978516,
-    "lon": 7.9765202
-  },
-  "Macra|Cuneo": {
-    "lat": 44.5002483,
-    "lon": 7.1792602
-  },
-  "Magliano Alpi|Cuneo": {
-    "lat": 44.4620365,
-    "lon": 7.8053407
-  },
-  "Moiola|Cuneo": {
-    "lat": 44.3124713,
-    "lon": 7.3899565
-  },
-  "Mondovì|Cuneo": {
-    "lat": 44.4086654,
-    "lon": 7.8079298
-  },
-  "Montanera|Cuneo": {
-    "lat": 44.4589862,
-    "lon": 7.6758123
-  },
-  "Moretta|Cuneo": {
-    "lat": 44.7662387,
-    "lon": 7.5409705
-  },
-  "Narzole|Cuneo": {
-    "lat": 44.5972826,
-    "lon": 7.8687122
-  },
-  "Oncino - Ostana|Cuneo": null,
-  "Pianfei|Cuneo": {
-    "lat": 44.36456,
-    "lon": 7.7135979
-  },
-  "Pietraporzio|Cuneo": {
-    "lat": 44.3437676,
-    "lon": 7.0334623
-  },
-  "Polonghera|Cuneo": {
-    "lat": 44.7878596,
-    "lon": 7.5974959
-  },
-  "Priero|Cuneo": {
-    "lat": 44.3621277,
-    "lon": 8.101295
-  },
-  "Priola|Cuneo": {
-    "lat": 44.2546482,
-    "lon": 8.0221429
-  },
-  "Racconigi|Cuneo": {
-    "lat": 44.776978,
-    "lon": 7.6612137
-  },
-  "Riserva Naturale Speciale Crava-Morozzo|Cuneo": null,
-  "Roaschia|Cuneo": {
-    "lat": 44.2561537,
-    "lon": 7.4583386
-  },
-  "Robilante|Cuneo": {
-    "lat": 44.2855043,
-    "lon": 7.5163729
-  },
-  "Roccavione|Cuneo": {
-    "lat": 44.2970414,
-    "lon": 7.4715263
-  },
-  "Rossana|Cuneo": {
-    "lat": 44.5357937,
-    "lon": 7.4285879
-  },
-  "Saliceto|Cuneo": {
-    "lat": 44.4168706,
-    "lon": 8.1839222
-  },
-  "Sanfront|Cuneo": {
-    "lat": 44.6388254,
-    "lon": 7.2992614
-  },
-  "Savigliano|Cuneo": {
-    "lat": 44.6138134,
-    "lon": 7.6412661
-  },
-  "Stroppo|Cuneo": {
-    "lat": 44.5111441,
-    "lon": 7.1283651
-  },
-  "Stura|Cuneo": {
-    "lat": 44.4963925,
-    "lon": 7.7198804
-  },
-  "Trinità|Cuneo": {
-    "lat": 44.5088963,
-    "lon": 7.7635187
-  },
-  "Valdieri|Cuneo": {
-    "lat": 44.2245672,
-    "lon": 7.284307
-  },
-  "Vinadio|Cuneo": {
-    "lat": 44.2761309,
-    "lon": 7.0947094
-  },
-  "Acqui Terme|Alessandria": {
-    "lat": 44.6743287,
-    "lon": 8.4684633
-  },
-  "Bosco Marengo|Alessandria": {
-    "lat": 44.825551,
-    "lon": 8.677248
-  },
-  "Cabella Ligure|Alessandria": {
-    "lat": 44.673751,
-    "lon": 9.09576
-  },
-  "Casaleggio Boiro|Alessandria": {
-    "lat": 44.612903,
-    "lon": 8.7396852
-  },
-  "Cassine|Alessandria": {
-    "lat": 44.749948,
-    "lon": 8.527846
-  },
-  "Fraconalto|Alessandria": {
-    "lat": 44.591047,
-    "lon": 8.878456
-  },
-  "Grondona|Alessandria": {
-    "lat": 44.6906561,
-    "lon": 8.9567074
-  },
-  "Masio|Alessandria": {
-    "lat": 44.8666111,
-    "lon": 8.4201209
-  },
-  "Molare|Alessandria": {
-    "lat": 44.6204339,
-    "lon": 8.6011696
-  },
-  "Ovada|Alessandria": {
-    "lat": 44.638346,
-    "lon": 8.64525
-  },
-  "San Sebastiano Curone|Alessandria": {
-    "lat": 44.7858161,
-    "lon": 9.0646537
-  },
-  "Valenza|Alessandria": {
-    "lat": 45.0140247,
-    "lon": 8.6458214
-  },
-  "Visone|Alessandria": {
-    "lat": 44.6527865,
-    "lon": 8.506379
-  },
-  "Voltaggio|Alessandria": {
-    "lat": 44.6203576,
-    "lon": 8.8426697
-  },
-  "Limone Piemonte|Cuneo": {
-    "lat": 44.1934317,
-    "lon": 7.5827238
-  }
+ "Ala di Stura|Torino": {
+  "lat": 45.31515,
+  "lon": 7.305909
+ },
+ "Balme|Torino": {
+  "lat": 45.3025045,
+  "lon": 7.2154316
+ },
+ "Bardonecchia|Torino": {
+  "lat": 45.078339,
+  "lon": 6.703205
+ },
+ "Cantoira|Torino": {
+  "lat": 45.3433486,
+  "lon": 7.3801242
+ },
+ "Cesana Torinese|Torino": {
+  "lat": 44.9524431,
+  "lon": 6.7906727
+ },
+ "Coazze|Torino": {
+  "lat": 45.0521938,
+  "lon": 7.2979015
+ },
+ "Locana|Torino": {
+  "lat": 45.4176538,
+  "lon": 7.4588144
+ },
+ "Luserna San Giovanni|Torino": {
+  "lat": 44.815437,
+  "lon": 7.251318
+ },
+ "Noasca|Torino": {
+  "lat": 45.4539721,
+  "lon": 7.3145537
+ },
+ "Oulx|Torino": {
+  "lat": 45.0330519,
+  "lon": 6.83251
+ },
+ "Pomaretto|Torino": {
+  "lat": 44.9559831,
+  "lon": 7.1827794
+ },
+ "Pragelato|Torino": {
+  "lat": 44.9814858,
+  "lon": 6.9391604
+ },
+ "Usseglio|Torino": {
+  "lat": 45.2331973,
+  "lon": 7.2177346
+ },
+ "Valprato Soana|Torino": {
+  "lat": 45.5214814,
+  "lon": 7.5493546
+ },
+ "Biella|Biella": {
+  "lat": 45.5664109,
+  "lon": 8.0542758
+ },
+ "Callabiana|Biella": {
+  "lat": 45.631365,
+  "lon": 8.09722
+ },
+ "Camandona|Biella": {
+  "lat": 45.644165,
+  "lon": 8.09972
+ },
+ "Campiglia Cervo|Biella": {
+  "lat": 45.6628077,
+  "lon": 7.9999421
+ },
+ "Coggiola|Biella": {
+  "lat": 45.6881394,
+  "lon": 8.1762643
+ },
+ "Crevacuore|Biella": {
+  "lat": 45.686868,
+  "lon": 8.246722
+ },
+ "Donato|Biella": {
+  "lat": 45.55288,
+  "lon": 7.9072069
+ },
+ "Graglia|Biella": {
+  "lat": 45.558562,
+  "lon": 7.978019
+ },
+ "Muzzano|Biella": {
+  "lat": 45.560762,
+  "lon": 7.988919
+ },
+ "Piedicavallo|Biella": {
+  "lat": 45.6913461,
+  "lon": 7.9531142
+ },
+ "Pralungo|Biella": {
+  "lat": 45.5921482,
+  "lon": 8.0379244
+ },
+ "Pray|Biella": {
+  "lat": 45.6761963,
+  "lon": 8.2087139
+ },
+ "Sagliano Micca|Biella": {
+  "lat": 45.625764,
+  "lon": 8.043319
+ },
+ "Sordevolo|Biella": {
+  "lat": 45.5926184,
+  "lon": 7.9453844
+ },
+ "Valdilana|Biella": {
+  "lat": 45.666126,
+  "lon": 8.144302
+ },
+ "Baceno|VCO": {
+  "lat": 46.3163182,
+  "lon": 8.2579439
+ },
+ "Beura-Cardezza|VCO": {
+  "lat": 46.079578,
+  "lon": 8.299716
+ },
+ "Bognanco|VCO": {
+  "lat": 46.126378,
+  "lon": 8.201113
+ },
+ "Cannobio|VCO": {
+  "lat": 46.0618077,
+  "lon": 8.6976394
+ },
+ "Ceppo Morelli|VCO": {
+  "lat": 45.971773,
+  "lon": 8.067713
+ },
+ "Craveggia|VCO": {
+  "lat": 46.1763227,
+  "lon": 8.5153076
+ },
+ "Crevoladossola|VCO": {
+  "lat": 46.1643821,
+  "lon": 8.2710986
+ },
+ "Crodo|VCO": {
+  "lat": 46.2233007,
+  "lon": 8.3239356
+ },
+ "Domodossola|VCO": {
+  "lat": 46.1152451,
+  "lon": 8.2920459
+ },
+ "Formazza|VCO": {
+  "lat": 46.3919187,
+  "lon": 8.3904724
+ },
+ "Gravellona Toce|VCO": {
+  "lat": 45.930175,
+  "lon": 8.431222
+ },
+ "Macugnaga|VCO": {
+  "lat": 45.9683785,
+  "lon": 7.9672651
+ },
+ "Malesco|VCO": {
+  "lat": 46.1266185,
+  "lon": 8.5009192
+ },
+ "Mergozzo|VCO": {
+  "lat": 45.96128,
+  "lon": 8.4495252
+ },
+ "Montecrestese|VCO": {
+  "lat": 46.1628326,
+  "lon": 8.329842
+ },
+ "Omegna|VCO": {
+  "lat": 45.879774,
+  "lon": 8.408022
+ },
+ "Piedimulera|VCO": {
+  "lat": 46.0242382,
+  "lon": 8.259263
+ },
+ "Pieve Vergonte|VCO": {
+  "lat": 45.9871217,
+  "lon": 8.2829831
+ },
+ "Premia|VCO": {
+  "lat": 46.2681442,
+  "lon": 8.339
+ },
+ "Premosello-Chiovenda|VCO": {
+  "lat": 46.0039555,
+  "lon": 8.3275904
+ },
+ "Re|VCO": {
+  "lat": 46.1304986,
+  "lon": 8.544506
+ },
+ "San Bernardino Verbano|VCO": {
+  "lat": 45.9952224,
+  "lon": 8.4561461
+ },
+ "Santa Maria Maggiore|VCO": {
+  "lat": 46.1349546,
+  "lon": 8.4672779
+ },
+ "Trasquera|VCO": {
+  "lat": 46.2205675,
+  "lon": 8.1849578
+ },
+ "Varzo|VCO": {
+  "lat": 46.2067143,
+  "lon": 8.2544931
+ },
+ "Verbania|VCO": {
+  "lat": 45.9344082,
+  "lon": 8.5580062
+ },
+ "Ala Di Stura|Torino": {
+  "lat": 45.31515,
+  "lon": 7.305909
+ },
+ "Almese|Torino": {
+  "lat": 45.1168763,
+  "lon": 7.39455
+ },
+ "Arignano|Torino": {
+  "lat": 45.0402748,
+  "lon": 7.9015941
+ },
+ "Avigliana|Torino": {
+  "lat": 45.0779435,
+  "lon": 7.3983904
+ },
+ "Bobbio Pellice|Torino": {
+  "lat": 44.8079522,
+  "lon": 7.1167645
+ },
+ "Borgaro|Torino": {
+  "lat": 45.1521446,
+  "lon": 7.6579731
+ },
+ "Bosconero|Torino": {
+  "lat": 45.2686519,
+  "lon": 7.7636388
+ },
+ "Brusasco|Torino": {
+  "lat": 45.1554921,
+  "lon": 8.0601029
+ },
+ "Cafasse|Torino": {
+  "lat": 45.2459605,
+  "lon": 7.5172354
+ },
+ "Candia C.Se|Torino": null,
+ "Carignano|Torino": {
+  "lat": 44.906943,
+  "lon": 7.673225
+ },
+ "Carmagnola|Torino": {
+  "lat": 44.8455856,
+  "lon": 7.7192711
+ },
+ "Castellamonte|Torino": {
+  "lat": 45.381955,
+  "lon": 7.712117
+ },
+ "Castelnuovo Nigra|Torino": {
+  "lat": 45.4373968,
+  "lon": 7.69323
+ },
+ "Ceres|Torino": {
+  "lat": 45.3133772,
+  "lon": 7.3896883
+ },
+ "Ceresole Reale|Torino": {
+  "lat": 45.4324775,
+  "lon": 7.232401
+ },
+ "Cesana T.Se|Torino": null,
+ "Chialamberto|Torino": {
+  "lat": 45.3636694,
+  "lon": 7.3414713
+ },
+ "Chivasso|Torino": {
+  "lat": 45.1898322,
+  "lon": 7.8860277
+ },
+ "Colleretto|Torino": {
+  "lat": 45.4318872,
+  "lon": 7.7995915
+ },
+ "Condove|Torino": {
+  "lat": 45.1174186,
+  "lon": 7.3094552
+ },
+ "Cuorgnè|Torino": {
+  "lat": 45.3897204,
+  "lon": 7.6498168
+ },
+ "Druento|Torino": {
+  "lat": 45.1344531,
+  "lon": 7.5764559
+ },
+ "Fenestrelle|Torino": {
+  "lat": 45.0360951,
+  "lon": 7.0495615
+ },
+ "Giaveno|Torino": {
+  "lat": 45.0420053,
+  "lon": 7.3519942
+ },
+ "Groscavallo|Torino": {
+  "lat": 45.3684966,
+  "lon": 7.2587768
+ },
+ "Ivrea|Torino": {
+  "lat": 45.451803,
+  "lon": 7.8932496
+ },
+ "La Cassa|Torino": {
+  "lat": 45.1802806,
+  "lon": 7.5162134
+ },
+ "La Loggia|Torino": {
+  "lat": 44.957744,
+  "lon": 7.667324
+ },
+ "Lanzo Torinese|Torino": {
+  "lat": 45.2733505,
+  "lon": 7.4774108
+ },
+ "Lemie|Torino": {
+  "lat": 45.2281993,
+  "lon": 7.2920445
+ },
+ "Levone Canavese|Torino": {
+  "lat": 45.335278,
+  "lon": 7.5876151
+ },
+ "Massello Germanasca Di Massello Dalla Confluenza Con Il|Torino": null,
+ "Mattie|Torino": {
+  "lat": 45.1180569,
+  "lon": 7.1150875
+ },
+ "Mazzè|Torino": {
+  "lat": 45.300255,
+  "lon": 7.932723
+ },
+ "Moncalieri|Torino": {
+  "lat": 45.0004614,
+  "lon": 7.6847543
+ },
+ "Nole|Torino": {
+  "lat": 45.2479962,
+  "lon": 7.5723825
+ },
+ "Oulx Emissario|Torino": null,
+ "Pancalieri|Torino": {
+  "lat": 44.833441,
+  "lon": 7.585924
+ },
+ "Parella|Torino": {
+  "lat": 45.430657,
+  "lon": 7.793217
+ },
+ "Perosa Argentina|Torino": {
+  "lat": 44.95744,
+  "lon": 7.190914
+ },
+ "Perrero|Torino": {
+  "lat": 44.9382635,
+  "lon": 7.1146439
+ },
+ "Pessinetto|Torino": {
+  "lat": 45.2893723,
+  "lon": 7.4041025
+ },
+ "Pinasca|Torino": {
+  "lat": 44.94264,
+  "lon": 7.229115
+ },
+ "Piobesi|Torino": {
+  "lat": 44.932943,
+  "lon": 7.610123
+ },
+ "Pont Canavese|Torino": {
+  "lat": 45.4205265,
+  "lon": 7.5968553
+ },
+ "Pont Canavese T. Orco (|Torino": null,
+ "Porte|Torino": {
+  "lat": 44.8872933,
+  "lon": 7.2679711
+ },
+ "Prali|Torino": {
+  "lat": 44.8810735,
+  "lon": 7.0524391
+ },
+ "Prarostino|Torino": {
+  "lat": 44.8657923,
+  "lon": 7.2682233
+ },
+ "Quincinetto|Torino": {
+  "lat": 45.56296,
+  "lon": 7.807315
+ },
+ "Rivarolo|Torino": {
+  "lat": 45.3320235,
+  "lon": 7.7230498
+ },
+ "San Colombano Belmonte|Torino": {
+  "lat": 45.382254,
+  "lon": 7.621015
+ },
+ "San Germano Chisone|Torino": {
+  "lat": 44.89855,
+  "lon": 7.2411746
+ },
+ "San Giorgio Canavese|Torino": {
+  "lat": 45.334155,
+  "lon": 7.796819
+ },
+ "San Giusto|Torino": {
+  "lat": 44.9387521,
+  "lon": 7.3517473
+ },
+ "San Secondo Di Pinerolo|Torino": {
+  "lat": 44.8672222,
+  "lon": 7.298167
+ },
+ "Sauze Di Cesana|Torino": {
+  "lat": 44.9404829,
+  "lon": 6.858975
+ },
+ "Torino|Torino": {
+  "lat": 45.0677551,
+  "lon": 7.6824892
+ },
+ "Torre Pellice|Torino": {
+  "lat": 44.8214685,
+  "lon": 7.2031685
+ },
+ "Trana|Torino": {
+  "lat": 45.039044,
+  "lon": 7.421817
+ },
+ "Trausella (Valchiusa)|Torino": {
+  "lat": 45.489958,
+  "lon": 7.763116
+ },
+ "Traversella|Torino": {
+  "lat": 45.508458,
+  "lon": 7.749415
+ },
+ "Usseaux|Torino": {
+  "lat": 45.0489922,
+  "lon": 7.0286677
+ },
+ "Val Di Chy|Torino": {
+  "lat": 45.4611249,
+  "lon": 7.7928302
+ },
+ "Venaria Reale|Torino": {
+  "lat": 45.1348114,
+  "lon": 7.6268658
+ },
+ "Villafranca Piemonte|Torino": {
+  "lat": 44.778939,
+  "lon": 7.500424
+ },
+ "Villar Pellice|Torino": {
+  "lat": 44.8079035,
+  "lon": 7.1575796
+ },
+ "Vistrorio|Torino": {
+  "lat": 45.4423436,
+  "lon": 7.7681449
+ },
+ "Viù|Torino": {
+  "lat": 45.2391603,
+  "lon": 7.3758398
+ },
+ "Candia Canavese|Torino": {
+  "lat": 45.327755,
+  "lon": 7.885121
+ },
+ "Massello|Torino": {
+  "lat": 44.9671575,
+  "lon": 7.0202425
+ },
+ "Bolzano Novarese|Novara": {
+  "lat": 45.7627855,
+  "lon": 8.4451747
+ },
+ "Borgomanero|Novara": {
+  "lat": 45.6987105,
+  "lon": 8.4652724
+ },
+ "Briga Novarese|Novara": {
+  "lat": 45.7314994,
+  "lon": 8.4560971
+ },
+ "Cerano|Novara": {
+  "lat": 45.410966,
+  "lon": 8.780039
+ },
+ "Grignasco|Novara": {
+  "lat": 45.6840987,
+  "lon": 8.3378533
+ },
+ "Orta San Giulio|Novara": {
+  "lat": 45.7980814,
+  "lon": 8.406951
+ },
+ "Azeglio|Torino": {
+  "lat": 45.423459,
+  "lon": 7.993922
+ },
+ "Cavagnolo|Torino": {
+  "lat": 45.1521373,
+  "lon": 8.0514793
+ },
+ "Coassolo Torinese|Torino": {
+  "lat": 45.2975828,
+  "lon": 7.4604581
+ },
+ "Germagnano|Torino": {
+  "lat": 45.2638716,
+  "lon": 7.4694832
+ },
+ "Mazze|Torino": {
+  "lat": 45.300255,
+  "lon": 7.932723
+ },
+ "Montalto Dora|Torino": {
+  "lat": 45.490759,
+  "lon": 7.862818
+ },
+ "Ribordone|Torino": {
+  "lat": 45.4320395,
+  "lon": 7.50195
+ },
+ "Ronco Canavese|Torino": {
+  "lat": 45.4997374,
+  "lon": 7.5468552
+ },
+ "San Raffaele Cimena|Torino": {
+  "lat": 45.1533098,
+  "lon": 7.853202
+ },
+ "Verolengo|Torino": {
+  "lat": 45.1895918,
+  "lon": 7.9662734
+ },
+ "Antrona Schieranco|VCO": {
+  "lat": 46.0568121,
+  "lon": 8.0964155
+ },
+ "Druogno|VCO": {
+  "lat": 46.1351172,
+  "lon": 8.4342016
+ },
+ "Madonna del Sasso|VCO": {
+  "lat": 45.7880136,
+  "lon": 8.3468543
+ },
+ "Borgaro Torinese|Torino": {
+  "lat": 45.1521446,
+  "lon": 7.6579731
+ },
+ "Cumiana|Torino": {
+  "lat": 44.979742,
+  "lon": 7.376717
+ },
+ "Pinerolo|Torino": {
+  "lat": 44.8873086,
+  "lon": 7.3319454
+ },
+ "Borgosesia|Vercelli": {
+  "lat": 45.7166676,
+  "lon": 8.2768572
+ },
+ "Carisio|Vercelli": {
+  "lat": 45.40936,
+  "lon": 8.199027
+ },
+ "Cigliano|Vercelli": {
+  "lat": 45.3094496,
+  "lon": 8.0209788
+ },
+ "Formigliana|Vercelli": {
+  "lat": 45.429262,
+  "lon": 8.291928
+ },
+ "Greggio|Vercelli": {
+  "lat": 45.4557989,
+  "lon": 8.3788547
+ },
+ "Pezzana|Vercelli": {
+  "lat": 45.2598901,
+  "lon": 8.4958255
+ },
+ "Quarona|Vercelli": {
+  "lat": 45.757869,
+  "lon": 8.265721
+ },
+ "Saluggia|Vercelli": {
+  "lat": 45.2354962,
+  "lon": 8.0117019
+ },
+ "Stroppiana|Vercelli": {
+  "lat": 45.2304649,
+  "lon": 8.4565564
+ },
+ "Trino|Vercelli": {
+  "lat": 45.1939397,
+  "lon": 8.2969866
+ },
+ "Vercelli|Vercelli": {
+  "lat": 45.3251557,
+  "lon": 8.4227666
+ },
+ "Villarboit|Vercelli": {
+  "lat": 45.437362,
+  "lon": 8.337329
+ },
+ "Alagna Valsesia|Vercelli": {
+  "lat": 45.8512107,
+  "lon": 7.9371767
+ },
+ "Campertogno|Vercelli": {
+  "lat": 45.798953,
+  "lon": 8.0321533
+ },
+ "Carcoforo|Vercelli": {
+  "lat": 45.9087495,
+  "lon": 8.049537
+ },
+ "Cravagliana|Vercelli": {
+  "lat": 45.8483853,
+  "lon": 8.2026904
+ },
+ "Rimasco|Vercelli": {
+  "lat": 45.8588347,
+  "lon": 8.0629434
+ },
+ "Rimella|Vercelli": {
+  "lat": 45.9075478,
+  "lon": 8.1813547
+ },
+ "Scopello|Vercelli": {
+  "lat": 45.757984,
+  "lon": 8.1127615
+ },
+ "Varallo|Vercelli": {
+  "lat": 45.8137306,
+  "lon": 8.2592113
+ },
+ "Avise|Valle d'Aosta": {
+  "lat": 45.7085893,
+  "lon": 7.1397458
+ },
+ "Brusson|Valle d'Aosta": {
+  "lat": 45.7580348,
+  "lon": 7.7521754
+ },
+ "Champorcher|Valle d'Aosta": {
+  "lat": 45.6042155,
+  "lon": 7.5720289
+ },
+ "Cogne|Valle d'Aosta": {
+  "lat": 45.5898949,
+  "lon": 7.3817473
+ },
+ "Gressoney-La-Trinité|Valle d'Aosta": {
+  "lat": 45.872849,
+  "lon": 7.8250659
+ },
+ "La Thuile|Valle d'Aosta": {
+  "lat": 45.6971464,
+  "lon": 6.9182886
+ },
+ "Pré-Saint-Didier|Valle d'Aosta": {
+  "lat": 45.7639422,
+  "lon": 6.9853467
+ },
+ "Saint-Marcel|Valle d'Aosta": {
+  "lat": 45.7345596,
+  "lon": 7.4461962
+ },
+ "Saint-Rhémy-en-Bosses|Valle d'Aosta": {
+  "lat": 45.8237439,
+  "lon": 7.1821889
+ },
+ "Saint-Vincent|Valle d'Aosta": {
+  "lat": 45.7609541,
+  "lon": 7.6752455
+ },
+ "Valpelline|Valle d'Aosta": {
+  "lat": 45.8309653,
+  "lon": 7.3482093
+ },
+ "Valtournenche|Valle d'Aosta": {
+  "lat": 45.911551,
+  "lon": 7.6192547
+ },
+ "Acceglio|Cuneo": {
+  "lat": 44.4812381,
+  "lon": 6.9462957
+ },
+ "Affluente|Cuneo": null,
+ "Baldi|Cuneo": {
+  "lat": 44.423633,
+  "lon": 7.761136
+ },
+ "Beinette|Cuneo": {
+  "lat": 44.3648103,
+  "lon": 7.6534364
+ },
+ "Bellino|Cuneo": {
+  "lat": 44.584682,
+  "lon": 7.0152803
+ },
+ "Benevagienna|Cuneo": {
+  "lat": 44.5597144,
+  "lon": 7.8569267
+ },
+ "Bosco|Cuneo": {
+  "lat": 44.4744894,
+  "lon": 7.4834355
+ },
+ "Boves|Cuneo": {
+  "lat": 44.2994897,
+  "lon": 7.5677018
+ },
+ "Briga Alta|Cuneo": {
+  "lat": 44.1489305,
+  "lon": 7.7305099
+ },
+ "Busca|Cuneo": {
+  "lat": 44.5084303,
+  "lon": 7.4499173
+ },
+ "Canosio|Cuneo": {
+  "lat": 44.455827,
+  "lon": 7.082721
+ },
+ "Caprauna|Cuneo": {
+  "lat": 44.1189015,
+  "lon": 7.9502569
+ },
+ "Cardè|Cuneo": {
+  "lat": 44.73826,
+  "lon": 7.4752799
+ },
+ "Castelletto Stura|Cuneo": {
+  "lat": 44.4274812,
+  "lon": 7.6320592
+ },
+ "Castelmagno|Cuneo": {
+  "lat": 44.40632,
+  "lon": 7.1858826
+ },
+ "Cavallerleone|Cuneo": {
+  "lat": 44.7366939,
+  "lon": 7.6554046
+ },
+ "Cavallermaggiore|Cuneo": {
+  "lat": 44.7095758,
+  "lon": 7.6930313
+ },
+ "Ceva|Cuneo": {
+  "lat": 44.376912,
+  "lon": 8.0254492
+ },
+ "Costanzo|Cuneo": {
+  "lat": 44.4898853,
+  "lon": 7.3941333
+ },
+ "Cuneo|Cuneo": {
+  "lat": 44.389633,
+  "lon": 7.5479007
+ },
+ "Demonte|Cuneo": {
+  "lat": 44.3243071,
+  "lon": 7.3033518
+ },
+ "Feisoglio|Cuneo": {
+  "lat": 44.5463108,
+  "lon": 8.1061387
+ },
+ "Frassino|Cuneo": {
+  "lat": 44.5642719,
+  "lon": 7.2700476
+ },
+ "Garessio|Cuneo": {
+  "lat": 44.1980273,
+  "lon": 7.9801523
+ },
+ "Giovanni|Cuneo": {
+  "lat": 44.3999025,
+  "lon": 8.0788914
+ },
+ "Grana|Cuneo": {
+  "lat": 44.434771,
+  "lon": 7.4944579
+ },
+ "Langhe|Cuneo": {
+  "lat": 44.4978516,
+  "lon": 7.9765202
+ },
+ "Macra|Cuneo": {
+  "lat": 44.5002483,
+  "lon": 7.1792602
+ },
+ "Magliano Alpi|Cuneo": {
+  "lat": 44.4620365,
+  "lon": 7.8053407
+ },
+ "Moiola|Cuneo": {
+  "lat": 44.3124713,
+  "lon": 7.3899565
+ },
+ "Mondovì|Cuneo": {
+  "lat": 44.4086654,
+  "lon": 7.8079298
+ },
+ "Montanera|Cuneo": {
+  "lat": 44.4589862,
+  "lon": 7.6758123
+ },
+ "Moretta|Cuneo": {
+  "lat": 44.7662387,
+  "lon": 7.5409705
+ },
+ "Narzole|Cuneo": {
+  "lat": 44.5972826,
+  "lon": 7.8687122
+ },
+ "Oncino - Ostana|Cuneo": null,
+ "Pianfei|Cuneo": {
+  "lat": 44.36456,
+  "lon": 7.7135979
+ },
+ "Pietraporzio|Cuneo": {
+  "lat": 44.3437676,
+  "lon": 7.0334623
+ },
+ "Polonghera|Cuneo": {
+  "lat": 44.7878596,
+  "lon": 7.5974959
+ },
+ "Priero|Cuneo": {
+  "lat": 44.3621277,
+  "lon": 8.101295
+ },
+ "Priola|Cuneo": {
+  "lat": 44.2546482,
+  "lon": 8.0221429
+ },
+ "Racconigi|Cuneo": {
+  "lat": 44.776978,
+  "lon": 7.6612137
+ },
+ "Riserva Naturale Speciale Crava-Morozzo|Cuneo": null,
+ "Roaschia|Cuneo": {
+  "lat": 44.2561537,
+  "lon": 7.4583386
+ },
+ "Robilante|Cuneo": {
+  "lat": 44.2855043,
+  "lon": 7.5163729
+ },
+ "Roccavione|Cuneo": {
+  "lat": 44.2970414,
+  "lon": 7.4715263
+ },
+ "Rossana|Cuneo": {
+  "lat": 44.5357937,
+  "lon": 7.4285879
+ },
+ "Saliceto|Cuneo": {
+  "lat": 44.4168706,
+  "lon": 8.1839222
+ },
+ "Sanfront|Cuneo": {
+  "lat": 44.6388254,
+  "lon": 7.2992614
+ },
+ "Savigliano|Cuneo": {
+  "lat": 44.6138134,
+  "lon": 7.6412661
+ },
+ "Stroppo|Cuneo": {
+  "lat": 44.5111441,
+  "lon": 7.1283651
+ },
+ "Stura|Cuneo": {
+  "lat": 44.4963925,
+  "lon": 7.7198804
+ },
+ "Trinità|Cuneo": {
+  "lat": 44.5088963,
+  "lon": 7.7635187
+ },
+ "Valdieri|Cuneo": {
+  "lat": 44.2245672,
+  "lon": 7.284307
+ },
+ "Vinadio|Cuneo": {
+  "lat": 44.2761309,
+  "lon": 7.0947094
+ },
+ "Acqui Terme|Alessandria": {
+  "lat": 44.6743287,
+  "lon": 8.4684633
+ },
+ "Bosco Marengo|Alessandria": {
+  "lat": 44.825551,
+  "lon": 8.677248
+ },
+ "Cabella Ligure|Alessandria": {
+  "lat": 44.673751,
+  "lon": 9.09576
+ },
+ "Casaleggio Boiro|Alessandria": {
+  "lat": 44.612903,
+  "lon": 8.7396852
+ },
+ "Cassine|Alessandria": {
+  "lat": 44.749948,
+  "lon": 8.527846
+ },
+ "Fraconalto|Alessandria": {
+  "lat": 44.591047,
+  "lon": 8.878456
+ },
+ "Grondona|Alessandria": {
+  "lat": 44.6906561,
+  "lon": 8.9567074
+ },
+ "Masio|Alessandria": {
+  "lat": 44.8666111,
+  "lon": 8.4201209
+ },
+ "Molare|Alessandria": {
+  "lat": 44.6204339,
+  "lon": 8.6011696
+ },
+ "Ovada|Alessandria": {
+  "lat": 44.638346,
+  "lon": 8.64525
+ },
+ "San Sebastiano Curone|Alessandria": {
+  "lat": 44.7858161,
+  "lon": 9.0646537
+ },
+ "Valenza|Alessandria": {
+  "lat": 45.0140247,
+  "lon": 8.6458214
+ },
+ "Visone|Alessandria": {
+  "lat": 44.6527865,
+  "lon": 8.506379
+ },
+ "Voltaggio|Alessandria": {
+  "lat": 44.6203576,
+  "lon": 8.8426697
+ },
+ "Limone Piemonte|Cuneo": {
+  "lat": 44.1934317,
+  "lon": 7.5827238
+ },
+ "Bellinzago|Novara": {
+  "lat": 45.5667485,
+  "lon": 8.6276561
+ },
+ "Biandrate|Novara": {
+  "lat": 45.4459286,
+  "lon": 8.4939176
+ },
+ "Borgoticino|Novara": {
+  "lat": 45.6832044,
+  "lon": 8.5747034
+ },
+ "Briona|Novara": {
+  "lat": 45.5323983,
+  "lon": 8.4997335
+ },
+ "CARPIGNANO San|Novara": {
+  "lat": 44.7723105,
+  "lon": 8.0578394
+ },
+ "Caltignaga|Novara": {
+  "lat": 45.5262731,
+  "lon": 8.5788034
+ },
+ "Cameri|Novara": {
+  "lat": 45.5159707,
+  "lon": 8.6607217
+ },
+ "Carpignano|Novara": {
+  "lat": 45.5419662,
+  "lon": 8.4242304
+ },
+ "Casalbeltrame|Novara": {
+  "lat": 45.4287357,
+  "lon": 8.4763501
+ },
+ "Casaleggio|Novara": {
+  "lat": 45.4913076,
+  "lon": 8.4903257
+ },
+ "Casalini|Novara": {
+  "lat": 45.8246635,
+  "lon": 8.5661771
+ },
+ "Casalino|Novara": {
+  "lat": 45.384088,
+  "lon": 8.5250662
+ },
+ "Casalvolone|Novara": {
+  "lat": 45.3985799,
+  "lon": 8.4696162
+ },
+ "Castelletto Sopra Ticino|Novara": {
+  "lat": 45.7121687,
+  "lon": 8.6429769
+ },
+ "Castelletto Ticino|Novara": {
+  "lat": 45.7121687,
+  "lon": 8.6429769
+ },
+ "Cressa|Novara": {
+  "lat": 45.6470723,
+  "lon": 8.5081498
+ },
+ "Fara|Novara": {
+  "lat": 45.5551594,
+  "lon": 8.4589412
+ },
+ "Fontaneto|Novara": {
+  "lat": 45.6434689,
+  "lon": 8.4808276
+ },
+ "Fontaneto A.|Novara": {
+  "lat": 45.6434689,
+  "lon": 8.4808276
+ },
+ "GARBAGNA Novarese|Novara": {
+  "lat": 45.3925984,
+  "lon": 8.6562586
+ },
+ "Galliate|Novara": {
+  "lat": 45.4782672,
+  "lon": 8.6969031
+ },
+ "Granozzo|Novara": {
+  "lat": 45.360386,
+  "lon": 8.5729277
+ },
+ "Landiona|Novara": {
+  "lat": 45.4963518,
+  "lon": 8.4230841
+ },
+ "Mandello Vitta|Novara": {
+  "lat": 45.5026416,
+  "lon": 8.4618016
+ },
+ "Marano Ticino|Novara": {
+  "lat": 45.62987,
+  "lon": 8.631632
+ },
+ "Momo|Novara": {
+  "lat": 45.5721896,
+  "lon": 8.5641611
+ },
+ "Nibbia|Novara": {
+  "lat": 45.4895397,
+  "lon": 8.5557359
+ },
+ "Novara|Novara": {
+  "lat": 45.4464036,
+  "lon": 8.619655
+ },
+ "Novara Pernate|Novara": {
+  "lat": 45.4567526,
+  "lon": 8.6672176
+ },
+ "Novara Trecate|Novara": {
+  "lat": 45.4438798,
+  "lon": 8.7868128
+ },
+ "Oleggio|Novara": {
+  "lat": 45.5972309,
+  "lon": 8.6370679
+ },
+ "Pella|Novara": {
+  "lat": 45.8016249,
+  "lon": 8.3847792
+ },
+ "Pombia|Novara": {
+  "lat": 45.65083,
+  "lon": 8.6322926
+ },
+ "ROMAGNANO San|Novara": {
+  "lat": 45.6329402,
+  "lon": 8.3842433
+ },
+ "Recetto|Novara": {
+  "lat": 45.460364,
+  "lon": 8.435731
+ },
+ "Romentino|Novara": {
+  "lat": 45.4625532,
+  "lon": 8.7207768
+ },
+ "S.Pietro Mosezzo|Novara": {
+  "lat": 45.4558807,
+  "lon": 8.5441897
+ },
+ "San MAURIZIO D'OPAGLIO|Novara": {
+  "lat": 45.7734531,
+  "lon": 8.3903949
+ },
+ "San NAZZARO San|Novara": {
+  "lat": 45.4390001,
+  "lon": 8.4166838
+ },
+ "San PIETRO M.|Novara": {
+  "lat": 45.4558807,
+  "lon": 8.5441897
+ },
+ "San Pietro Mosezzo|Novara": {
+  "lat": 45.4558807,
+  "lon": 8.5441897
+ },
+ "Sillavengo|Novara": {
+  "lat": 45.5179815,
+  "lon": 8.4397794
+ },
+ "Sozzago|Novara": {
+  "lat": 45.398565,
+  "lon": 8.720338
+ },
+ "Tornaco|Novara": {
+  "lat": 45.357564,
+  "lon": 8.715939
+ },
+ "Trecate|Novara": {
+  "lat": 45.4319961,
+  "lon": 8.7349702
+ },
+ "Vaprio|Novara": {
+  "lat": 45.6035134,
+  "lon": 8.5534312
+ },
+ "Vaprio A.|Novara": {
+  "lat": 45.6035134,
+  "lon": 8.5534312
+ },
+ "Varallo Pombia|Novara": {
+  "lat": 45.6659038,
+  "lon": 8.6326925
+ },
+ "Vespolate|Novara": {
+  "lat": 45.3495666,
+  "lon": 8.6690558
+ },
+ "Vicolungo|Novara": {
+  "lat": 45.477564,
+  "lon": 8.462731
+ },
+ "Vinzaglio|Novara": {
+  "lat": 45.3296783,
+  "lon": 8.4980071
+ }
 }
