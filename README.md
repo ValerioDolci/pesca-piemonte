@@ -39,7 +39,9 @@ Pensata per il telefono: pannello richiudibile, tratti facili da toccare.
 Regole generali e licenza: [Regione Piemonte](https://www.regione.piemonte.it/web/temi/agricoltura/tutela-della-fauna-caccia-pesca/licenza-pesca).
 Le edizioni indicate sono quelle da cui sono tratti i dati; i link portano alla pagina ufficiale dell'ente, con l'edizione in vigore.
 
-Non coperta: **Asti**.
+Da sapere: per il **VCO** i dati vengono dal libretto 2022; dal 2025 le zone di divieto sono definite dal
+D.P. 15/2025, non ancora recepito qui. Per **Asti** non ci sono dati (la Provincia ha istituito due tratti
+no-kill sul Tanaro nel 2025).
 
 ## Licenza e crediti
 
